@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 123228369
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3e3cf8cb3de0d9e05403adc2eec1148f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/half/half_n_001.png
+Dependencies: []

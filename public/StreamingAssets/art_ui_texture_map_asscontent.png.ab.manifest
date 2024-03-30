@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3699409936
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea977c8a3f40c622c6749c862a9d5839
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/map/asscontent.png
+Dependencies: []

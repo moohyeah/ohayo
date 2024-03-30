@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 1817356342
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9a9c87398c418de67473ac31241cea28
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0747f4fb4f47c16332c51b53d8791f9b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbcad84a78c1bc34db2a1b3bd6e1d463, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_CKWP_AJIN/UI_CKWP_AJIN.prefab
+Dependencies: []

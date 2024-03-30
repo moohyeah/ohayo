@@ -1,0 +1,110 @@
+ManifestFileVersion: 0
+CRC: 3863818896
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7c8c22069787188ff4b3105ded0945db
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc289252835fbb1e85acd63e014e77e6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9e643de6b54c1ee4c843467bc32c5d6e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0c0283c9eb16a4a41803563649e5096e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 328
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/EndEditEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/OnChangeEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/SubmitEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Toggle/ToggleEvent
+Assets:
+- Assets/Resourcex/art/ui/login/login.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_ksyx_new_ui_jiemian_ksyx_new.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_drawcard_zdrawroleui.rendertexture.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_cancelbtn.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_xieyi_tips.png.ab

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2189594727
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ae85e6270482f7f6b821a10c33b3b3d2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/hero/skinhalf/020.png
+Dependencies: []

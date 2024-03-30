@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3084594864
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5ac045cfd249d54ab4326c5a597afefd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/hero/rankicon/037.png
+Dependencies: []

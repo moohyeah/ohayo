@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 905112231
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eca4db72dff62a9897cf753d8aa376c9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/heroSkill/BUFF_LiJian.ogg
+Dependencies: []

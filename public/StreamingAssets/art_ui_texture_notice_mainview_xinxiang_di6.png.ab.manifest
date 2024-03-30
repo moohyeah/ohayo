@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3361838443
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2b64cda066a6b9c95a1626266e9b77a7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/notice/mainView/xinxiang_di6.png
+Dependencies: []

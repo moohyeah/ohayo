@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2807852345
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9ad536b78c056482cb2ac2649a9b36d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/role/info/sk1.png
+Dependencies: []

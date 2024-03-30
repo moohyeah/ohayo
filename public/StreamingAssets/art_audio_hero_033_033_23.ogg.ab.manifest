@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 580396607
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bda9231dfe64c40927dc6c979ee976e7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/hero/033/033_23.ogg
+Dependencies: []

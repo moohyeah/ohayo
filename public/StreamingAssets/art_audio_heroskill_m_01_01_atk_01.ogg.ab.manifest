@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2252699519
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f37770231b8da6c4bf35033d47a1435a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/heroSkill/M_01_01_Atk_01.ogg
+Dependencies: []

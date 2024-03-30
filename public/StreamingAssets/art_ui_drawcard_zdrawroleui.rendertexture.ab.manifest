@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 891654812
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 00b0137bf01a669b1470d4c1c42b2ee0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 723d7b972e72461205a935bff5e6bf42
+HashAppended: 0
+ClassTypes:
+- Class: 84
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/DrawCard/zDrawRoleUI.renderTexture
+Dependencies: []

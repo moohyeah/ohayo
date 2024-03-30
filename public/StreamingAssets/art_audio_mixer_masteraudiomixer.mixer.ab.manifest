@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 728487684
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 86598a3493906dfce86202f060383c7b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b1b49958a09b1de43ba0dbcb0810e654
+HashAppended: 0
+ClassTypes:
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/mixer/MasterAudioMixer.mixer
+Dependencies: []

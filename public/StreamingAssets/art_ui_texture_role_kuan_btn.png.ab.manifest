@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3764281053
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6a6d205668d14e3d6c5648f6e9b8b1df
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/role/kuan/btn.png
+Dependencies: []

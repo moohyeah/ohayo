@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 422454857
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c459508f565d9aa933d0a1e240b28b59
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aa26df239b2e96a08b71abf707c32868
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 00320c6f746c0fe4181e9e18870f2d6c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ddc80bf7337f83f468bf5afe556c0a6b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: CellData
+Assets:
+- Assets/Resourcex/art/newmap/texture/foundation/tmpl/3x4.prefab
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3474150447
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4ee0aa6e69c8ba0cb5e51a1543181aa1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/hero/arenaicon/001.png
+Dependencies: []

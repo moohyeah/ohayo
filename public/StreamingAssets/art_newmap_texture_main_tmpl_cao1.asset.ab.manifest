@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2133338883
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 082e0e28ea0fa1978b91723e894a7e0d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e5dd5ee6a7619bf209f96321166c84b
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/newmap/texture/main/tmpl/cao1.asset
+Dependencies: []

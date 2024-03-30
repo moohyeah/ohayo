@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 662370931
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d216f3485edd01b07fe43a1620b93076
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/heroSkill/H_035_S_Skill_01.ogg
+Dependencies: []

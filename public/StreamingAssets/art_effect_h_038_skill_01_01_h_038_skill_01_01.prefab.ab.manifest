@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2975621442
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2744ab11227f8497fc6d80c03bb95daf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: be12a3b83f06e275ceca7ac7de1de149
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/H_038_Skill_01_01/H_038_Skill_01_01.prefab
+Dependencies: []

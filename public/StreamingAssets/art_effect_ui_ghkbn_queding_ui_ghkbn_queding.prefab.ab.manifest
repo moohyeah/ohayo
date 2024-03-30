@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2431276339
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bb5acc9b61ffff8f74c3f21f64381bf4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aad49dfac325261ee527f6e6638da332
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_GHKBN_QueDing/UI_GHKBN_QueDing.prefab
+Dependencies: []

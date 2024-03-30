@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3939144892
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a33c5307fac63d2c8a636289b040a6af
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/UI/tradefail.ogg
+Dependencies: []

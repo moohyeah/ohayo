@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1689667537
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 742f74d06a993ca48c3e054629e075e7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/hero/041/041_15.ogg
+Dependencies: []

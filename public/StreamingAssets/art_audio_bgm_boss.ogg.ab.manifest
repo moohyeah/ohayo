@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1447635708
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c566dc14be7dbe447750c9470fad0d77
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/BGM_boss.ogg
+Dependencies: []

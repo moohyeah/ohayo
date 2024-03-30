@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 3000001656
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ab21f4573226a8f1f1213e660ff167b8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: be12a3b83f06e275ceca7ac7de1de149
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_S_Skill_BG_03_Fire_Red/UI_S_Skill_BG_03_Fire_Red.prefab
+Dependencies: []

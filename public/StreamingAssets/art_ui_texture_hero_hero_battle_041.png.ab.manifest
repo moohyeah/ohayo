@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2653852008
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e7f6a231b63b3a25dd099174418a527c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/hero/battle/041.png
+Dependencies: []

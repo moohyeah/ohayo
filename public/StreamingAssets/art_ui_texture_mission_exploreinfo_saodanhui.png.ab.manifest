@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3835754453
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 244ff901e91193a80cca0de0a06c2520
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/mission/exploreInfo/saodanhui.png
+Dependencies: []

@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 4125727300
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 98399208fd603db60591afda4a73a4a1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 168153b7bb99f0e832f589f8c0cf54dd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Skill_TY_mMagicImmune/Skill_TY_mMagicImmune.prefab
+Dependencies: []

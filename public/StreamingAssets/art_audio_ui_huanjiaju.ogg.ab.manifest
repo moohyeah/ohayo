@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3568923867
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 34a1f8ba2be82d1bd9ea7a2f43f6b80b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/UI/huanjiaju.ogg
+Dependencies: []

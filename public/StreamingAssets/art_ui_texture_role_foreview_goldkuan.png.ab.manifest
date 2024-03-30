@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2686078698
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2a077267c968cf28d47bc73d14600d75
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/role/foreView/goldKuan.png
+Dependencies: []

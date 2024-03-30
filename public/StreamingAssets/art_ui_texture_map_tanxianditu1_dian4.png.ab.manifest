@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 988567133
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 07de970e86740452b1f5469bc580c100
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/map/tanxianditu1_dian4.png
+Dependencies: []

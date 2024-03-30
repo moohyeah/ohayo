@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1083181951
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8b595cff4e42138223ad7cddc7282147
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff414f606ea1972259b080d7bcf51689
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/goods/maimaiwupin/PowerStation.png
+Dependencies: []

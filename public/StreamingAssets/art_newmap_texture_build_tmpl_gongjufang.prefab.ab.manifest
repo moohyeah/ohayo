@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 795478764
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e4295792a4f898b48e7223d56f60f17b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f74dde793ab5b9491804ba2fa46a5850
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 00320c6f746c0fe4181e9e18870f2d6c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/newmap/texture/build/tmpl/gongjufang.prefab
+Dependencies: []

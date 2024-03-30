@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1948915935
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d7dff6ff1d8a30f4c6eef40a0ed538ee
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/storyLevel/levelImg/big/bg04.png
+Dependencies: []

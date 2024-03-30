@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 1218265523
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a442d747b8b1a32dd297d4ba6f2d52b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 476b7bb570cfd411a394d7dd39a9c157
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_Map_TBGX_03/UI_Map_TBGX_03.prefab
+Dependencies: []

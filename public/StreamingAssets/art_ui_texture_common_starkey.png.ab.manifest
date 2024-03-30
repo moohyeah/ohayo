@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1005857533
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 49b6208eb8457885872d63886e18dc1d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/common/starKey.png
+Dependencies: []

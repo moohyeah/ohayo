@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 869600072
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bcf27cb0c632d7389da9e8b186aa727b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/hero/uibig/028.png
+Dependencies: []

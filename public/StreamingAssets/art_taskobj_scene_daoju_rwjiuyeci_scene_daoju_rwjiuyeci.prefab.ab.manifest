@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2944469470
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2fd9fa5f6fc4873cfaa84cc76c71e5c8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 95a7e870bdd5bd6b4b779c9ab7af12e8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/taskObj/Scene_DaoJu_RWJiuYeCi/Scene_DaoJu_RWJiuYeCi.prefab
+Dependencies: []

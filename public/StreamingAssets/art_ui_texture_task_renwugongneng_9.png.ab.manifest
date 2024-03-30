@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 485417862
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0adf9bc1f17992854faff752c097ab8e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/task/renwugongneng_9.png
+Dependencies: []

@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 214378128
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 073b5cd1cbb33acdd12d880fc9a09ac6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dbe392b9051f3e103863b10947dc0643
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e205928cfb165a14091207a60f2a6429, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/smallHero/Shadow.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hero_zhandou2_jiaoxiayinying.png.ab

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1903794251
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c946d7cf87f8853cb6dea5cf3c54479f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/event/zhanchang-shandian.ogg
+Dependencies: []

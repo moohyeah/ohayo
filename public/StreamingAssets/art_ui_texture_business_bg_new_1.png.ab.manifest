@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3047249728
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fe64d3ff730f3583a36f26a47e93e3a2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/business/bg/new_1.png
+Dependencies: []

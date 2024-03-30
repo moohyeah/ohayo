@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 4034299321
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 76d488bb686eba6ab6658be8ea3e6344
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 95215ad8d0eb2284c532d249dc674513
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_JieMian_JYSC_JieSuo/UI_JieMian_JYSC_JieSuo.prefab
+Dependencies: []

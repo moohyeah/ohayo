@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 730431783
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e20b61bb2ad5cca27e1a804eea6887d6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/activity/actSun/3.png
+Dependencies: []

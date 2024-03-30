@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3699918739
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 082aa50cd8c31ab7673e5b8ad4aad1c0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/UI/click.ogg
+Dependencies: []

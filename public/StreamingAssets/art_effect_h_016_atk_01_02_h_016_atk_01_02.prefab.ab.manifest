@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 1069177009
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d3b6144064ad38a006d4efcb603ada4a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b8d8c91afa1b372ea86973838548d5df
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/H_016_Atk_01_02/H_016_Atk_01_02.prefab
+Dependencies: []

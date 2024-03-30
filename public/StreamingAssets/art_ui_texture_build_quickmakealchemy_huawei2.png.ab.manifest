@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3351969896
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ff9097afdeb220c3a0e51a87a20c5656
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/build/quickMakeAlchemy/huawei2.png
+Dependencies: []

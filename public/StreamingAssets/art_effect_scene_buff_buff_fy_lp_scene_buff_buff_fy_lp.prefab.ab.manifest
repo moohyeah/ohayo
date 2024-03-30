@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3117159977
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb4f3430b454c47c9d09b1810c59989a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aad49dfac325261ee527f6e6638da332
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Scene_Buff_Buff_FY_LP/Scene_Buff_Buff_FY_LP.prefab
+Dependencies: []

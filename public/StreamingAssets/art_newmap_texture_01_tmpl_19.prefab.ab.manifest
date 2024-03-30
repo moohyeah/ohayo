@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2235365013
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9c142af90540f411c647226d02ecb846
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 06df9eb153bc29f932f8a9debff44e58
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 190c8d6a89ad49a44a459b65b8654e28, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/newmap/texture/01/tmpl/19.prefab
+Dependencies: []

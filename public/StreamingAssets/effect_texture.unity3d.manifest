@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 680917522
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d050a312021615a4301f6172c8bfc74f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff414f606ea1972259b080d7bcf51689
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/H_033_S_Skill_01_01/Sc/H_033_S_Skill_01_01_06.png
+- Assets/Resourcex/art/effect/H_033_S_Skill_01_02/Sc/H_033_S_Skill_01_02_03.png
+Dependencies: []

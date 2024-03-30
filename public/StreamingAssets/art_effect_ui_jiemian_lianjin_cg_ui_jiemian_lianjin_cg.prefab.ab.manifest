@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 592412908
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ab0fd473595207633f73cc037b0ff2a0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1f50d182f4e35721b4ab2c3df64f969e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbcad84a78c1bc34db2a1b3bd6e1d463, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_JieMian_LianJin_CG/UI_JieMian_LianJin_CG.prefab
+Dependencies: []

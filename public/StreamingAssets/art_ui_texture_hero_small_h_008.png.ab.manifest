@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2966770575
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 471c06bd40325407ee3a98768fda8157
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/small/h_008.png
+Dependencies: []

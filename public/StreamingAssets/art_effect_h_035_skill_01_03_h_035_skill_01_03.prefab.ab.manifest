@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 1986054916
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4b58e1cf03a11ee8ad6b719bc324a25
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 64452aa943d92f6af7b8f97e94d5ecd1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/H_035_Skill_01_03/H_035_Skill_01_03.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/f8d1cbfba35578a03c66f9eae07b2959

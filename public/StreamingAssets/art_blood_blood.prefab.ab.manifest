@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 3876643367
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 00eef35d2225222ba8fe8fd517983436
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 679e5e15414aab7b42d445c64ebb04aa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1283021ff81e12c46a09bdd5659b1028, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/blood/blood.prefab
+Dependencies: []

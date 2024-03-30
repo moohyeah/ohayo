@@ -1,0 +1,299 @@
+ManifestFileVersion: 0
+CRC: 1166093633
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5cd7be57fbf5460386666519158726a1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 771fb7aeb5631ff4d199fa23682d3d22
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5e66f90dcb14e44fa9aada235330536, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c4f6bf2d26ee8244b8f2a799213e6ea2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 00320c6f746c0fe4181e9e18870f2d6c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 175474069b00b0f4ca9359ca6117c0db, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ddc80bf7337f83f468bf5afe556c0a6b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+- Class: 19719996
+  Script: {instanceID: 0}
+- Class: 156049354
+  Script: {instanceID: 0}
+- Class: 483693784
+  Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
+- Class: 1839735485
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/new_main.unity
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_bancaichang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_baoshichang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_baoshikuangchang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_baozhujia.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_1.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_10.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_11.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_12.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_13.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_14.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_15.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_16.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_17.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_18.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_19.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_2.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_20.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_21.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_22.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_23.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_24.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_25.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_26.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_27.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_28.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_29.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_3.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_30.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_31.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_32.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_33.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_34.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_35.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_36.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_37.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_38.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_39.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_4.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_40.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_41.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_42.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_43.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_44.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_45.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_46.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_47.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_48.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_49.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_5.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_50.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_51.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_52.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_53.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_54.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_55.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_56.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_57.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_58.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_59.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_6.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_60.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_61.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_62.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_63.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_66.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_7.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_8.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_block_9.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_cangku.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_canting.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_chengzhen.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_dapingfeng.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_denglongjia.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_duanzaogongfang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_famuchang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_fangjuwu.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_fangzhichang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_fashita.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_gongjufang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_gongjufang_ri.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_guangchang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_jingjichang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_jinglianfang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_jingwengongfang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_kuangchang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_kuangshichang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_liangjiuwu.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_lianjinwu_ou.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_lianjinwu_ri.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_liaoliwu_ou.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_liaoliwu_ri.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_lvguan.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_mianjutan.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_mofang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_mojingchi.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_monenggongfang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_mucaichang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_muchang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_nianshizi.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_pigechang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_pijuchang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_ronglufang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_shangrenshenmiao.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_shatanyi.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_shichang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_shizhengting.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_shougongzuofang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_shulinggongfang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_sushe.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_tanxian.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_tianpinwu.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_tiejiangpu_ou.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_tiejiangpu_ri.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_touzisuo.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_tushuguan.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_xunlianying.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_yanjiusuo.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_yelianchang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_yezishu.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_yizhan.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_yongbinggonghui.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_yongchi.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_youshengguan.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_yuchang.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_zhahuowu_ou.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_zhahuowu_ri.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_zhongzhidi.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_zhongzhidi1.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_build_tmpl_zhuanshujianzhu.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_0.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_123.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_1x1.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_1x2.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_1x3.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_1x4.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_2x2.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_2x3.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_3x3.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_3x4.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_4x3.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_4x4.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_5x4.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_5x5.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_6x4.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_dd.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_ee.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_gray.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao1.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao10.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao11.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao12.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao2.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao3.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao4.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao5.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao6.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao7.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao8.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_cao9.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shi3.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui16.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui17.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui18.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui19.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui20.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui21.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui22.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui23.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui25.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui26.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui27.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui28.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui29.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui30.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui31.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui32.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_shui8.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_tu1.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_tu2.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_xuxian1.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_xuxian2.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_xuxian3.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_xuxian4.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_xuxian5.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_xuxian6.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_xuxian7.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_main_tmpl_xuxian8.asset.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_jiesuo.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_jiesuopai.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_laji11.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_laji12.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_laji13.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_shan1.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_shan2.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_shan3.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_shan4.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_shan5.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_shan6.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_shan7.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_shan8.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai1.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai10.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai11.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai12.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai14.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai15.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai2.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai3.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai4.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai5.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai6.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai7.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai8.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_newmap_texture_obstacles_tmpl_zhangai9.prefab.ab

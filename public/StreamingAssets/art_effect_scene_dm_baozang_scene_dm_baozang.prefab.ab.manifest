@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2650324447
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e00f451ce8fdd062f759efc0e7f49de6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aad49dfac325261ee527f6e6638da332
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Scene_DM_BaoZang/Scene_DM_BaoZang.prefab
+Dependencies: []

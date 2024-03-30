@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2700702868
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9fb7c4c8803d82d60a635b16a2def3d7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/build/skinAndRole/zhiyekuang.png
+Dependencies: []

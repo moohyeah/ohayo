@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1116636292
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 16f2882d4d9702fe2f8bf2cd338f995b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hypermarket/lottery/putonXuyuan.png
+Dependencies: []

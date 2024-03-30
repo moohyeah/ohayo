@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 946470924
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 563e7729ac3fbfb08839ad5c01ec8861
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aad49dfac325261ee527f6e6638da332
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_RenWu_ShuaXin_CT/UI_RenWu_ShuaXin_CT.prefab
+Dependencies: []

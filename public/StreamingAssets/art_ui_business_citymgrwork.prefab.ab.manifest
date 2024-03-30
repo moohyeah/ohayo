@@ -1,0 +1,70 @@
+ManifestFileVersion: 0
+CRC: 853725297
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fa630f47c5c7154259cf72d6e823e51d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2f3e792f144339c8832b1acfd9e5a6a7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/Resourcex/art/ui/business/cityMgrWork.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_business_bg_new_10.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_business_bg_new_18.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_business_bg_new_8.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_business_bg_new_9.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab

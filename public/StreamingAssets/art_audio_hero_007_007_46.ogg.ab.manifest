@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3571796486
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: db683b5dc89205f2b0fd7c2e057a9d25
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/hero/007/007_46.ogg
+Dependencies: []

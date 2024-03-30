@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2361390774
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9ee9dae7969f9cb074f167de288cada1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/shopMgr/zahuopu1/tittlefa.png
+Dependencies: []

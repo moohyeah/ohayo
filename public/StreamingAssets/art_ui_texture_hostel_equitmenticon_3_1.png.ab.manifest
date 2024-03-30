@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3620715679
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e50ca90e39acc48d2651c644751618aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hostel/equitmentIcon/3_1.png
+Dependencies: []

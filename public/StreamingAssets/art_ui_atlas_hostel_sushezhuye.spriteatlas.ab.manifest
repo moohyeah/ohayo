@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 116334470
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0ffc9453c85b2d195bfc172d4c415518
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0d677c6dec2405a43fe6dd294cca7c3e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/atlas/hostel_sushezhuye.spriteatlas
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-10.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-11.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-12.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-2.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-3.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-4.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-5.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-6.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-7.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-8.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-9.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_0.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_10.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_11.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_12.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_2.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_20.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_3.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_4.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_5.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_6.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_7.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_8.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_9.png.ab

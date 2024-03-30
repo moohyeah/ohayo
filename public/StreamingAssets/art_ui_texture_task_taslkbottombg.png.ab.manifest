@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1179089115
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d4d17b25692c40510017f3c619a9fcb0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/task/taslkBottomBg.png
+Dependencies: []

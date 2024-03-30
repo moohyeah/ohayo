@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3648977284
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 13e6e6cd21264b4421c52c7209799d6c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/UI/lianjinhecheng-shibai.ogg
+Dependencies: []

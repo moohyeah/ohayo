@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 2574651142
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5fe9af5bb8cfc1aacfb4588c04749c47
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7df95cefc05d7180d06fff7c8f140f7a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/H_029_BUFF_03_03/H_029_BUFF_03_03.prefab
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1741614519
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7287997658a84c1bd8487ae675c87319
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/common/bg/topBg.png
+Dependencies: []

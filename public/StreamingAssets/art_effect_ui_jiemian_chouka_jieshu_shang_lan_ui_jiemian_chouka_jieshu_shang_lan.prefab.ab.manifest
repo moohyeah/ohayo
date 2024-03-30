@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1861451427
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 02f21b966c6d53d0b357b1592d28a6f8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aad49dfac325261ee527f6e6638da332
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_JieMian_ChouKa_JieShu_Shang_Lan/UI_JieMian_ChouKa_JieShu_Shang_Lan.prefab
+Dependencies: []

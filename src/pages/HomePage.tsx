@@ -1,8 +1,30 @@
-import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useKeylessAccounts } from "../core/useKeylessAccounts";
 import GoogleLogo from "../components/GoogleLogo";
 import { collapseAddress } from "../core/utils";
+import { useState, useEffect, useCallback } from 'react';
+
+function Unity() {
+  return (
+    <>
+      <canvas id="unity-canvas"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer" style= {{display : "none"}}>
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">ZKFairy</div>
+      </div>
+      <script> alert("hi!") </script>
+      <script async src="/Build/init.js" />
+    </>
+  );
+}
 
 function HomePage() {
   const navigate = useNavigate();
@@ -13,7 +35,32 @@ function HomePage() {
     if (!activeAccount) navigate("/");
   }, [activeAccount, navigate]);
 
+  const handleGameLogin = useCallback(()=>{
+    const account = activeAccount?.accountAddress.toString();
+    (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify({account:account, token:account}))
+
+  }, []);
+
+  const handleGameLogout = useCallback(()=>{
+    disconnectKeylessAccount()
+  }, []);
+
+  useEffect(()=>{
+    window.addEventListener("GameLogout", handleGameLogout);
+    return ()=> {
+      window.removeEventListener("GameLogout", handleGameLogout);
+    };
+  }, [handleGameLogout])
+
+  useEffect(()=>{
+    window.addEventListener("GameLogin", handleGameLogin);
+    return ()=> {
+      window.removeEventListener("GameLogin", handleGameLogin);
+    };
+  }, [handleGameLogin])
+
   return (
+    <>
     <div className="flex flex-col items-center justify-center h-screen w-screen px-4">
       <div>
         <h1 className="text-4xl font-bold mb-2">Welcome to Aptos!</h1>
@@ -37,6 +84,9 @@ function HomePage() {
         </div>
       </div>
     </div>
+
+    <Unity></Unity>
+    </>
   );
 }
 

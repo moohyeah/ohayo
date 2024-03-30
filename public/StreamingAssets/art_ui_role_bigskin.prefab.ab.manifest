@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 3275312170
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6570e8aff2e22ab9d3993c0f9391b70e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6dcdaf4757dc98d84000eb7a3b6475c2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/Resourcex/art/ui/role/bigSkin.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_common_uiclose.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_role_bigbg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_role_foreview_bigimgch.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_role_foreview_bigimgro.png.ab

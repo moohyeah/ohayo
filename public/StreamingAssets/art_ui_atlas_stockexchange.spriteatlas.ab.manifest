@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 4255592047
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b99d6302d13e188aa2a5d54834f41cf1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0d677c6dec2405a43fe6dd294cca7c3e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/atlas/stockExchange.spriteatlas
+Dependencies: []

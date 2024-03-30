@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 661768738
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8bf89f9b707cf6db299c5458e4839a7c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/role/info/arrowBs.png
+Dependencies: []

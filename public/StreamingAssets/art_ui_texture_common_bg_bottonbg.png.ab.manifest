@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3028897406
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5530e1e8f878ae1ddac198c6b728accd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/common/bg/bottonBg.png
+Dependencies: []

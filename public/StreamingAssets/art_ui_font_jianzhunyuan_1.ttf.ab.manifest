@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3528736503
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 07ce361f78d648e0035c58cf1f0a3262
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: acc87f5f41cb638dcdccc8ca554b5154
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/font/JIANZHUNYUAN_1.TTF
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianhupo.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab

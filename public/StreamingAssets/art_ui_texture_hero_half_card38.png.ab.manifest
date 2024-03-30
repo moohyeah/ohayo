@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1943538991
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cd3522d4311f78e3ec6e2258bfdbb475
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/half/card38.png
+Dependencies: []

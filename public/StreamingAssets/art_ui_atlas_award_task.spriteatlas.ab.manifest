@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 2127586527
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ab1e8405c94c6959fcb50273c99f9837
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0d677c6dec2405a43fe6dd294cca7c3e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/atlas/award_task.spriteatlas
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_bigbg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_0.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_2.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_3.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_4.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_5.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_6.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_7.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_8.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_9.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_di1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_di2.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_di3.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_di4.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_ming.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_renwugongneng_wancheng.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_rightbg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_taslkbottombg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_titbranch.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_tithero.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_titmain.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_titshop.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_toghero.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_togselect.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_togshop.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_topbranch.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_topmain.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_zhujiemian_xinxitishi.png.ab

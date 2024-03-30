@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1284687349
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f87f1cd1fa944a03d04ff2d1b1bebcd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/upicon/famuchang.png
+Dependencies: []

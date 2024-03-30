@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 499784758
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 07c91285f8cc494dc849ee0c79f5f9ae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3fbfd9b70897dc49055ad8f8fc606351
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/Resourcex/art/ui/activityPop/shatangshikePop.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_actsun_shatangshike_18.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_actsun_shatangshike_19.png.ab

@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 412450203
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 16fe931fc02f82786f30fd499f835165
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a0182a22452d29d7954d82b6383cd4a1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/taskObj/Scene_DaoJu_DSSM/Scene_DaoJu_DSSM.prefab
+Dependencies: []

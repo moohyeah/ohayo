@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2803974167
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a1863ef6c5001cf166d15f6d9a480d29
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/role/profession/lv.png
+Dependencies: []

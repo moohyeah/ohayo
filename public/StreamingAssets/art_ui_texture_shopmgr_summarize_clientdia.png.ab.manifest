@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 812140117
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea3a3efe1fc0205a747284cc41ef9e86
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/shopMgr/summarize/clientDia.png
+Dependencies: []

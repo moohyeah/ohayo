@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2358870729
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5d9b7b22c50d1578ab816f5358d8e492
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 723d7b972e72461205a935bff5e6bf42
+HashAppended: 0
+ClassTypes:
+- Class: 84
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/city/mainStreet.renderTexture
+Dependencies: []

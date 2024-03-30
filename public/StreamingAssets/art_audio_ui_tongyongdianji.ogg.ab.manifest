@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1808652072
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fc6bc7b58df104ad45079c6ec85dc045
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/UI/tongyongdianji.ogg
+Dependencies: []

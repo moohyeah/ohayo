@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1487879330
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2685e8f7183ba8b58220f03cf91ab978
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/common/bg/tipsBg.png
+Dependencies: []

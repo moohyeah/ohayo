@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 234151442
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3c90c49c4e277846fd9618a4e6716d39
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1cdb23744e34a0ce4bdb1cd2aeabdc2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_ZHUCHENG_LanGouHX/UI_ZHUCHENG_LanGouHX.prefab
+Dependencies: []

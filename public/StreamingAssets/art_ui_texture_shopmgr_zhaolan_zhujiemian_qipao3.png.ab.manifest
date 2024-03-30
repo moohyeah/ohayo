@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 973894450
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4024a31f492738e130af386eabe84c46
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/shopMgr/zhaolan/zhujiemian_qipao3.png
+Dependencies: []

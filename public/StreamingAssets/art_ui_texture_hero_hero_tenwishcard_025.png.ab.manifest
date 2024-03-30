@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 919547848
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0382eacec2943b17a08487e54e1d4447
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/hero/tenwishcard/025.png
+Dependencies: []

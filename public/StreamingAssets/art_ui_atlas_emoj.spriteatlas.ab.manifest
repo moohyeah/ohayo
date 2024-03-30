@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 4073813567
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9fa63a2fdfeede69de6be1d23d469148
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0d677c6dec2405a43fe6dd294cca7c3e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/atlas/emoj.spriteatlas
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3197037128
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4f20578f9264d54406593369a5fa0a97
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/activity/7ri/kuanSl.png
+Dependencies: []

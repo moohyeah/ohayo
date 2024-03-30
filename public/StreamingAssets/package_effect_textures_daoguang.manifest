@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 1924623450
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ae561494507a4e51f29457fbc24ebda7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff414f606ea1972259b080d7bcf51689
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/H_033_Skill_03_02/Sc/H_033_Skill_03_01_01.png
+- Assets/Resourcex/art/effect/M_07_17_Atk_01_02/Sc/M_07_17_Atk_01_02_DG.png
+- Assets/Resourcex/art/effect/H_013_Skill_03_01/Sc/H_013_Skill_03_01_DG.png
+- Assets/Resourcex/art/effect/H_013_Skill_03_02/Sc/H_013_Skill_03_02_DG.png
+- Assets/Resourcex/art/effect/H_014_Skill_01_01/Sc/H_014_Skill_01_01_05.png
+- Assets/Resourcex/art/effect/H_014_Skill_03_02/Sc/H_014_Skill_03_02_DX.png
+- Assets/Resourcex/art/effect/H_035_Skill_03_01/Sc/H_035_Skill_03_01_01.png
+- Assets/Resourcex/art/effect/H_027_Atk_01_02/Sc/H_027_Atk_01_02_DH.png
+- Assets/Resourcex/art/effect/H_033_Skill_01_01/Sc/H_033_Skill_01_01_17.png
+- Assets/Resourcex/art/effect/H_035_Skill_03_01/Sc/H_035_Skill_03_01_06.png
+- Assets/Resourcex/art/effect/H_027_Skill_01_02/Sc/H_027_Skill_01_02.png
+- Assets/Resourcex/art/effect/H_035_Skill_03_01/Sc/H_035_Skill_03_01_02.png
+- Assets/Resourcex/art/effect/H_032_Skill_01_01/Sc/H_032_Skill_01_01_DG.png
+- Assets/Resourcex/art/effect/H_011_Atk_01_01/Sc/H_011_Atk_01_01_01.png
+- Assets/Resourcex/art/effect/H_035_Skill_03_01/Sc/H_035_Skill_03_01_05.png
+- Assets/Resourcex/art/effect/H_004_Skill_01_01/Sc/H_004_Skill_01_01_05.png
+- Assets/Resourcex/art/effect/H_020_Skill_01_02/Sc/H_020_Skill_01_02_DG.png
+- Assets/Resourcex/art/effect/H_002_Skill_01_01/Sc/H_002_Skill_01_01_DG.png
+- Assets/Resourcex/art/effect/H_024_Skill_03_01/Sc/H_024_Skill_03_01_DG.png
+- Assets/Resourcex/art/effect/H_029_Skill_01_02/Sc/H_029_Skill_01_01_14.png
+- Assets/Resourcex/art/effect/H_035_Skill_03_03/Sc/H_035_Skill_03_02_01.png
+- Assets/Resourcex/art/effect/H_013_Skill_01_02/Sc/H_013_Skill_01_03_01.png
+- Assets/Resourcex/art/effect/H_028_Skill_01_01/Sc/H_028_Skill_01_01_DH.png
+- Assets/Resourcex/art/effect/H_028_Atk_01_02/Sc/H_028_Atk_01_02_DH.png
+- Assets/Resourcex/art/effect/H_013_Atk_01_01/Sc/H_013_Atk_01_01_01.png
+- Assets/Resourcex/art/effect/H_032_Skill_03_02/Sc/H_032_Skill_03_02_DG.png
+- Assets/Resourcex/art/effect/H_033_Skill_02_02/Sc/H_033_Skill_02_02_DG.png
+Dependencies: []

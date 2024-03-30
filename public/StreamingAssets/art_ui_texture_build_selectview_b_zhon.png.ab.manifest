@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 193329166
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 08394a0f1989825b1e4464b04790c73d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/build/selectView/b_zhon.png
+Dependencies: []

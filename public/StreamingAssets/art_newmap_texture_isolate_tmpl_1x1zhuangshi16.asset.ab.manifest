@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2570082853
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5ea64e72098885d3a42f22852b0e60fb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e5dd5ee6a7619bf209f96321166c84b
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/newmap/texture/isolate/tmpl/1x1zhuangshi16.asset
+Dependencies: []

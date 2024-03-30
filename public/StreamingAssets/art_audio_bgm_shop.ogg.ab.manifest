@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1946983372
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3a87ea7fb86513da581f0dfce1d20125
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/BGM_shop.ogg
+Dependencies: []

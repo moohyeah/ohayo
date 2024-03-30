@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1475600310
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 063f1fb01483fdfad6446dcb528cd2f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/UI/wufadianji.ogg
+Dependencies: []

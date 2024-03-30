@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2624233582
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 48d8ed866d4d1b670722c10b79b23702
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/build/buildView/build_8.png
+Dependencies: []

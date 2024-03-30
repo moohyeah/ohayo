@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1356601264
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2a9c8f01e8bfd60eafbfe10b5e1d7de3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/UI/shibai.ogg
+Dependencies: []

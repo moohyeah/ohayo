@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2723857134
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5bb2f0188c4f5e0457385eb69277ce68
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/battle/victory/jindutiao2.png
+Dependencies: []

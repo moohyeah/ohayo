@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 284020807
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb7e6b4b991d1114cf58f6f11d7599ad
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/build/selectView/selectImg1.png
+Dependencies: []

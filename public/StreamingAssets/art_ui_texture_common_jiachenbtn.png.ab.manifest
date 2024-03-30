@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 712385327
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9c1c009f3d86f3ffb79f9cc0a12bd29f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/common/jiachenBtn.png
+Dependencies: []

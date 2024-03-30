@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4268028569
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 707b1e178b2e8961082a9a3e3d9a15d8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/heroSkill/attack_04.ogg
+Dependencies: []

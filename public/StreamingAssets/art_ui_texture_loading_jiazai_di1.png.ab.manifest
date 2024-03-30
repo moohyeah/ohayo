@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3560620027
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: be389c3a865f3889cc8a04e005e172d1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/Loading/jiazai_di1.png
+Dependencies: []

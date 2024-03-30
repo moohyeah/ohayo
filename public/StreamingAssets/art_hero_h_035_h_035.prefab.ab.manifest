@@ -1,0 +1,58 @@
+ManifestFileVersion: 0
+CRC: 524353785
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 43a9202212c37ceb9e27a623bfe80f77
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6baac6dc2203c66904e2e24f2d3249b9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f9db98c60740638449864eb028fbe7ad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 019892e8c27859b4484c3814b6ffd5f5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Spine.Unity.SkeletonMecanim/MecanimTranslator
+- AssemblyName: Assembly-CSharp
+  ClassName: Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials
+Assets:
+- Assets/Resourcex/art/hero/H_035/H_035.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_shader_spine-skeleton-dissolve.shader.ab

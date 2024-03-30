@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2938086727
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 25ca1f571149a45e444cfc739d7a11fc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/role/kuan/eqAdd.png
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 661759895
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c68377cd33d368e21c680c52ca0be4ef
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/common/bg/bottomline.png
+Dependencies: []

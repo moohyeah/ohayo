@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1572457891
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7663051121505499e034cd7198fdff39
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hostel/sushezhuye/changeNum/-7.png
+Dependencies: []

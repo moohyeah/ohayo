@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 435291237
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d35af2f99ba12b6f3ecfc55ff00486e0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/build/lianAndGon/bg1.png
+Dependencies: []

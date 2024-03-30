@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2236173659
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e2bbd63e2432f5db1c49aeeb26cda84b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/hero/020/020_26.ogg
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 803357661
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ce5208d2965e7210d5ee42ac621f7e13
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/build/quickMakeAlchemy/smeltBg2.png
+Dependencies: []

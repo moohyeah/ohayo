@@ -1,0 +1,135 @@
+ManifestFileVersion: 0
+CRC: 3472157682
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8adf99a30034760ed9a9baf9969aa429
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a9f6df2448f87a7d8141133e4a442ba0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9e643de6b54c1ee4c843467bc32c5d6e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d84bcd96a9f5249abf1c836cb12e98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 329a4bdc0e6349c47b031f4cce960ec6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1cfce5c73d45ab84f9683f302fb8c192, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 766a418d3f9782847997c7ddabce0c3d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Toggle/ToggleEvent
+Assets:
+- Assets/Resourcex/art/ui/goods/goodsShelves.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_common_pagebtn.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_goods_goodsitem.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_cancelbtn.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_help_bighelper.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_help_helper.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_huakuai.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_huawen.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_togglebg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_togglesplit.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_xbtn.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_yesbtngray.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_2.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_3.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_bg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_q1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_q2.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_q3.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_q4.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_q5.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_selectcountbg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_yijian1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_yijian2.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_huajia_yijian3.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_maimaiwupin_dianjixiaoguo2.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_maimaiwupin_jianqian.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_maimaiwupin_jiaqian.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_maimaiwupin_shuzidi.png.ab

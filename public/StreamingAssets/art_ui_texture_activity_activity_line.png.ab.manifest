@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1916388240
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 18b81c0e3d1348764dd9f81654e6503d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/activity/activity/line.png
+Dependencies: []

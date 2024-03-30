@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 24285638
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8cf1e234c07252cbbe1c5931488f8010
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/audio/BGM_map.ogg
+Dependencies: []

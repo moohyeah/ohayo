@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3624745522
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3a152450373b60b524e5b1870024b722
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/activity/starAward/starAward_5.png
+Dependencies: []

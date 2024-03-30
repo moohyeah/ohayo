@@ -1,0 +1,81 @@
+ManifestFileVersion: 0
+CRC: 2908846926
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f05dfa4456009cccfdca6cefd1207c03
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4a4b3aefae8d79b45878a21e86f71d1c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/Resourcex/art/ui/competition/competitionView.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_storylevel_bigroldcard.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_bg_shanhuimohu.jpg.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_competition_card.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_competition_challenge.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_competition_diary.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_competition_leftbg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_competition_rank.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_competition_rightlistbg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_competition_shop.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_competition_zhanli.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_trade_main_barbg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_trade_main_barfore.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_trade_main_help.png.ab

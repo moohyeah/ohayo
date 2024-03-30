@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2704154165
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ba27db0e2057e05a89b79a72937aa8c4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1397ad235555a4f37791d5b3ff19e7a7
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/Materials/blur.mat
+Dependencies: []

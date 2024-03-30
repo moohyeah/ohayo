@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1303846840
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 045c2b1e51d9854d59825d577e268d5b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/misty/npc.png
+Dependencies: []

@@ -1,0 +1,86 @@
+ManifestFileVersion: 0
+CRC: 3867112642
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ffd91c762886d45f4b4ace822a5f90f6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6fe69961e0b671b31de83f5ed00a40c4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbcad84a78c1bc34db2a1b3bd6e1d463, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/Resourcex/art/ui/hostel/contractView.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_jiehun_ui_jiemian_jiehun.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_xbtn.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_dijieqiyue_dijieqiyue_ditu.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_dijieqiyue_dijieqiyue_jiezhi.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_dijieqiyue_getiao.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_dijieqiyue_qiyuebtn.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_dijieqiyue_xiaoxin.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_dijieqiyue_xin.png.ab

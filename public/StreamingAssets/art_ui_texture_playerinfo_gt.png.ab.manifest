@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2437955245
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a453b9e9a221d98e84bae972a673a80e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/playerInfo/gt.png
+Dependencies: []

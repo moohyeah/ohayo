@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2984353781
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a28b6185896f613a45f1cf9589dbebf7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9fab25a423d13a744b6d3c63cdda248b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 641c01e8e51d1aa4db5ece49cc4fd355, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/common/flipBook.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_business_flipbookobj.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_materials_flipbookmat.mat.ab

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 879474824
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e5e419fb914cebcd4e3c90cb89a65a1a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/lockicon/tiejiangpu_ou.png
+Dependencies: []

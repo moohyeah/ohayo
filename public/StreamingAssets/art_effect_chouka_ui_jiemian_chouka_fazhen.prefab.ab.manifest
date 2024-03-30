@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 3398350228
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2167952526b537aa10eb839aa6cabb84
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 282035d9eb25af2688f93cda0fb438f6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9e643de6b54c1ee4c843467bc32c5d6e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/ChouKa/UI_JieMian_ChouKa_FaZhen.prefab
+Dependencies: []

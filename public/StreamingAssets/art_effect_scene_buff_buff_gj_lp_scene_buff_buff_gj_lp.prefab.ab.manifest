@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 435581537
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6156db03fb6141f07fc6ffad517206f4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aad49dfac325261ee527f6e6638da332
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Scene_Buff_Buff_GJ_LP/Scene_Buff_Buff_GJ_LP.prefab
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1519010663
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0e87257cacb23015f2082fddb2202864
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/half/card14.png
+Dependencies: []

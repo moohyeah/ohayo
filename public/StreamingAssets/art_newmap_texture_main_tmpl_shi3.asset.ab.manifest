@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1443591370
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 83b23be1d7ae8109748fdb20ce1860d1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e5dd5ee6a7619bf209f96321166c84b
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/newmap/texture/main/tmpl/shi3.asset
+Dependencies: []

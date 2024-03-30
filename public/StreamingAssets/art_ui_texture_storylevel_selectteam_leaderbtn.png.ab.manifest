@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 314100392
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea3a581d07ee366bc592dd62bab96a19
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/storyLevel/selectTeam/leaderBtn.png
+Dependencies: []

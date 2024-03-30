@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 2260856526
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 130b9140a3d736542ce730fecc36ef25
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: afae984366f281e21517f9d486cb0bbb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_JieMian_WZJY/UI_JieMian_WZJY.prefab
+Dependencies: []

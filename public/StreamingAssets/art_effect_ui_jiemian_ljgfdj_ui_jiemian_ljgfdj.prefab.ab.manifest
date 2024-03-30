@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 331482163
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6a878fc30f2b2ae28cf0a2dabc28c6c7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: edbf4448b8ffd8982b3d9da33922535f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9e643de6b54c1ee4c843467bc32c5d6e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Ui_JieMian_LJGFDJ/Ui_JieMian_LJGFDJ.prefab
+Dependencies: []

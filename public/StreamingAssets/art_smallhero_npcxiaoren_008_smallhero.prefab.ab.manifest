@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 350486913
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 261b609de00a39dbb8f87c0a8e76e231
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1a9b7a0f854910a105423202d891093
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f9db98c60740638449864eb028fbe7ad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Spine.Unity.SkeletonMecanim/MecanimTranslator
+- AssemblyName: Assembly-CSharp
+  ClassName: Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials
+Assets:
+- Assets/Resourcex/art/smallHero/npcxiaoren_008/smallHero.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_shader_spine-skeleton-dissolve.shader.ab

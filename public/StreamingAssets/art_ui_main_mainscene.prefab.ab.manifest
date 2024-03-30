@@ -1,0 +1,103 @@
+ManifestFileVersion: 0
+CRC: 3995676309
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ed89715a957cdc1f0fc4ba218f8787c2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5b924cb2e9c2ab47dad14e3741b1b35d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c70776f8a1223745ae2575ef581eba5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0ea4c6a498a1eb646bc78199d35e404e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/Resourcex/art/ui/main/mainScene.prefab
+Dependencies:
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_guangchang_dyw_ui_guangchang_dyw.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_guangchang_jrbf_ui_guangchang_jrbf.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_guangchang_jrbfbd_ui_guangchang_jrbfbd.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_xinshouyd_ui_jiemian_xinshouyd.prefab.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_expimg.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_zhujiemian_jinbi1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_-1.png.ab
+- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_changenum_1.png.ab
