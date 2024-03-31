@@ -4,6 +4,20 @@ import GoogleLogo from "../components/GoogleLogo";
 import { collapseAddress } from "../core/utils";
 import { useState, useEffect, useCallback } from 'react';
 
+function useExternalScripts({ url } : {url : string}){
+  useEffect(() => {
+    const head = document.querySelector("head");
+    const script = document.createElement("script");
+
+    script.setAttribute("src", url);
+    head?.appendChild(script);
+
+    return () => {
+      head?.removeChild(script);
+    };
+  }, [url]);
+};
+
 function Unity() {
   return (
     <>
@@ -20,8 +34,7 @@ function Unity() {
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">ZKFairy</div>
       </div>
-      <script> alert("hi!") </script>
-      <script async src="/Build/init.js" />
+      {useExternalScripts({url : "/Build/init.js" })}
     </>
   );
 }
@@ -37,8 +50,8 @@ function HomePage() {
 
   const handleGameLogin = useCallback(()=>{
     const account = activeAccount?.accountAddress.toString();
+    console.log("======account" + account);
     (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify({account:account, token:account}))
-
   }, []);
 
   const handleGameLogout = useCallback(()=>{
@@ -61,7 +74,7 @@ function HomePage() {
 
   return (
     <>
-    <div className="flex flex-col items-center justify-center h-screen w-screen px-4">
+    {/* <div className="flex flex-col items-center justify-center h-screen w-screen px-4">
       <div>
         <h1 className="text-4xl font-bold mb-2">Welcome to Aptos!</h1>
         <p className="text-lg mb-8">You are now logged in</p>
@@ -83,7 +96,7 @@ function HomePage() {
           </button>
         </div>
       </div>
-    </div>
+    </div> */}
 
     <Unity></Unity>
     </>
