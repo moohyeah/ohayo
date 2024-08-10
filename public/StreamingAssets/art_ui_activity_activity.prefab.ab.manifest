@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 4085758486
+CRC: 1748621873
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5f9da704b5d5cf749e8aa1738e10f4a1
+    Hash: 73b72ede3e52f004e8f650d96971a496
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 3aa80fa34109ec0cc5b4aea1970b2922
+    Hash: bc895a00ecc7d9985aa0850308e8757d
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 73b72ede3e52f004e8f650d96971a496
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -14,13 +17,15 @@ ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
 - Class: 114
@@ -28,13 +33,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -69,12 +72,11 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/activity/Activity.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_activity_bg.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_activity_tishi1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_activity_x3.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_activity_x4.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_activity_xp1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_bg_bigshadow.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hypermarket_shanchen_vline.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_activity_activity_bg.jpg.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_activity_activity_tishi1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_activity_activity_x3.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_activity_activity_x4.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_activity_activity_xp1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_bg_bigshadow.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab

@@ -1,24 +1,35 @@
 ManifestFileVersion: 0
-CRC: 2032339853
+CRC: 1900545357
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 00f81734535e4958abae107e5c6fb153
+    Hash: 9ee2e2e03569f4d9e02c31b71b28c0fc
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 664a0b9c71a4f36fc6e915189c14aeb1
+    Hash: 4c1e55d5ea8deb73e4ab4becd4eb3306
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9ee2e2e03569f4d9e02c31b71b28c0fc
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 95d84bcd96a9f5249abf1c836cb12e98, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
@@ -26,12 +37,28 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d84bcd96a9f5249abf1c836cb12e98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
@@ -51,14 +78,7 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/goods/GoodsItem.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_storage_6.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_07.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_arrow-1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_arrow-2.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_arrow-3.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_arrow1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_arrow2.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_arrow3.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_equip_headicon.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hero_hero_rankicon_001.png.ab

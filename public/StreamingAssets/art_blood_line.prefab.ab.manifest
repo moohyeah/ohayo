@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 298960124
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4a115c8c92c5bd4852d5b11b7d35cb65
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8cce2ce81cff2d1f611c1a036d2551d8
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4a115c8c92c5bd4852d5b11b7d35cb65
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/blood/line.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_sprite_line.mat.ab

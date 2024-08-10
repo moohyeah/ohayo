@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 3189466672
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9101ac2faaf4550e385d4689da903f4c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6d9cd0fbc7b8575ba8a6d209f7366137
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9101ac2faaf4550e385d4689da903f4c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Hero/H_002_Skill_01_02/H_002_Skill_01_02.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_displacement.shadergraph.ab

@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3183450267
+CRC: 140699451
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4f3e47a9db0eec506cd1b8a0c8b09650
+    Hash: aae731dd58e8266d143b459e2760865e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: de958e682e665c979bc59708496495d3
+    Hash: 8cc0f1e32c0b1242801611cff4041fa4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: aae731dd58e8266d143b459e2760865e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -17,8 +20,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
-- Class: 43
-  Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
 - Class: 74
@@ -28,44 +29,38 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: b81905a303421cb498b2be3ffebf5043, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c70776f8a1223745ae2575ef581eba5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 3c70776f8a1223745ae2575ef581eba5, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: d7956f38b6f4bfd4dbd98e42f549bcc0, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: b81905a303421cb498b2be3ffebf5043, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: fbcad84a78c1bc34db2a1b3bd6e1d463, type: 3}
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
-  Script: {instanceID: 0}
-- Class: 198
-  Script: {instanceID: 0}
-- Class: 199
   Script: {instanceID: 0}
 - Class: 210
   Script: {instanceID: 0}
@@ -76,8 +71,6 @@ ClassTypes:
 - Class: 222
   Script: {instanceID: 0}
 - Class: 224
-  Script: {instanceID: 0}
-- Class: 331
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.CoreModule
@@ -101,13 +94,48 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/battle/newbattleUI.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_skill_poyi_skill_poyi.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_skill_tx_js_skill_tx_js.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_zhandoukaishi_ui_jiemian_zhandoukaishi.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_zhuanchang_ui_jiemian_zhuanchang.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_zd_mannu_ui_zd_mannu.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_zhandouksboss_zhandouksboss.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_materials_imagegray.mat.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hero_full_lh_fr_013.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_materials_imagegray.mat.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_b1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_b2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_b3.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_b3_513.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_b3_514.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_b4.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_b5.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_b6.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_b6_2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_b7.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_battlenumelemental_id001.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_battlenumelemental_id002.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_battlenumelemental_id003.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_battlenumelemental_id004.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_battlenumelemental_id005.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_battlenumelemental_id006.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_battlenumelemental_id007.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_bg1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_bg2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_bt1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_bt2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_bt3.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_bt4.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_bt5.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_c1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_c3.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_hp.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_mask.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_mdamagedef.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_minvalid.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_miss.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_mmagicimmune.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_mphysicsimmune.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_mresist.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_pow.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_pow1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_powbg.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_qipao.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_shuzi_3_baoji_shanghai.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_shuzi_3_baoji_zhiliao.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_shuzi_3_nuqi.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_battle_battleui_shuzi_4_nuqijian.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab

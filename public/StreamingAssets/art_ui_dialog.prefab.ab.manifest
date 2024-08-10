@@ -1,32 +1,31 @@
 ManifestFileVersion: 0
-CRC: 2381469885
+CRC: 2223003863
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e0955699888007fea2980c03c02c0c6b
+    Hash: a4c94ab42a1f48da55c542d9bb6cfba5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 680419e2a9a2105d9e2bea9bee4c3b6a
+    Hash: 15be5cf9aa867d589e8dcb6756402227
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a4c94ab42a1f48da55c542d9bb6cfba5
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
-- Class: 21
-  Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
-- Class: 48
-  Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b1d3e6c6cb65a394885f1eb21feaae27, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -59,6 +58,5 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/dialog.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_maimaiwupin_duihuadi.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hero_half_half_h_011.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hero_half_half_h_011.png.ab

@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1508196199
+CRC: 12871198
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4f52488c6714e715bc5af2e07ffc1974
+    Hash: 7f3ed614f0f99a019d3a466c8cce1392
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 64452aa943d92f6af7b8f97e94d5ecd1
+    Hash: 680a73740f0343d9554ad71a0edb165f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7f3ed614f0f99a019d3a466c8cce1392
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,4 +41,6 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resourcex/art/effect/UI_SuShe_LiWu/UI_SuShe_LiWu.prefab
-Dependencies: []
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_v1_add.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask_add.shadergraph.ab

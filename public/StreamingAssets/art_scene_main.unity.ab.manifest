@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 562927182
+CRC: 2640403836
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9a9db8dda36185169faf7434735f7864
+    Hash: 2f1bf8f61cdaafe87d8b8d18d3456416
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a00e2df3f1c192692b6e749e12b954d3
+    Hash: ce42d5605e6439adea32ecfc452d2e41
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2f1bf8f61cdaafe87d8b8d18d3456416
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -21,34 +24,18 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
-- Class: 50
-  Script: {instanceID: 0}
 - Class: 65
-  Script: {instanceID: 0}
-- Class: 74
   Script: {instanceID: 0}
 - Class: 81
   Script: {instanceID: 0}
 - Class: 89
-  Script: {instanceID: 0}
-- Class: 91
-  Script: {instanceID: 0}
-- Class: 95
   Script: {instanceID: 0}
 - Class: 104
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: ece980364d972cf4fb0a59fb78e29389, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: e14c1568c43fc774e8d4a85d137a0cdc, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 124
@@ -61,22 +48,9 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
-- Class: 222
-  Script: {instanceID: 0}
-- Class: 223
-  Script: {instanceID: 0}
-- Class: 224
-  Script: {instanceID: 0}
-- Class: 225
-  Script: {instanceID: 0}
 - Class: 850595691
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resourcex/art/scene/main.unity
 - Assets/Resourcex/art/test/test.unity
-Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_jinbitd_ui_jiemian_jinbitd.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_materials_loopskymat.mat.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_front_jinbi.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
+Dependencies: []

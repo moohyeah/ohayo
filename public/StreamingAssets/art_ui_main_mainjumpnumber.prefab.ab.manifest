@@ -1,22 +1,25 @@
 ManifestFileVersion: 0
-CRC: 3318637433
+CRC: 711898377
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 32baf132bf10ad15b130bf7fba62474a
+    Hash: ebae69b3653270d63cca411e9b474bfe
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8f65195a0f42825ad884f38a1ea35765
+    Hash: ddee3bc49160d1fc574e086d6b672994
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ebae69b3653270d63cca411e9b474bfe
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 115
@@ -37,4 +40,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/main/mainJumpNumber.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab

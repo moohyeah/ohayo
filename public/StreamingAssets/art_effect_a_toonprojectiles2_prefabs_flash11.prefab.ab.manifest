@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 829337757
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc3962170b3398a623cae8f53b0d4ecf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e07c6e0615e63ae3c7d9413510c73dcd
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dc3962170b3398a623cae8f53b0d4ecf
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/A_ToonProjectiles 2/Prefabs/Flash 11.prefab
+Dependencies: []

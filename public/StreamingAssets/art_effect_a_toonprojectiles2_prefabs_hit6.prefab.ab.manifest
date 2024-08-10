@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3491397823
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 52430ddc38242b2d83c46ca3efd97331
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e07c6e0615e63ae3c7d9413510c73dcd
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 52430ddc38242b2d83c46ca3efd97331
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/A_ToonProjectiles 2/Prefabs/Hit 6.prefab
+Dependencies: []

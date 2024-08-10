@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 4281265320
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2c8d0054d244ff7b1dc237dee2f1d4c8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2c8d0054d244ff7b1dc237dee2f1d4c8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/Materials/snowMat.mat
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_shader_snowshader.shader.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_goods_huajia_1.png.ab

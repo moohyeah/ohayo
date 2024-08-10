@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 699218636
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7e6e2ea59368e73a52ac7a41846babf8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7e6e2ea59368e73a52ac7a41846babf8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/achievement/hypermarket/lottery/portrait/toggleSelected.png
+Dependencies: []

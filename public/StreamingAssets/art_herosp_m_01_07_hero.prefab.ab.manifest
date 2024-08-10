@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 1895104834
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dda7f7be4c737e640f3ca551610ac452
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9cd0f8d88d51f4c7d6bafd4d0e40e461
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dda7f7be4c737e640f3ca551610ac452
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/heroSp/M_01_07/hero.prefab
+Dependencies: []

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3861903098
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b3c66c015d8fb572a58ea5097d9c29ba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b3c66c015d8fb572a58ea5097d9c29ba
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guildWar/bbg1.png
+Dependencies: []

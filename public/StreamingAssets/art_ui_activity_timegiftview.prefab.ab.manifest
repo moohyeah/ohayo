@@ -1,26 +1,29 @@
 ManifestFileVersion: 0
-CRC: 1987275946
+CRC: 4241095027
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 12605514ac301ba0c6e15914de6ed496
+    Hash: f30ccb5c5ddf073e4d1a10f3ed25b956
   TypeTreeHash:
     serializedVersion: 2
-    Hash: eb5e70253dfd08ee6b3933c8027ec862
+    Hash: 08b88d79e44c669ab4d7ff923ab8ab6d
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f30ccb5c5ddf073e4d1a10f3ed25b956
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
 - Class: 115
@@ -55,9 +58,5 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/activity/timeGiftView.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_timegift_timegift_3.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_timegift_timegift_4.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_timegift_timegift_5.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_timegift_timegift_6.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab

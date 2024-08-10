@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1153347803
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cc2f1125be3219d4d87a1dd56d32c10d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cc2f1125be3219d4d87a1dd56d32c10d
+HashAppended: 0
+ClassTypes: []
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/island/2/201/201.asset
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_audio_heroskill_m_01_07_atk_01_03.ogg.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_audio_heroskill_m_04_03_atk_01_03.ogg.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor_add.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_displacement_add.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_pix.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_v1.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_fire.shadergraph.ab

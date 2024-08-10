@@ -1,23 +1,20 @@
 ManifestFileVersion: 0
-CRC: 223028736
+CRC: 1026471856
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 545541344c217a7f88a4cd7d95d9661f
+    Hash: e335bdc2d4101607e059b95ab7d9a69c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f1b1072c45a907561348663c8d29c57e
+    Hash: f8f27b174b8962503c8c248cc61ba7f4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e335bdc2d4101607e059b95ab7d9a69c
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 4
-  Script: {instanceID: 0}
-- Class: 21
-  Script: {instanceID: 0}
-- Class: 28
-  Script: {instanceID: 0}
-- Class: 48
   Script: {instanceID: 0}
 - Class: 74
   Script: {instanceID: 0}
@@ -26,34 +23,28 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9e643de6b54c1ee4c843467bc32c5d6e, type: 3}
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9e643de6b54c1ee4c843467bc32c5d6e, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
-  Script: {instanceID: 0}
-- Class: 198
-  Script: {instanceID: 0}
-- Class: 199
-  Script: {instanceID: 0}
-- Class: 212
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
@@ -83,19 +74,7 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/role/successStarFrame.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_shengxing_ui_jiemian_shengxing.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_shengxingtc_ui_jiemian_shengxingtc.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_juese_jjsz_ui_juese_jjsz.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_juese_lihua_ui_juese_lihua.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_juese_shengxing_ui_juese_shengxing.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_commonfont_minzizuanshi.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_commonfont_shenxinchenggong.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_commonfont_tongyongjiesuan_di1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touxian90.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_role_tankuan_arrow.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_role_tankuan_arrowimg.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_role_tankuan_diwen.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_role_tankuan_shenxinxing.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_role_tankuan_suxinkuan.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_commonfont_minzizuanshi.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_commonfont_tongyongjiesuan_di1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab

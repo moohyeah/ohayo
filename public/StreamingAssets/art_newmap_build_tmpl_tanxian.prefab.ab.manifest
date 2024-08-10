@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 2832571950
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 821037e4b454537ad44689801b163c47
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 34f139a67f3cb88c8f07e4a3617011d0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 821037e4b454537ad44689801b163c47
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 00320c6f746c0fe4181e9e18870f2d6c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/newmap/build/tmpl/tanxian.prefab
+Dependencies: []

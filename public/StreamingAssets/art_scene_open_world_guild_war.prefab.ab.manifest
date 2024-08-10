@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 3987733977
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 914aa99cbeba0b20f9f2b562e65e6e28
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5f0cc7b8d54427c914bf3f06e18ac689
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 914aa99cbeba0b20f9f2b562e65e6e28
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 156049354
+  Script: {instanceID: 0}
+- Class: 483693784
+  Script: {instanceID: 0}
+- Class: 1839735485
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/open_world/guild_war.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_1.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_10.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_11.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_12.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_13.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_2.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_3.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_4.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_5.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_6.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_7.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_8.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_area_9.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tile_bound.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_cao1.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_cao2.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_cao3.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_cao4.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_cao5.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_cao7.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_shi1.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_shi2.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_shi3.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_shi4.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_open_world_tmpl_shi6.asset.ab

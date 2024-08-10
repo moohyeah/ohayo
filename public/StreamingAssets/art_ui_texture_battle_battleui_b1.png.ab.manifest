@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1015309148
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 79e6e727a6c53f1cc4d75b1bef3aa86b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 79e6e727a6c53f1cc4d75b1bef3aa86b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/battle/battleUI/b1.png
+Dependencies: []

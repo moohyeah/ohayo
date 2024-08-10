@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1800441154
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a8b5e97145cfc2f515a879d87da7764
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1a8b5e97145cfc2f515a879d87da7764
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/equip/jingtan.png
+Dependencies: []

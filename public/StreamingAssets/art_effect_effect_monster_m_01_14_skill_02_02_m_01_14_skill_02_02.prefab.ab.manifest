@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 974616598
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a81262333ba9b4e0a8cd49da2c356dc2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 34cae4d299732c62567f1679df7d7906
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a81262333ba9b4e0a8cd49da2c356dc2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Monster/M_01_14_Skill_02_02/M_01_14_Skill_02_02.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask.shadergraph.ab

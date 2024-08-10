@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 4173125808
+CRC: 3605434780
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 65f1d54db73fab3981298a39714ddef0
+    Hash: b4770d606387478683d2ef8c50312527
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 81fc4833398717ae320ec5bd08c661f4
+    Hash: 0f9fba26cbb38215f317d1fd6b1954a0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b4770d606387478683d2ef8c50312527
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,17 +28,15 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resourcex/art/effect/H_029_Skill_01_02/Sc/H_029_Skill_01_01_04.FBX
-- Assets/Resourcex/art/effect/H_035_Skill_03_01/Sc/H_035_Skill_03_01_02.FBX
-- Assets/Resourcex/art/effect/H_035_Skill_03_01/Sc/H_035_Skill_03_01_05.FBX
-- Assets/Resourcex/art/effect/H_027_Skill_01_02/Sc/Plane05.FBX
-- Assets/Resourcex/art/effect/H_035_Skill_03_03/Sc/H_035_Skill_03_02_02.FBX
-- Assets/Resourcex/art/effect/H_004_Skill_01_01/Sc/H_004_Skill_01_01_FP.FBX
-- Assets/Resourcex/art/effect/H_035_Skill_03_03/Sc/H_035_Skill_03_02_01.FBX
-- Assets/Resourcex/art/effect/H_035_Skill_03_01/Sc/H_035_Skill_03_01_01.FBX
-- Assets/Resourcex/art/effect/H_004_S_Skill_01_02/Sc/H_004_S_Skill_01_02_Plane05.FBX
-- Assets/Resourcex/art/effect/H_033_Skill_01_01/Sc/H_033_Skill_01_01_04.FBX
-- Assets/Resourcex/art/effect/H_014_Skill_01_01/Sc/H_014_Skill_01_01_03.FBX
-- Assets/Resourcex/art/effect/H_035_Skill_03_01/Sc/H_035_Skill_03_01_06.FBX
-- Assets/Resourcex/art/effect/H_033_Skill_03_02/Sc/H_033_Skill_03_01_01.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_029_Skill_01_02/Sc_085/H_029_Skill_01_01_04.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_035_Skill_03_01/Sc/H_035_Skill_03_01_02.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_035_Skill_03_01/Sc/H_035_Skill_03_01_05.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_035_Skill_03_03/Sc/H_035_Skill_03_02_02.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_004_Skill_01_01/Sc/H_004_Skill_01_01_FP.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_035_Skill_03_03/Sc/H_035_Skill_03_02_01.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_035_Skill_03_01/Sc/H_035_Skill_03_01_01.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_004_S_Skill_01_02/Sc/H_004_S_Skill_01_02_Plane05.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_033_Skill_01_01/Sc/H_033_Skill_01_01_04.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_035_Skill_03_01/Sc/H_035_Skill_03_01_06.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_033_Skill_03_02/Sc_03/H_033_Skill_03_01_01.FBX
 Dependencies: []

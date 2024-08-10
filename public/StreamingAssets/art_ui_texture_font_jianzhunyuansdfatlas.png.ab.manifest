@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3556704671
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d9a8f9d4d53023e9a7d06034f9c17e0b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d9a8f9d4d53023e9a7d06034f9c17e0b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/font/jianZhunYuan SDF Atlas.png
+Dependencies: []

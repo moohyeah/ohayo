@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1215179174
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b130510a90c3a005434d62de354d841c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b130510a90c3a005434d62de354d841c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guildWar/res/r2.png
+Dependencies: []

@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 205876721
+CRC: 340049958
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ece2a5d63a692652b28012aedbbe2f4c
+    Hash: 59cf4cf52b3a0b62b338b9ee54da6258
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 0e0b24cbb33b09a7fd42cd91e3a081d3
+    Hash: 1acb3dfa63eb64e08ad5b3e2464ab3a8
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 59cf4cf52b3a0b62b338b9ee54da6258
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -14,31 +17,31 @@ ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -73,24 +76,15 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/goods/goodsTranslate.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_bg_bg2.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_bg_bottomline.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_bg_contentbg.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_bg_titlebg.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_cancelbtn.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_goumaibg1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_goumaibg2.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_goumaibg3.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_madd.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_mitembg.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_mselect.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_msub.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_pf.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_pl.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_pn.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_pu.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_shoumaiduihua_di1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_bg_bg2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_bg_bottomline.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_bg_contentbg.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_bg_titlebg.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_goumaibg2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_goumaibg3.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_mitembg.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_mselect.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_goods_maimaiwupin_msub.png.ab

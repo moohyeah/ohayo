@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 1384718281
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 903d09e92403107557078a3d57c3daca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1082595f78da89f9a540a5d8827f40cc
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 903d09e92403107557078a3d57c3daca
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Scene/diaoxiang/ZuZhou_01/ZuZhou.prefab
+Dependencies: []

@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 4215651025
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4d905cc168b6e3a5dd885747f354922
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cfe8b5b0dad67fa9b58d620e2e6ddfba
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a4d905cc168b6e3a5dd885747f354922
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Resourcex/art/ui/guild/guild_info.prefab
+Dependencies: []

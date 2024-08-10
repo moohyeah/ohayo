@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1672229280
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cd9ee2292d3746448f26f09120819580
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cd9ee2292d3746448f26f09120819580
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guild/contribute/juanxian1.png
+Dependencies: []

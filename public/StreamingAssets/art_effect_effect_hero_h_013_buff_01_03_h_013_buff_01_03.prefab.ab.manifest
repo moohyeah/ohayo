@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3605365159
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c5cc23d466f94b334be72d8f768933ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 72a822151904270b5d47ad467fd09cce
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c5cc23d466f94b334be72d8f768933ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Hero/H_013_Buff_01_03/H_013_Buff_01_03.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_displacement.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_v1.shadergraph.ab

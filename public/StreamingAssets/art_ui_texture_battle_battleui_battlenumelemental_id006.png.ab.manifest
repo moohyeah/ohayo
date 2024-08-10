@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1323515266
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 51b7ac34b091ef5270b72b789add2e27
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 51b7ac34b091ef5270b72b789add2e27
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/battle/battleUI/battleNumElemental_ID006.png
+Dependencies: []

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3864977004
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f097544ef32f028fdd4a2cbce3092980
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f097544ef32f028fdd4a2cbce3092980
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/role/info/c.png
+Dependencies: []

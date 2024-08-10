@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3000133918
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 584da13ae0e27a1b769c17ba5ce8ef8b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 584da13ae0e27a1b769c17ba5ce8ef8b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/equip/filter/selected.png
+Dependencies: []

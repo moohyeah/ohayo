@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 1999399318
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 33c4d73e39a58ab21f7c5a1c161602db
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 033fafe2c9f6c610c3a734393882fd4c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 33c4d73e39a58ab21f7c5a1c161602db
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/atlas/M_02.spriteatlas
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_goods_huajia_1.png.ab

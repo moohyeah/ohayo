@@ -1,0 +1,170 @@
+ManifestFileVersion: 0
+CRC: 3948632523
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fb84ad83b5bf2bc08d6b8b6099bcc1ff
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 36158bbf2affa6c5515d94052f06f737
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fb84ad83b5bf2bc08d6b8b6099bcc1ff
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d84bcd96a9f5249abf1c836cb12e98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbcad84a78c1bc34db2a1b3bd6e1d463, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f82e3222041da424bb850171416a03df, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Dropdown/DropdownEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Dropdown/OptionData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Dropdown/OptionDataList
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Toggle/ToggleEvent
+Assets:
+- Assets/Resourcex/art/ui/build/newMakeCommon.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor_add.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask_add.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_achievement_task_redpoint.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_bigplate.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_detail.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_equipbg.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_equipkuang.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_foodbg.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_iconoutline.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_makebtn.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_namebg1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_selectitem.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_smallplate.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_newmakecommon_title.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_1l.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_2l.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_3.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_3l.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_4.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_4l.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_5.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_5l.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_6.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_6l.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_7.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_icon_3_7l.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_new_kuang2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_build_weaponcommon_new_xuanzhong.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_bg_bigshadow.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_equip_bg.jpg.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_equip_duange.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_equip_infobar.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_equip_star.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_equip_tancuang.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_equip_titlbar.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_goods_icon_gift_item2606.png.ab

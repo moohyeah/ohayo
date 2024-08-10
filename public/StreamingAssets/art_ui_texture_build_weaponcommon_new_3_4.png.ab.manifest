@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3886538051
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d6b2eae332cec8aff0b3e32fc84311fb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d6b2eae332cec8aff0b3e32fc84311fb
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/build/weaponcommon/new/3_4.png
+Dependencies: []

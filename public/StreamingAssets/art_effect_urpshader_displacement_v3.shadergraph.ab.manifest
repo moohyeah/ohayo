@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1053659374
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 59d7e4b90c694706ba45e225e676c087
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 59d7e4b90c694706ba45e225e676c087
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/URPshader/Displacement_V3.shadergraph
+Dependencies: []

@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3307651610
+CRC: 447216155
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: eb48cbd40408c8071ab2965bd7ff9c74
+    Hash: 6c961bc4daa6a2fee9421202bc0e9d5e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9561ca113f4a5e614fbe30c27687cb1a
+    Hash: d88251788447a5224390f3ff64be24fb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6c961bc4daa6a2fee9421202bc0e9d5e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,8 +28,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 49
   Script: {instanceID: 0}
-- Class: 102
-  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
 - Class: 114
@@ -35,19 +36,10 @@ ClassTypes:
   Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
 - Class: 115
   Script: {instanceID: 0}
-- Class: 128
-  Script: {instanceID: 0}
-- Class: 210
-  Script: {instanceID: 0}
-- Class: 212
-  Script: {instanceID: 0}
-- Class: 213
-  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: Assembly-CSharp
   ClassName: Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials
 Assets:
 - Assets/Resourcex/art/smallHero/xiaoren_000/smallHero.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_shader_spine-skeleton-dissolve.shader.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_shader_spine-skeleton-dissolve.shader.ab

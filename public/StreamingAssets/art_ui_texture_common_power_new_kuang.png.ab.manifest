@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3427614857
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 610c35ab8ff669d7c2ade8daef4324a6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 610c35ab8ff669d7c2ade8daef4324a6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/common/power/New/kuang.png
+Dependencies: []

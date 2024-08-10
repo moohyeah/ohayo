@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1143893384
+CRC: 3694361310
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9cc80f3001e646634186b519700b2dff
+    Hash: 678a9f58931765e3ccb900756458b52a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 86aa99686232ae06119afb414db43e35
+    Hash: 3d10b35758d1263415968249162100dc
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 678a9f58931765e3ccb900756458b52a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -37,8 +40,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 019892e8c27859b4484c3814b6ffd5f5, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 221
@@ -51,4 +52,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/monster/M_02_12/M_02_12.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_shader_spine-skeleton-dissolve.shader.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_shader_spine-skeleton-dissolve.shader.ab

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2344711431
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9074bd9d89c4551d1ca9bf5a7ca40184
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9074bd9d89c4551d1ca9bf5a7ca40184
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/goods/icon/gift/item2201.png
+Dependencies: []

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2903598957
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e6a5268ee76c306e328615b414775e4a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e6a5268ee76c306e328615b414775e4a
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hostel/sushezhuye/new/haijing/7.png
+Dependencies: []

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2050403341
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 74eb100c98027170470075e40296dcd6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 74eb100c98027170470075e40296dcd6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/hero/uiskin/35.png
+Dependencies: []

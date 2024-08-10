@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2269961952
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ceb38c88831df4508d9ea7f6630d6429
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ceb38c88831df4508d9ea7f6630d6429
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/hero/icon/20.png
+Dependencies: []

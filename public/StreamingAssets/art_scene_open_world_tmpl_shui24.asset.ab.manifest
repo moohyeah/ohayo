@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 4241443388
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a85c55385b182ab3037f2657e4d6e5b7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 68738882dee87240b4ba7e08831f22ce
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a85c55385b182ab3037f2657e4d6e5b7
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/open_world/tmpl/shui24.asset
+Dependencies: []

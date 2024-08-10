@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3669722386
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a081bd00a2309febc2fa1fd2c9de50b6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a081bd00a2309febc2fa1fd2c9de50b6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guildWar/Log/split.png
+Dependencies: []

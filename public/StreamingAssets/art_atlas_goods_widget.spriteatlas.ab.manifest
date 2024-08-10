@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1247958941
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 96c2e002b1ecccc684ae4b70b4367b04
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 033fafe2c9f6c610c3a734393882fd4c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 96c2e002b1ecccc684ae4b70b4367b04
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/atlas/goods_widget.spriteatlas
+Dependencies: []

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3632294334
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc982450d644d8ace0e1b6b1bf88fb02
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dc982450d644d8ace0e1b6b1bf88fb02
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/hero/assist/29.png
+Dependencies: []

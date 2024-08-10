@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3005118436
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ed581c6a47582d2ae4961aeda7bca0ae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ed581c6a47582d2ae4961aeda7bca0ae
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hostel/sushezhuye/new/ertong/1.png
+Dependencies: []

@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 2716036888
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e7fc63f0048f54800c95748a9b4298a0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce349774771f95dfbad2c991880dccb5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e7fc63f0048f54800c95748a9b4298a0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Scene/Scene_DaMen_Lan_ShaMo/Scene_DaMen_Lan_ShaMo.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_pix.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_fire.shadergraph.ab

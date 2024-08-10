@@ -1,32 +1,35 @@
 ManifestFileVersion: 0
-CRC: 2630233080
+CRC: 3305420839
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 53d2ce80f2fe3d53cfbae457450962f0
+    Hash: b579d713413c1905511d6ee7ce1cdbc6
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 20d52a7670d963c945676e95e361ccd6
+    Hash: 6f20fa2c6356b8ad2a2a1c68758eec84
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b579d713413c1905511d6ee7ce1cdbc6
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -59,11 +62,6 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/mainTown/areaTips.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_build_area_area_1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_build_area_area_3.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_build_area_area_4.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_cancelbtn.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_yesbtngray.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_yesbtngray.png.ab

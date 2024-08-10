@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 264599824
+CRC: 2507890851
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0ddb2c7ca97514ad371e8069676f6920
+    Hash: a9a308a2fbd5d34ed97a77f690215528
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2def0c4ba9a1639d9980de47d6c64b8a
+    Hash: b354bbc489279aaf220359512fcbd5b4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a9a308a2fbd5d34ed97a77f690215528
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,27 +29,27 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 16442d90d6877cb48a7b8bdd966f4743, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 16442d90d6877cb48a7b8bdd966f4743, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fbcad84a78c1bc34db2a1b3bd6e1d463, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -83,23 +86,10 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/UILoading.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_jindutiao2_ui_jiemian_jindutiao2.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_loading_ui_jiemian_loading.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_city_bg_guanchan.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_city_bg_jiuguan.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_city_bg_oldguanchan.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_city_bg_shanhui.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_hypermarket_lottery_bigbg2.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_chouka.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_jiazai_01.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_jiazai_02.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_jiazai_03.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_jiazai_di2.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_jindutiao_di1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_jindutiao_tiao1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_loadingrunner1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_loadingrunner2.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_wechatimg87.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_wechatimg88.jpg.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_loading_wechatimg89.jpg.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_loading_jiazai_di2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_loading_jindutiao_di1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_loading_jindutiao_tiao1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_loading_loadingrunner1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_loading_loadingrunner2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_loading_new_jiazai01.jpg.ab

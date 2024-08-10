@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 4267543131
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0d283171f1675215037098a72878f125
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f73694c1c0bd0fc2d3e4a13d8028abe0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0d283171f1675215037098a72878f125
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_City/UI_ZHUCHENG_YanHua/UI_ZHUCHENG_YanHua.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor_add.shadergraph.ab

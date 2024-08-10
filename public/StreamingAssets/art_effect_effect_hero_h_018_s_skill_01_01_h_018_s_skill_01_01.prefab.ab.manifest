@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 787980858
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 06fee2d7d5b5ad59d1d874adb5d1fdf9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c7c8efd61942f211a296292e3ae40899
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 06fee2d7d5b5ad59d1d874adb5d1fdf9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Hero/H_018_S_Skill_01_01/H_018_S_Skill_01_01.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask_add.shadergraph.ab

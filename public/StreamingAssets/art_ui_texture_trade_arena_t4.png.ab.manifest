@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2593822622
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 755b3f10b7ade38a38b10325baa73492
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 755b3f10b7ade38a38b10325baa73492
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/trade/arena/t4.png
+Dependencies: []

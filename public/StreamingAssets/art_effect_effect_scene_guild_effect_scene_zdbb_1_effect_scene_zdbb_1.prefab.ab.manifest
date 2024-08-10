@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 3373281245
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7d1e610449d921b44ca00e1e13c5e1fe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 72a822151904270b5d47ad467fd09cce
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7d1e610449d921b44ca00e1e13c5e1fe
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Scene/guild/Effect_Scene_ZDBB_1/Effect_Scene_ZDBB_1.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_v1.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_knifelight.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask_add.shadergraph.ab

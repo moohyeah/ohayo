@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1938395487
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d2dd0254788a183fb35d05c6008d07fa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 78388f9569369f0ac69073a37371840b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d2dd0254788a183fb35d05c6008d07fa
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/open_world/tmpl/cao8.asset
+Dependencies: []

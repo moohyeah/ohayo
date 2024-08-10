@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 1405532673
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ab5f226afcd349ce9e7f9b098309002d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 80239485ddd6e212a53fed2554a457b7
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ab5f226afcd349ce9e7f9b098309002d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Scene/judian/Scene_JZW_BUFF_3/Scene_JZW_BUFF_3.prefab
+Dependencies: []

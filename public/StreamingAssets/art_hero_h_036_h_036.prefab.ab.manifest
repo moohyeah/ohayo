@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1983891472
+CRC: 1136891422
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8d27d262d26f458e62954092ca5c553c
+    Hash: e2ad6bc67f29cde1424913dae12f2d14
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6baac6dc2203c66904e2e24f2d3249b9
+    Hash: 768d74f41b0e4f5cb9b7ebfad1d33b0e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e2ad6bc67f29cde1424913dae12f2d14
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,10 +28,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 49
   Script: {instanceID: 0}
-- Class: 54
-  Script: {instanceID: 0}
-- Class: 65
-  Script: {instanceID: 0}
 - Class: 74
   Script: {instanceID: 0}
 - Class: 91
@@ -42,10 +41,20 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 019892e8c27859b4484c3814b6ffd5f5, type: 3}
+  Script: {fileID: 11500000, guid: fbcad84a78c1bc34db2a1b3bd6e1d463, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
 - Class: 221
+  Script: {instanceID: 0}
+- Class: 224
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: Assembly-CSharp
@@ -55,4 +64,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/hero/H_036/H_036.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_shader_spine-skeleton-dissolve.shader.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_shader_spine-skeleton-dissolve.shader.ab

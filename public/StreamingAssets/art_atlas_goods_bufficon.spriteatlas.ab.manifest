@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1281410846
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a45e2d22981b6681c59bebdd7c8ca2ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 033fafe2c9f6c610c3a734393882fd4c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a45e2d22981b6681c59bebdd7c8ca2ac
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/atlas/goods_buffIcon.spriteatlas
+Dependencies: []

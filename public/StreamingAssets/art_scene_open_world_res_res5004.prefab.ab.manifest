@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 999490792
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 57029d42c18416efa7171d2350a08c5c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 026fd4f7ab2b709159c7a2da9d977ea9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 57029d42c18416efa7171d2350a08c5c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/open_world/res/res5004.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab

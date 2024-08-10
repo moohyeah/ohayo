@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1937400527
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0a4008b7e88aa5d577cd256076ed6642
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0a4008b7e88aa5d577cd256076ed6642
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guildWar/Log/33.png
+Dependencies: []

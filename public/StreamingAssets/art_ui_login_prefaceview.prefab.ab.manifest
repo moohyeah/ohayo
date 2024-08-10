@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 939517025
+CRC: 2867137006
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c29a3834eaa0ece8d8f0cdcebd2c80ca
+    Hash: 5019f7a1d2fec37d208062097dac93c6
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f4f18254054043a832e83be7454c14f7
+    Hash: b919975f037fcb60a021ea7634673c68
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5019f7a1d2fec37d208062097dac93c6
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -16,13 +19,13 @@ ClassTypes:
 - Class: 84
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0c0283c9eb16a4a41803563649e5096e, type: 3}
 - Class: 115
@@ -55,5 +58,5 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/login/prefaceView.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_login_movie.rendertexture.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_map_shijieditutiaozheng_fanhui.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_login_movie.rendertexture.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_map_shijieditutiaozheng_fanhui.png.ab

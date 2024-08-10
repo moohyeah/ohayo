@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 2092526434
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 712e3fc91cf27357d43cad1cf08d5e65
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f4fedfd462421a7a0e3cd9420e7adfb9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 712e3fc91cf27357d43cad1cf08d5e65
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_DeBuff/Effect_DeBuff_HongQuan/Effect_DeBuff_HongQuan.prefab
+Dependencies: []

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3182563817
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8c34d547498237d60fb4e2461b463bd5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8c34d547498237d60fb4e2461b463bd5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guildWar/res/r6.png
+Dependencies: []

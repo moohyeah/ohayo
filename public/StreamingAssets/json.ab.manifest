@@ -1,19 +1,23 @@
 ManifestFileVersion: 0
-CRC: 42836813
+CRC: 184358493
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: de0b08330d6455e66020c2400a3c6fd8
+    Hash: d910c82516d852d4d80067cdd2c1c77b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d910c82516d852d4d80067cdd2c1c77b
 HashAppended: 0
 ClassTypes:
 - Class: 49
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resourcex/config/json/gamedef.json.bytes
-- Assets/Resourcex/config/json/atlas.json.bytes
-- Assets/Resourcex/config/json/serverlist.json.bytes
+- Assets/Resourcex/configbytes/json/serverlist.json.bytes
+- Assets/Resourcex/configbytes/json/atlas.json.bytes
+- Assets/Resourcex/configbytes/json/gamedef.json.bytes
+- Assets/Resourcex/configbytes/json/map.json.bytes
 Dependencies: []

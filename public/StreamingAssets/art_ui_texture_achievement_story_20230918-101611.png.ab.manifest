@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1982686477
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 314c7ab4f7e567143c20ca19018420e0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 314c7ab4f7e567143c20ca19018420e0
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/achievement/story/20230918-101611.png
+Dependencies: []

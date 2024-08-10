@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2631617762
+CRC: 3431205241
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 354a29dce0d214658e0510f823220f1d
+    Hash: 79e1ecd9b3c8e671c0f6ff567bcac81d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 3b1c872ed7dee6083199bc6c10ac72b4
+    Hash: 6e18b1bee6829b5f7f3114384b9bb384
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 79e1ecd9b3c8e671c0f6ff567bcac81d
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -17,9 +20,9 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
-- Class: 43
-  Script: {instanceID: 0}
 - Class: 48
+  Script: {instanceID: 0}
+- Class: 60
   Script: {instanceID: 0}
 - Class: 74
   Script: {instanceID: 0}
@@ -28,35 +31,45 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9e643de6b54c1ee4c843467bc32c5d6e, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 0ea4c6a498a1eb646bc78199d35e404e, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+  Script: {fileID: 11500000, guid: 9e643de6b54c1ee4c843467bc32c5d6e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ce671fa9bfb2cd04ea65b910a511be34, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95d84bcd96a9f5249abf1c836cb12e98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0ea4c6a498a1eb646bc78199d35e404e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fbcad84a78c1bc34db2a1b3bd6e1d463, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -74,8 +87,6 @@ ClassTypes:
 - Class: 223
   Script: {instanceID: 0}
 - Class: 224
-  Script: {instanceID: 0}
-- Class: 331
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.CoreModule
@@ -95,22 +106,39 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.Navigation
 - AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
+- AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.SpriteState
 Assets:
 - Assets/Resourcex/art/ui/hostel/PersonalInfoView.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_haogan_ui_jiemian_haogan.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_haoganman_ui_jiemian_haoganman.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_taoyan_ui_jiemian_taoyan.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_wzjy_ui_jiemian_wzjy.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_wztx_ui_jiemian_wztx.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_jiemian_xihuan_ui_jiemian_xihuan.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_sushe_jhts_ui_sushe_jhts.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_ui_sushe_liwu_ui_sushe_liwu.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_help_bighelper.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_help_helper.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_redpoint.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_task_zhujiemian_xinxitishi.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_ertongfang.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_redpoint.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_yesbtngray.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hero_hero_bag_001.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_addfbtn.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_adjustbtn.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_base.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_beijingtiao.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_decoratebg.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_ertong_preview.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_fenhong_preview.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_furniturebg.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_haijing_preview.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_jiantou.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_jiantou1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_peoplebtn.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_renwu1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_renwu2.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_selected.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_shengdan_preview.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_sshuliang.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_title.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_unset.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_xuanzhong.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_hostel_sushezhuye_new_yulam.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_trade_arena_bg.jpg.ab

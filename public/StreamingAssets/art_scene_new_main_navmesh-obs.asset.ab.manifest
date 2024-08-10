@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1068896546
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 45211c84908a267f44a8af1cbeb7f29b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc28b7adf343c0b5d21b44ebc2703253
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 45211c84908a267f44a8af1cbeb7f29b
+HashAppended: 0
+ClassTypes:
+- Class: 238
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/new_main/NavMesh-obs.asset
+Dependencies: []

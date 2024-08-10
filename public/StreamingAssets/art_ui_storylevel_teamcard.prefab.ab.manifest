@@ -1,26 +1,31 @@
 ManifestFileVersion: 0
-CRC: 3864674086
+CRC: 3654333704
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 29ac09fc6d1d5b2a3953aecc34e72509
+    Hash: 0cab7ef2edb72a3414873a352a57b8c5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c971fea314d10928cb10e2245113476e
+    Hash: 93380d164490da95e3eb13488aaf28ac
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0cab7ef2edb72a3414873a352a57b8c5
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 4
   Script: {instanceID: 0}
-- Class: 21
-  Script: {instanceID: 0}
-- Class: 28
-  Script: {instanceID: 0}
-- Class: 48
-  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
 - Class: 114
@@ -28,22 +33,10 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 94d9d821872a35d4a8e0ce728b2fb79b, type: 3}
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
-  Script: {instanceID: 0}
-- Class: 198
-  Script: {instanceID: 0}
-- Class: 199
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
@@ -75,14 +68,5 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/storyLevel/TeamCard.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_effect_rolequality6_rolequality6.prefab.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_storylevel_selectteam_lock.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_storylevel_selectteam_selectbg.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_storylevel_selectteam_slsortgou.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_storylevel_selectteam_tback.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_storylevel_selectteam_tfro.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_storylevel_selectteam_tmid.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_trade_main_duizhan.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_trade_main_herocard.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_touming1.png.ab

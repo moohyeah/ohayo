@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 896906505
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: af959453483661a60cdeef6362361e1f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c7c8efd61942f211a296292e3ae40899
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: af959453483661a60cdeef6362361e1f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Hero/H_007_Skill_03_01/H_007_Skill_03_01.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_v2.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask_add.shadergraph.ab

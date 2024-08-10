@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3252099489
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9313f4f5ffe0d685952f792ea3f93c16
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9313f4f5ffe0d685952f792ea3f93c16
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/URPshader/WaveHD.shadergraph
+Dependencies: []

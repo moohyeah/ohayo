@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 91446094
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c879616ea962424d8d2501c504d63d3d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c879616ea962424d8d2501c504d63d3d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/common/power/NewSprite/wupinkuang5.png
+Dependencies: []

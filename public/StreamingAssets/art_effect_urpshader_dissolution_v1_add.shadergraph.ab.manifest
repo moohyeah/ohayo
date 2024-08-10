@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 4196284245
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb1020e4fbe6f3e1fe79d54a1c03d5da
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: eb1020e4fbe6f3e1fe79d54a1c03d5da
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/URPshader/Dissolution_V1_Add.shadergraph
+Dependencies: []

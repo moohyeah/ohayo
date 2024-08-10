@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 227768910
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8bf47d9a6e34cb66015b1f891805a848
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4b1cc0a09e284db6dc9af64aefd3edd9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8bf47d9a6e34cb66015b1f891805a848
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d566c856d2126874092611ba292024c3, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 156049354
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/survivorBattle/scene/npcState.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_survivor_scene_bloodbar.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_survivor_scene_bloodbarbg.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_survivor_scene_dengji.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_survivor_scene_shield.png.ab

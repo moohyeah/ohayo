@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2354978910
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 01a7a109ecd230071f1ead0cbe4df11d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 01a7a109ecd230071f1ead0cbe4df11d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guild/room/title.png
+Dependencies: []

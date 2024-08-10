@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3381134960
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3703147e92c9cf4b25b1b42b14b72929
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3703147e92c9cf4b25b1b42b14b72929
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hostel/sushezhuye/new/shengdan/8.png
+Dependencies: []

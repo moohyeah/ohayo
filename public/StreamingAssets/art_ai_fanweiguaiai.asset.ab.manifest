@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 466776673
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f9910f00d23fd10b25e3a7c953eb136
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 92e2cea9ea1e4fd953d945d8b9e1fae1
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1f9910f00d23fd10b25e3a7c953eb136
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: b23f08d2ae4cba14087c1ed36193d82b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: BehaviorDesigner.Runtime
+  ClassName: BehaviorDesigner.Runtime.BehaviorSource
+- AssemblyName: BehaviorDesigner.Runtime
+  ClassName: BehaviorDesigner.Runtime.FieldSerializationData
+- AssemblyName: BehaviorDesigner.Runtime
+  ClassName: BehaviorDesigner.Runtime.TaskSerializationData
+Assets:
+- Assets/Resourcex/art/ai/fanweiguaiAI.asset
+Dependencies: []

@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 78663776
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4b60c9e8b28d9e7b4f9dc5545572ff4f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 033fafe2c9f6c610c3a734393882fd4c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4b60c9e8b28d9e7b4f9dc5545572ff4f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/atlas/notice_mainView_New.spriteatlas
+Dependencies: []

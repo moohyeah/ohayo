@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2522669136
+CRC: 2631903684
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 860dd1a17659431cff08a33af744dcd6
+    Hash: 46ee5e9c8ac4b22783ba108c4b7a82e8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f267fd2d8bcb1179236b6179ac5313bc
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 46ee5e9c8ac4b22783ba108c4b7a82e8
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -15,5 +18,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resourcex/art/ui/texture/worldboss/flag.png
+- Assets/Resourcex/art/scene/open_world/sprite/flag.png
 Dependencies: []

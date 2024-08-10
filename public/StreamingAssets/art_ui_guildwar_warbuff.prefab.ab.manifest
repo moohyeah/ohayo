@@ -1,0 +1,76 @@
+ManifestFileVersion: 0
+CRC: 4120342390
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 732bfca63100815ff7e625db23a68b3d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 45349627aac3b2d2fc6586117fcd6282
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 732bfca63100815ff7e625db23a68b3d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/Resourcex/art/ui/guildWar/warBuff.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_common_yesbtn.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_guildwar_buff_20240111-143427.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_guildwar_buff_20240111-143430.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_guildwar_buff_20240111-143433.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_guildwar_buff_20240111-143436.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_guildwar_buff_20240111-143441.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_guildwar_buff_20240111-143448.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_guildwar_buff_20240111-143614.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_guildwar_res_r5.png.ab

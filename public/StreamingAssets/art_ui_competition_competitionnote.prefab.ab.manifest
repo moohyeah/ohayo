@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 427664644
+CRC: 7095865
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e8a1d31b82b67a8a7081b8de26f0d917
+    Hash: 305e96617c41bc57aa6c202c116bfb7a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 0e4599a9f2a40425a946f5c5e8dc5a5f
+    Hash: 009cd8619c3839ff8f655980c59b43ab
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 305e96617c41bc57aa6c202c116bfb7a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -14,25 +17,25 @@ ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+  Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -67,10 +70,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/competition/competitionNote.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_trade_note_bg.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_trade_note_card.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_trade_note_lost.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_trade_note_vs.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_trade_note_win.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1283671641
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0d2ab121bb578d44b8265327770ea1f8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0d2ab121bb578d44b8265327770ea1f8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/common/commonFont/newmake1bg.png
+Dependencies: []

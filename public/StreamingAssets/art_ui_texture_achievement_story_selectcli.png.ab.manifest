@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 683002161
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 04e414f7ff95eb6c8c5ba742e3d78c78
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 04e414f7ff95eb6c8c5ba742e3d78c78
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/achievement/story/selectCli.png
+Dependencies: []

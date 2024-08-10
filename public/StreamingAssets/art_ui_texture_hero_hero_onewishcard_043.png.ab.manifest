@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2284087694
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b38552ee3c7d0d67f47e795b5b785871
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b38552ee3c7d0d67f47e795b5b785871
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hero/hero/onewishcard/043.png
+Dependencies: []

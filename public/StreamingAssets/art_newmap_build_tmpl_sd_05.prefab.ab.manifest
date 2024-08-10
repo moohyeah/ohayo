@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3336861152
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 70dd4245ecf42867949eb567dc627696
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 531e4ea8667daa74559c59200194330b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 70dd4245ecf42867949eb567dc627696
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 00320c6f746c0fe4181e9e18870f2d6c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/newmap/build/tmpl/sd_05.prefab
+Dependencies: []

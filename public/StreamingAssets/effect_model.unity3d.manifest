@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3792070320
+CRC: 708293620
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 37a82bb65db29dfb6cdfe0609a63491e
+    Hash: 5e15bbc694c8150e6373ea0067f44802
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 81fc4833398717ae320ec5bd08c661f4
+    Hash: 0f9fba26cbb38215f317d1fd6b1954a0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5e15bbc694c8150e6373ea0067f44802
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,6 +28,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resourcex/art/effect/H_033_S_Skill_01_02/Sc/H_033_S_Skill_01_02_01.FBX
-- Assets/Resourcex/art/effect/H_033_S_Skill_01_01/Sc/H_033_S_Skill_01_01_02.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_033_S_Skill_01_02/Sc_09/H_033_S_Skill_01_02_01.FBX
+- Assets/Resourcex/art/effect/Effect_Hero/H_033_S_Skill_01_01/Sc/H_033_S_Skill_01_01_02.FBX
 Dependencies: []

@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1618940124
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2b93d6c0336ae7d8880af7e9bea5868a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c7c8efd61942f211a296292e3ae40899
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2b93d6c0336ae7d8880af7e9bea5868a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Hero/H_022_Atk_01_01/H_022_Atk_01_01.prefab
+Dependencies: []

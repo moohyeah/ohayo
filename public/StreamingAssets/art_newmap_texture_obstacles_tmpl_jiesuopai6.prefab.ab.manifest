@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1549353139
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c4c91adb2133fbc80fdc712e80d56cfc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 546dd1bbc1b86691776f24a29a869dff
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c4c91adb2133fbc80fdc712e80d56cfc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 00320c6f746c0fe4181e9e18870f2d6c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/newmap/texture/obstacles/tmpl/jiesuopai6.prefab
+Dependencies: []

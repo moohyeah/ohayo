@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3674890493
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3a17fa26aa00727ccb13d0842cf0500e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 940b1b260c757af7ca49fdfd446b944b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3a17fa26aa00727ccb13d0842cf0500e
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/Materials/jianZhunYuan SDF.mat
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_font_jianzhunyuansdfatlas.png.ab

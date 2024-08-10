@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1783152823
+CRC: 2044608837
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ae4d66f3b0fc4136d07838cfa529fa2c
+    Hash: 4cc271491adac101df8ff8e6da91885e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f267fd2d8bcb1179236b6179ac5313bc
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4cc271491adac101df8ff8e6da91885e
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -16,4 +19,5 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resourcex/art/ui/texture/Loading/update.png
+- Assets/Resources/update.png
 Dependencies: []

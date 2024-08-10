@@ -1,30 +1,29 @@
 ManifestFileVersion: 0
-CRC: 4291861478
+CRC: 3195221922
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c5d08d92caa0e0074ddf1ce6476295e5
+    Hash: ea5da6152b3030e23a357a42afdd1b75
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 01e1dd6801da37d1da0bba9758634c9c
+    Hash: dd9dafa9dbfc5953fb7b5a28dd4b08cb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ea5da6152b3030e23a357a42afdd1b75
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
-- Class: 21
-  Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
-- Class: 48
-  Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -59,4 +58,5 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/login/iosLogin.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_wx.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_wx.png.ab

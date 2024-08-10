@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 256841326
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 239c99c8c7af7d507259eaf3dc6c0a94
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 239c99c8c7af7d507259eaf3dc6c0a94
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guild/list/anniu2.png
+Dependencies: []

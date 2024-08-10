@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 3471372205
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7b62cd11b6267dfd04cd4b05035ebed1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f4fedfd462421a7a0e3cd9420e7adfb9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7b62cd11b6267dfd04cd4b05035ebed1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_UI/chouka/Effect_UI_ChouKa_FanPai/Effect_UI_ChouKa_FanPai.prefab
+Dependencies: []

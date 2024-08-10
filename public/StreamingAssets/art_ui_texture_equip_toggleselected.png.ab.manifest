@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1968161659
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8fa59e37dacfb14475e5c3945b115e36
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8fa59e37dacfb14475e5c3945b115e36
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/equip/toggleSelected.png
+Dependencies: []

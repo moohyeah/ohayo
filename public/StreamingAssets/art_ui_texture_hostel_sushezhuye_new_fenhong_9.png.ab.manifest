@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 551335170
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3da509f3d7d41482eedc27d080d16f25
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3da509f3d7d41482eedc27d080d16f25
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hostel/sushezhuye/new/fenhong/9.png
+Dependencies: []

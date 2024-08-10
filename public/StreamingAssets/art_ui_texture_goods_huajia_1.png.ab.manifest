@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2938207604
+CRC: 3678774691
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9d68329b760d8741bda8456a1ea9c9f1
+    Hash: 79f182237148cfb2ea432c3d211aa0f4
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f267fd2d8bcb1179236b6179ac5313bc
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 79f182237148cfb2ea432c3d211aa0f4
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -15,5 +18,86 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resourcex/art/ui/texture/goods/huajia/1.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_dead/M_01_02_dead_05.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Stand_01/M_02_02_Stand_01_03.png
+- Assets/Resourcex/art/ui/Materials/tex/wavePush.jpg
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_02.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Stand_01/M_01_02_Stand_01_09.png
+- Assets/Resourcex/art/ui/Materials/tex/buling.jpg
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Stand_01/M_01_02_Stand_01_03.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_06.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_dead/M_02_02_dead_00.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_dead/M_02_02_dead_04.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_11.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_08.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_dead/M_02_02_dead_01.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Stand_01/M_02_02_Stand_01_00.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_paobu/M_02_02_paobu_3.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_paobu/M_02_02_paobu_0.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_03.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_paobu/M_01_02_paobu_0.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_dead/M_01_02_dead_06.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_09.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_07.png
+- Assets/Resourcex/art/hero/H_000/xiaoren001.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_dead/M_01_02_dead_00.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Stand_01/M_01_02_Stand_01_01.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_dead/M_01_02_dead_08.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Atk_01/M_01_02_Atk_01_06.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Atk_01/M_01_02_Atk_01_01.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_paobu/M_02_02_paobu_4.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Stand_01/M_02_02_Stand_01_07.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_dead/M_01_02_dead_10.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Stand_01/M_01_02_Stand_01_04.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Atk_01/M_01_02_Atk_01_02.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Atk_01/M_01_02_Atk_01_07.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Atk_01/M_01_02_Atk_01_05.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_04.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_dead/M_02_02_dead_08.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Stand_01/M_02_02_Stand_01_01.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_dead/M_01_02_dead_03.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_paobu/M_02_02_paobu_2.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Stand_01/M_01_02_Stand_01_06.png
+- Assets/Resourcex/art/ui/Materials/tex/face2.jpg
+- Assets/Resourcex/art/ui/Materials/tex/foam.jpg
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Stand_01/M_01_02_Stand_01_08.png
+- Assets/Resourcex/art/ui/Materials/tex/perlinNoise.jpg
+- Assets/Resourcex/art/ui/Materials/tex/imgBg.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Stand_01/M_02_02_Stand_01_06.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_dead/M_01_02_dead_04.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_paobu/M_02_02_paobu_1.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Stand_01/M_02_02_Stand_01_04.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_10.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Stand_01/M_01_02_Stand_01_07.png
+- Assets/Resourcex/art/ui/Materials/tex/wavePush2.jpg
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_paobu/M_01_02_paobu_2.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_01.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Atk_01/M_01_02_Atk_01_08.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Stand_01/M_02_02_Stand_01_02.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Atk_01/M_01_02_Atk_01_04.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_paobu/M_01_02_paobu_3.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Atk_01/M_01_02_Atk_01_00.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_dead/M_02_02_dead_02.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Stand_01/M_02_02_Stand_01_05.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_dead/M_02_02_dead_03.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_dead/M_01_02_dead_01.png
+- Assets/Resourcex/art/ui/Materials/tex/snowTex.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Atk_01/M_01_02_Atk_01_03.png
+- Assets/Resourcex/art/ui/Materials/tex/noise.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Atk_01/M_01_02_Atk_01_09.png
+- Assets/Resourcex/art/ui/Materials/tex/mapMainTex.jpg
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_paobu/M_01_02_paobu_5.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_05.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_paobu/M_02_02_paobu_5.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Stand_01/M_01_02_Stand_01_05.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_dead/M_02_02_dead_05.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_dead/M_01_02_dead_02.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Stand_01/M_01_02_Stand_01_00.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_Stand_01/M_01_02_Stand_01_02.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_dead/M_02_02_dead_09.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_paobu/M_01_02_paobu_1.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_Atk_01/M_02_02_Atk_01_00.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_dead/M_02_02_dead_07.png
+- Assets/Resourcex/art/heroSp/M_01_02/M_01_02_paobu/M_01_02_paobu_4.png
+- Assets/Resourcex/art/heroSp/M_02_02/M_02_02_dead/M_02_02_dead_06.png
 Dependencies: []

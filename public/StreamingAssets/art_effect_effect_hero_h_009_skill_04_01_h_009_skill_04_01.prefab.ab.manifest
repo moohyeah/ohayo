@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 661638043
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 20181ce5cc3825e3751ceaa560f3b5a2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5afb91e95595e618de920d8c4617372c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 20181ce5cc3825e3751ceaa560f3b5a2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Hero/H_009_Skill_04_01/H_009_Skill_04_01.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor_add.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_v1.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_v2.shadergraph.ab

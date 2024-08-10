@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2702868555
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 45efaf2692165d8576b7dab6e405eefc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 45efaf2692165d8576b7dab6e405eefc
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hostel/sushezhuye/new/peopleBtn.png
+Dependencies: []

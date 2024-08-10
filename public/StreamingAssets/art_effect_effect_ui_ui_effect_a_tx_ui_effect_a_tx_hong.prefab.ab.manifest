@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 3458450335
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3540bb3760d98bc9577e9c6f57323052
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 68a084b45eddbcc50808c314efdce4f0
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3540bb3760d98bc9577e9c6f57323052
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_UI/UI_effect_A_TX/UI_effect_A_TX_Hong.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor_add.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_texie.shadergraph.ab

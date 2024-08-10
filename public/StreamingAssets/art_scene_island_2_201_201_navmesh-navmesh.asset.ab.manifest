@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 421135343
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e0e7bacbd0598fa0458ad4ed17cfe331
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc28b7adf343c0b5d21b44ebc2703253
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e0e7bacbd0598fa0458ad4ed17cfe331
+HashAppended: 0
+ClassTypes:
+- Class: 238
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/island/2/201/201/NavMesh-NavMesh.asset
+Dependencies: []

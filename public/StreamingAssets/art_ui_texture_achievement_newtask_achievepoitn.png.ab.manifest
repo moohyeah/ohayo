@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3050621921
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1286c6474b1ab70270cca1710862f253
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1286c6474b1ab70270cca1710862f253
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/achievement/newTask/achievePoitn.png
+Dependencies: []

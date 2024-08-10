@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1106374160
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9fbc23924f60c8bc2072a14b8190f3a8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ef2c623fa82c6e12dda1cb16b50ea5c1
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9fbc23924f60c8bc2072a14b8190f3a8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/survivorBattle/scene/damText.prefab
+Dependencies: []

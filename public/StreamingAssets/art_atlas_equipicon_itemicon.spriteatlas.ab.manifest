@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1885740929
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f9bac34db7e0ade5452a3fa091363de9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 033fafe2c9f6c610c3a734393882fd4c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f9bac34db7e0ade5452a3fa091363de9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/atlas/equipicon_itemicon.spriteatlas
+Dependencies: []

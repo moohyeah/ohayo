@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 4107017836
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3e1dd9e25342ab30232213324dd2e561
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c7c8efd61942f211a296292e3ae40899
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3e1dd9e25342ab30232213324dd2e561
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Monster/M_06_16_Skill_01_02/M_06_16_Skill_01_02.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_v1_add.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_dissolution_v2.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask_add.shadergraph.ab

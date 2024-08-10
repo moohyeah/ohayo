@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 2991917476
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ebbd6746bb780ecd582f51bbf5685e12
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9838d6d81319a57e8e1fe23d674a4563
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ebbd6746bb780ecd582f51bbf5685e12
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_UI/UI_ZDSL_DJ/UI_ZDSL_DJ.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor_add.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_mask_add.shadergraph.ab

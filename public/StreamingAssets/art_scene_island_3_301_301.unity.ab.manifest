@@ -1,0 +1,84 @@
+ManifestFileVersion: 0
+CRC: 1821619474
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 95f06ce253207c967abed4a45e1445b3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d154fd005ab410fcb4681cbd16be1b3e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 95f06ce253207c967abed4a45e1445b3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 66
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6fec7b7904f76c4498a68fd145934563, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e04976799df50f54ba128eff723155a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 70bd44a44cd62c64fbfc1eea95b24880, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b1ff364847843a18a79d7eab6624348, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 238
+  Script: {instanceID: 0}
+- Class: 19719996
+  Script: {instanceID: 0}
+- Class: 156049354
+  Script: {instanceID: 0}
+- Class: 483693784
+  Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
+- Class: 1839735485
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/island/3/301/301.unity
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_0.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_newmap_texture_foundation_tmpl_gray.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_scene_island_3_301_301_navmesh-navmesh.asset.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_survivorbattle_level_level.prefab.ab

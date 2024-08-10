@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3313822754
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9ec40520fc3ce16130c3d0f00f2ff8df
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9ec40520fc3ce16130c3d0f00f2ff8df
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/role/9.png
+Dependencies: []

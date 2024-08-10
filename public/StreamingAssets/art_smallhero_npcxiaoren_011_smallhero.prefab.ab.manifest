@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 566754884
+CRC: 3461018586
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6ce06f1a9fa1638e77467ac1035eff24
+    Hash: d9b4ec11268b0dc82fff565c105fcfff
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c1a9b7a0f854910a105423202d891093
+    Hash: 5dcb9672d5478ed765e383fb1527ab0a
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d9b4ec11268b0dc82fff565c105fcfff
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -53,4 +56,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/smallHero/npcxiaoren_011/smallHero.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_shader_spine-skeleton-dissolve.shader.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_shader_spine-skeleton-dissolve.shader.ab

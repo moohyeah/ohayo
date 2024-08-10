@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 4137141065
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 23ff33bb755f126d2a9865ac542fb565
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 23ff33bb755f126d2a9865ac542fb565
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/hostel/sushezhuye/new/4.png
+Dependencies: []

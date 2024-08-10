@@ -1,30 +1,33 @@
 ManifestFileVersion: 0
-CRC: 2642259125
+CRC: 941463848
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2d48a7f114330942b5af7ccdee44ee57
+    Hash: cd66af723d793b66e62cbde0f6b5107f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 418019db3cf263d63287979a80c2b37b
+    Hash: 37da1bea34747698edf5417e98837195
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cd66af723d793b66e62cbde0f6b5107f
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 49d79b8a7574534469d9cf547fa47b7b, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -57,13 +60,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/activity/moonCard.prefab
 Dependencies:
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_font_jzy.ttf.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_mooncard_bg.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_mooncard_goumai.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_mooncard_ka1.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_mooncard_ka1btn.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_mooncard_ka2.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_mooncard_kabg.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_activity_mooncard_youxiao.png.ab
-- E:/canlan_online_nftweb/Assets/StreamingAssets/art_ui_texture_common_daoju_zuanshi1.png.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab

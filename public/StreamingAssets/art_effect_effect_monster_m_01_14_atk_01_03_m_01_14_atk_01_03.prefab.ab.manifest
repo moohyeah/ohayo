@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3992352601
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1b12e6c8cb812d7e61265011eda1bcd2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 72a822151904270b5d47ad467fd09cce
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1b12e6c8cb812d7e61265011eda1bcd2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Monster/M_01_14_Atk_01_03/M_01_14_Atk_01_03.prefab
+Dependencies: []

@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 2928949729
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9b2c9dec0051a3b35b465fa66b1ecbca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac557cf12a3973db508a9d906b3a32d7
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9b2c9dec0051a3b35b465fa66b1ecbca
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/open_world/res/res5001.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_ui_texture_guildwar_txtbg2.png.ab

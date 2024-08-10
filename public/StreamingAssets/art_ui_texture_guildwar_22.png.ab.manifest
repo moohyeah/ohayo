@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3076362422
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1ba718f39cefd37d8868cb2c60176a1d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1ba718f39cefd37d8868cb2c60176a1d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guildWar/22.png
+Dependencies: []

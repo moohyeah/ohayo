@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3810210656
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 71de0a05dc71ec98e2bdaf7d06ad9b72
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 72a822151904270b5d47ad467fd09cce
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 71de0a05dc71ec98e2bdaf7d06ad9b72
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/Effect_Monster/M_02_12_Atk_01_03/M_02_12_Atk_01_03_Max12.prefab
+Dependencies:
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor.shadergraph.ab
+- E:/canlan_online_web/Assets/StreamingAssets/art_effect_urpshader_basecolor_add.shadergraph.ab

@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 2888905551
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f551ba39d5d52dc7ca058deda03dbf6b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 676a9a58d08919ce41835839c8ad735c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f551ba39d5d52dc7ca058deda03dbf6b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/open_world/tile/zf.asset
+Dependencies: []

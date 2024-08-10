@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3002097667
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9d74ad3992de0a3e93aa5e54ad6d166b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9d74ad3992de0a3e93aa5e54ad6d166b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guild/list/bg2.png
+Dependencies: []

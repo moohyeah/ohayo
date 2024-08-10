@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2309740404
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9ae84401331d7a4452081baf776da7ba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9ae84401331d7a4452081baf776da7ba
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guild/assist/n.png
+Dependencies: []

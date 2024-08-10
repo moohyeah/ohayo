@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3695255262
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 31509b81a1a0ffbbf41c7a62fa3f2d99
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 31509b81a1a0ffbbf41c7a62fa3f2d99
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/URPshader/TeXie.shadergraph
+Dependencies: []

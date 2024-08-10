@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 920884862
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5dca25eac4c93a40ae691d1a71a819af
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5dca25eac4c93a40ae691d1a71a819af
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/guild/20231229-194355.jpg
+Dependencies: []
