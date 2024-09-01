@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4282333253
+CRC: 2763426080
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -20092,3 +20092,35 @@ AssetBundleManifest:
         Dependency_0: art_effect_urpshader_basecolor.shadergraph.ab
         Dependency_1: art_effect_urpshader_flipbook.shadergraph.ab
         Dependency_2: art_effect_urpshader_basecolor_add.shadergraph.ab
+    Info_5554:
+      Name: art_ui_mtrade_nftshop.prefab.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_equip_headicon.png.ab
+        Dependency_1: art_ui_font_jianzhunyuan.ttf.ab
+        Dependency_2: art_ui_texture_guild_bg.jpg.ab
+        Dependency_3: art_ui_texture_common_touming1.png.ab
+        Dependency_4: art_ui_texture_hero_hero_rankicon_001.png.ab
+        Dependency_5: art_ui_texture_trade_nft_b.png.ab
+        Dependency_6: art_ui_texture_trade_nft_bg1.png.ab
+        Dependency_7: art_ui_texture_trade_nft_it.png.ab
+        Dependency_8: art_ui_texture_trade_nft_sl.png.ab
+        Dependency_9: art_ui_texture_trade_nft_t.png.ab
+        Dependency_10: art_ui_texture_trade_nft_y.png.ab
+    Info_5555:
+      Name: art_ui_texture_trade_nft_b.png.ab
+      Dependencies: {}
+    Info_5556:
+      Name: art_ui_texture_trade_nft_bg1.png.ab
+      Dependencies: {}
+    Info_5557:
+      Name: art_ui_texture_trade_nft_it.png.ab
+      Dependencies: {}
+    Info_5558:
+      Name: art_ui_texture_trade_nft_sl.png.ab
+      Dependencies: {}
+    Info_5559:
+      Name: art_ui_texture_trade_nft_t.png.ab
+      Dependencies: {}
+    Info_5560:
+      Name: art_ui_texture_trade_nft_y.png.ab
+      Dependencies: {}

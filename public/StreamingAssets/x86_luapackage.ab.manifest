@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3476374031
+CRC: 3071884721
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dc0d900a20139dc4e331673c4886902e
+    Hash: 1fab0f3bad83c3a9e18a742f4dbaaf97
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: dc0d900a20139dc4e331673c4886902e
+    Hash: 1fab0f3bad83c3a9e18a742f4dbaaf97
 HashAppended: 0
 ClassTypes:
 - Class: 49
@@ -201,6 +201,7 @@ Assets:
 - Assets/Resourcex/luabytes/survivorBattle/Npc/SrTeamNpc.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/survivor/UISrBattleSuccess.lua.x86.bytes
 - Assets/Resourcex/luabytes/survivorBattle/ai/BehaviorManager.lua.x86.bytes
+- Assets/Resourcex/luabytes/ui/trade/NFTShopView.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/islands/UIPvpReady.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/friend/FriendWidget.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/activity/SelectGift.lua.x86.bytes
@@ -415,6 +416,7 @@ Assets:
 - Assets/Resourcex/luabytes/survivorBattle/servers/event/SSrSceneEventMgr.lua.x86.bytes
 - Assets/Resourcex/luabytes/survivorBattle/servers/bullet/SSrBulletFly.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/guild/GuildMgrView.lua.x86.bytes
+- Assets/Resourcex/luabytes/ui/trade/NftShopWidget.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/trade/TradeView.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/storyLevel/LevelList.lua.x86.bytes
 - Assets/Resourcex/luabytes/mgr/GuideMgr.lua.x86.bytes

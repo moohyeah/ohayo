@@ -69,7 +69,7 @@ function HomePage() {
       window.removeEventListener("GameLogin", handleGameLogin);
     };
   }, [handleGameLogin])
-
+                        
   return (
     <>
     <Unity></Unity>

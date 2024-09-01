@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3194083491
+CRC: 3300304686
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c1665529adf0a1bf7a8aaf50281c59b8
+    Hash: 4e9a9779091d41b6c088b8f8534e0a1e
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c1665529adf0a1bf7a8aaf50281c59b8
+    Hash: 4e9a9779091d41b6c088b8f8534e0a1e
 HashAppended: 0
 ClassTypes:
 - Class: 49
@@ -355,6 +355,7 @@ Assets:
 - Assets/Resourcex/luabytes/ui/common/UICommonYesBox.lua.x64.bytes
 - Assets/Resourcex/luabytes/survivorBattle/Cfg/Nav/nav1204.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/award/TaskView.lua.x64.bytes
+- Assets/Resourcex/luabytes/ui/trade/NftShopWidget.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/task/UIGoodsTasks.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/main/UISalingItem.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/activity/actCun/ActNian.lua.x64.bytes
@@ -604,6 +605,7 @@ Assets:
 - Assets/Resourcex/luabytes/ui/role/widget/RoleUpEq.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/mission/BusinessmanMarketWidget.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/main/UISrMapMain.lua.x64.bytes
+- Assets/Resourcex/luabytes/ui/trade/NFTShopView.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/chat/ChatWidget.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/hypermarket/lottery/DrawCardView.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/build/NewFoodCommonItem.lua.x64.bytes
