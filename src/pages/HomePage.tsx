@@ -1,20 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useKeylessAccounts } from "../core/useKeylessAccounts";
-import { useState, useEffect, useCallback } from 'react';
-
-function useExternalScripts({ url } : {url : string}){
-  useEffect(() => {
-    const head = document.querySelector("head");
-    const script = document.createElement("script");
-
-    script.setAttribute("src", url);
-    head?.appendChild(script);
-
-    return () => {
-      head?.removeChild(script);
-    };
-  }, [url]);
-};
+import { useEffect, useCallback } from 'react';
 
 function Unity() {
   return (
@@ -43,12 +29,21 @@ function HomePage() {
 
   useEffect(() => {
     if (!activeAccount) navigate("/");
-    else useExternalScripts({url : "/Build/init.js" });
+    else {
+      const head = document.querySelector("head");
+      const script = document.createElement("script");
+
+      script.setAttribute("src", "./Build/init.js");
+      head?.appendChild(script);
+
+      return () => {
+        head?.removeChild(script);
+      };
+    }
   }, [activeAccount, navigate]);
 
   const handleGameLogin = useCallback(()=>{
     const account = activeAccount?.accountAddress.toString();
-    console.log("======account" + account);
     (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify({account:account, token:account}))
   }, []);
 

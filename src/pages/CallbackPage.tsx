@@ -22,6 +22,7 @@ function CallbackPage() {
         await switchKeylessAccount(idToken);
         navigate("/home");
       } catch (error) {
+        console.error(error);
         navigate("/");
       }
     }
