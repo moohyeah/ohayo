@@ -6,6 +6,7 @@ import {
   EphemeralKeyPair,
   KeylessAccount,
   ProofFetchStatus,
+  GetAccountOwnedTokensFromCollectionResponse,
 } from "@aptos-labs/ts-sdk";
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
@@ -18,6 +19,7 @@ import {
 } from "./ephemeral";
 import { EncryptedScopedIdToken } from "./types";
 import { KeylessAccountEncoding, validateKeylessAccount } from "./keyless";
+import { NftCollectionAddr } from "./constants";
 
 interface KeylessAccountsState {
   accounts: {
@@ -59,12 +61,18 @@ interface KeylessAccountsActions {
   switchKeylessAccount: (
     idToken: string
   ) => Promise<KeylessAccount | undefined>;
+  
   /**
    * 转移 NFT 到指定接收者
    * @param tokenId - NFT 的 token ID
    * @param recipient - 接收者的地址
    */
   transferNft: (tokenId: string, recipient: string) => Promise<string>;
+  /**
+   * 获取玩家nft
+   */
+  getNfts: () => Promise<GetAccountOwnedTokensFromCollectionResponse>;
+  
 }
 
 const storage = createJSONStorage<KeylessAccountsState>(() => localStorage, {
@@ -199,6 +207,14 @@ export const useKeylessAccounts = create<
           const committedTxn = await devnetClient.signAndSubmitTransaction({ signer: activeAccount, transaction: transferTransaction });
           await devnetClient.waitForTransaction({ transactionHash: committedTxn.hash });
           return committedTxn.hash;
+        },
+        getNfts : async() => {
+          const activeAccount = get().activeAccount;
+          if (!activeAccount) {
+            throw new Error("transferNft: 未找到活跃账户");
+          }
+          const assets = devnetClient.getAccountOwnedTokensFromCollectionAddress({accountAddress:activeAccount.accountAddress, collectionAddress: AccountAddress.fromString(NftCollectionAddr)})
+          return assets;
         },
       } satisfies KeylessAccountsActions),
     }),

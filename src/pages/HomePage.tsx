@@ -26,7 +26,7 @@ function Unity() {
 function HomePage() {
   const navigate = useNavigate();
 
-  const { activeAccount, disconnectKeylessAccount, transferNft } = useKeylessAccounts();
+  const { activeAccount, disconnectKeylessAccount, transferNft, getNfts } = useKeylessAccounts();
 
   useEffect(() => {
     if (!activeAccount) navigate("/");
@@ -52,10 +52,16 @@ function HomePage() {
     disconnectKeylessAccount()
   }, []);
 
-  const handleNFtBurn = useCallback((evt : any)=>{
+  const handleNFtBurn = useCallback(async (evt : any) => {
     const {tokenId} = evt.detail;
-    transferNft(tokenId, adminAdress);
-  }, []);
+    const hash = await transferNft(tokenId, adminAdress);
+    console.log(`transferNft Finish: ${hash}`)
+  }, [transferNft]);
+
+  const handleGetNfts = useCallback(async () => {
+    const nfts = await getNfts();
+    (window as any).unityInstance.SendMessage("MainController", "OnNftListMsg", JSON.stringify(nfts))
+  }, [getNfts]);
 
   useEffect(()=>{
     window.addEventListener("GameLogout", handleGameLogout);
@@ -77,6 +83,13 @@ function HomePage() {
       window.removeEventListener("NFTBurn", handleNFtBurn);
     };
   }, [handleNFtBurn])
+
+  useEffect(()=>{
+    window.addEventListener("NFTList", handleGetNfts);
+    return ()=> {
+      window.removeEventListener("NFTList", handleGetNfts);
+    };
+  }, [handleGetNfts])
                         
   return (
     <>
