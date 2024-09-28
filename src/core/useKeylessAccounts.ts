@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import {
+  AccountAddress,
   EphemeralKeyPair,
   KeylessAccount,
   ProofFetchStatus,
@@ -58,6 +59,12 @@ interface KeylessAccountsActions {
   switchKeylessAccount: (
     idToken: string
   ) => Promise<KeylessAccount | undefined>;
+  /**
+   * 转移 NFT 到指定接收者
+   * @param tokenId - NFT 的 token ID
+   * @param recipient - 接收者的地址
+   */
+  transferNft: (tokenId: string, recipient: string) => Promise<string>;
 }
 
 const storage = createJSONStorage<KeylessAccountsState>(() => localStorage, {
@@ -178,6 +185,20 @@ export const useKeylessAccounts = create<
           });
 
           return activeAccount;
+        },
+        transferNft: async (tokenId: string, recipient: string) => {
+          const activeAccount = get().activeAccount;
+          if (!activeAccount) {
+            throw new Error("transferNft: 未找到活跃账户");
+          }
+          const transferTransaction = await devnetClient.transferDigitalAssetTransaction({
+            sender: activeAccount,
+            digitalAssetAddress: tokenId,
+            recipient: AccountAddress.fromString(recipient),
+          });
+          const committedTxn = await devnetClient.signAndSubmitTransaction({ signer: activeAccount, transaction: transferTransaction });
+          await devnetClient.waitForTransaction({ transactionHash: committedTxn.hash });
+          return committedTxn.hash;
         },
       } satisfies KeylessAccountsActions),
     }),

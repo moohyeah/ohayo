@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useKeylessAccounts } from "../core/useKeylessAccounts";
 import { useEffect, useCallback } from 'react';
+import { adminAdress } from "../core/constants";
 
 function Unity() {
   return (
@@ -25,7 +26,7 @@ function Unity() {
 function HomePage() {
   const navigate = useNavigate();
 
-  const { activeAccount, disconnectKeylessAccount } = useKeylessAccounts();
+  const { activeAccount, disconnectKeylessAccount, transferNft } = useKeylessAccounts();
 
   useEffect(() => {
     if (!activeAccount) navigate("/");
@@ -51,6 +52,11 @@ function HomePage() {
     disconnectKeylessAccount()
   }, []);
 
+  const handleNFtBurn = useCallback((evt : any)=>{
+    const {tokenId} = evt.detail;
+    transferNft(tokenId, adminAdress);
+  }, []);
+
   useEffect(()=>{
     window.addEventListener("GameLogout", handleGameLogout);
     return ()=> {
@@ -64,6 +70,13 @@ function HomePage() {
       window.removeEventListener("GameLogin", handleGameLogin);
     };
   }, [handleGameLogin])
+
+  useEffect(()=>{
+    window.addEventListener("NFTBurn", handleNFtBurn);
+    return ()=> {
+      window.removeEventListener("NFTBurn", handleNFtBurn);
+    };
+  }, [handleNFtBurn])
                         
   return (
     <>

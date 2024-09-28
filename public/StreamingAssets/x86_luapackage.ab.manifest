@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3071884721
+CRC: 2770850220
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1fab0f3bad83c3a9e18a742f4dbaaf97
+    Hash: 3cfc8c29cf94dd651f502d3daed1c9f5
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 1fab0f3bad83c3a9e18a742f4dbaaf97
+    Hash: 3cfc8c29cf94dd651f502d3daed1c9f5
 HashAppended: 0
 ClassTypes:
 - Class: 49
@@ -489,6 +489,7 @@ Assets:
 - Assets/Resourcex/luabytes/ui/common/UIHelpTipsPlus.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/survivor/UISrMap.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/role/widget/EqBagItem.lua.x86.bytes
+- Assets/Resourcex/luabytes/mgr/NftMgr.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/mission/UIMissions.lua.x86.bytes
 - Assets/Resourcex/luabytes/system/build/TownMgr.lua.x86.bytes
 - Assets/Resourcex/luabytes/ui/item/ItemGestureHandler.lua.x86.bytes

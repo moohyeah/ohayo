@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3300304686
+CRC: 2715050920
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4e9a9779091d41b6c088b8f8534e0a1e
+    Hash: 70a3b3c898176810d5875a1ac727bec8
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 4e9a9779091d41b6c088b8f8534e0a1e
+    Hash: 70a3b3c898176810d5875a1ac727bec8
 HashAppended: 0
 ClassTypes:
 - Class: 49
@@ -551,6 +551,7 @@ Assets:
 - Assets/Resourcex/luabytes/ui/storyLevel/widget/LevelListItem.lua.x64.bytes
 - Assets/Resourcex/luabytes/survivorBattle/buff/SrBuffLoop.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/role/widget/RoleUpStair.lua.x64.bytes
+- Assets/Resourcex/luabytes/mgr/NftMgr.lua.x64.bytes
 - Assets/Resourcex/luabytes/survivorBattle/servers/bullet/SSrBulletMgr.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/survivor/UISurvivorRoleInfoView.lua.x64.bytes
 - Assets/Resourcex/luabytes/ui/mission/UITaskInfo.lua.x64.bytes

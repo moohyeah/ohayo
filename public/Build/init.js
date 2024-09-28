@@ -86,8 +86,8 @@ function initGame() {
     // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
     var height = window.innerHeight;
     var width = window.innerWidth;
-    var defaultHeight = 960;
-    var defaultWidth = 600;
+    var defaultHeight = 1280;
+    var defaultWidth = 720;
     
     var h = defaultHeight;
     var w = defaultWidth;
