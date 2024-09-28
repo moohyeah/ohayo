@@ -60,7 +60,12 @@ function HomePage() {
 
   const handleGetNfts = useCallback(async () => {
     const nfts = await getNfts();
-    (window as any).unityInstance.SendMessage("MainController", "OnNftListMsg", JSON.stringify(nfts))
+    const formattedNfts = nfts.map(nft => ({
+      token_id: nft.token_data_id,
+      property: nft.current_token_data?.token_properties
+    }));
+    console.log('格式化的NFT列表:', formattedNfts);
+    (window as any).unityInstance.SendMessage("MainController", "OnNftListMsg", JSON.stringify(formattedNfts))
   }, [getNfts]);
 
   useEffect(()=>{
