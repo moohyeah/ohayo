@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1422695035
+CRC: 217231600
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8f0c4d17e3076137ccb70d22031141e0
+    Hash: 015c2f33e3c7ba5fa37c584cce225cfd
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d30a0df5b4093b9f7c44e76965736230
+    Hash: 9c862a6e2e842aa4727e9197b0b92b53
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 8f0c4d17e3076137ccb70d22031141e0
+    Hash: 015c2f33e3c7ba5fa37c584cce225cfd
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -20,127 +20,31 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
-- Class: 23
-  Script: {instanceID: 0}
 - Class: 28
-  Script: {instanceID: 0}
-- Class: 33
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
-- Class: 49
-  Script: {instanceID: 0}
 - Class: 58
-  Script: {instanceID: 0}
-- Class: 74
   Script: {instanceID: 0}
 - Class: 81
   Script: {instanceID: 0}
 - Class: 82
-  Script: {instanceID: 0}
-- Class: 83
-  Script: {instanceID: 0}
-- Class: 91
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
 - Class: 104
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: f9db98c60740638449864eb028fbe7ad, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: fbcad84a78c1bc34db2a1b3bd6e1d463, type: 3}
-- Class: 115
-  Script: {instanceID: 0}
 - Class: 157
   Script: {instanceID: 0}
 - Class: 196
   Script: {instanceID: 0}
-- Class: 198
-  Script: {instanceID: 0}
-- Class: 199
-  Script: {instanceID: 0}
 - Class: 212
-  Script: {instanceID: 0}
-- Class: 213
-  Script: {instanceID: 0}
-- Class: 221
   Script: {instanceID: 0}
 - Class: 224
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - "Assets/BattleTest/\u6D4B\u8BD5\u573A\u666F.unity"
-Dependencies:
-- E:/canlan_online_web/Assets/StreamingAssets/art_audio_heroskill_m_01_10_atk_01.ogg.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_001_h_001.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_002_h_002.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_003_h_003.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_004_h_004.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_005_h_005.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_007_h_007.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_008_h_008.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_009_h_009.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_010_h_010.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_011_h_011.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_012_h_012.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_013_h_013.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_014_h_014.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_015_h_015.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_016_h_016.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_017_h_017.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_018_h_018.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_019_h_019.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_020_h_020.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_021_h_021.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_022_h_022.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_023_h_023.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_026_h_026.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_027_h_027.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_028_h_028.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_029_h_029.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_030_h_030.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_031_h_031.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_033_h_033.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_036_h_036.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_038_h_038.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_041_h_041.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_hero_h_043_h_043.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_herosp_m_01_00_hero.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_herosp_m_01_02_hero.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_herosp_m_01_04_hero.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_herosp_m_01_05_hero.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_herosp_m_01_07_hero.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_herosp_m_01_10_hero.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_01_01_m_01_01.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_01_02_m_01_02.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_01_04_m_01_04.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_01_05_m_01_05.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_01_07_m_01_07.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_01_10_m_01_10.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_01_14_m_01_14.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_01_16_m_01_16.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_02_02_m_02_02.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_02_05_m_02_05.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_02_08_m_02_08.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_02_10_m_02_10.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_02_12_m_02_12.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_02_16_m_02_16.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_02_17_m_02_17.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_03_02_m_03_02.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_03_05_m_03_05.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_03_08_m_03_08.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_03_12_m_03_12.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_06_03_m_06_03.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_06_04_m_06_04.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_06_13_m_06_13.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_07_06_m_07_06.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_07_10_m_07_10.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_07_13_m_07_13.prefab.ab
-- E:/canlan_online_web/Assets/StreamingAssets/art_monster_m_world_01_m_world_01.prefab.ab
+Dependencies: []

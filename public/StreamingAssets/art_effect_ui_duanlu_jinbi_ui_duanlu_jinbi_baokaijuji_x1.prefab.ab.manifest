@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 2622570034
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 93ba7e19f08620099d6dbee221b4cde8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 34b7fb3dd6b9a08f0b3ca9ac706fc9bb
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 93ba7e19f08620099d6dbee221b4cde8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_DuanLu_JinBi/UI_DuanLu_JinBi_BaoKaiJuJi_x1.prefab
+Dependencies: []

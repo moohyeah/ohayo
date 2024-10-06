@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3143783481
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1cef7e44e198db9d80dd6dd9f9f5483b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 72a822151904270b5d47ad467fd09cce
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1cef7e44e198db9d80dd6dd9f9f5483b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_DuanLu_MineTS/UI_DuanLu_MineTS.prefab
+Dependencies: []

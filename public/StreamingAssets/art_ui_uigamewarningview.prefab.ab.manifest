@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3778455317
+CRC: 644132632
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 093102be7f4ef8fbba739b4bad9f736d
+    Hash: 8c716e70984c6238678bda38805bd8f3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 274a5bbff2bc5b5c51118f78037b2937
+    Hash: c86be406b45f46f8e445b9f47109a973
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 093102be7f4ef8fbba739b4bad9f736d
+    Hash: 8c716e70984c6238678bda38805bd8f3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -17,32 +17,30 @@ ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: f17620e2cba9336448681c1e44fb4847, type: 3}
 - Class: 115
-  Script: {instanceID: 0}
-- Class: 128
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
@@ -75,5 +73,4 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.Toggle/ToggleEvent
 Assets:
 - Assets/Resourcex/art/ui/UIGameWarningView.prefab
-Dependencies:
-- E:/canlan_online_web/Assets/StreamingAssets/art_ui_font_jianzhunyuan.ttf.ab
+Dependencies: []

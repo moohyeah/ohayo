@@ -1,119 +1,35 @@
 ManifestFileVersion: 0
-CRC: 3665754959
+CRC: 1984053330
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a679bac096f5228f265bdf531c528be7
+    Hash: f67607dbaf552e5d4fb2b40e9e68bd47
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: a679bac096f5228f265bdf531c528be7
+    Hash: f67607dbaf552e5d4fb2b40e9e68bd47
 HashAppended: 0
 ClassTypes:
 - Class: 49
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resourcex/configbytes/table/equit/EquitSet.tab.bytes
-- Assets/Resourcex/configbytes/table/BuildObstacles.tab.bytes
-- Assets/Resourcex/configbytes/table/ActMarket.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/monster/RMonsterSkillLevel.tab.bytes
-- Assets/Resourcex/configbytes/table/equit/EquitPool.tab.bytes
-- Assets/Resourcex/configbytes/table/audio/audio_mixer.tab.bytes
-- Assets/Resourcex/configbytes/table/store/GuildShop.tab.bytes
-- Assets/Resourcex/configbytes/table/guild/GuildBuff.tab.bytes
-- Assets/Resourcex/configbytes/table/BuffUI.tab.bytes
-- Assets/Resourcex/configbytes/table/BuildSkin.tab.bytes
-- Assets/Resourcex/configbytes/table/Build.tab.bytes
-- Assets/Resourcex/configbytes/table/Shop.tab.bytes
-- Assets/Resourcex/configbytes/table/EquitWish.tab.bytes
-- Assets/Resourcex/configbytes/table/equit/Equit.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/RLevelTask.tab.bytes
-- Assets/Resourcex/configbytes/table/Text.tab.bytes
-- Assets/Resourcex/configbytes/table/Buff.tab.bytes
-- Assets/Resourcex/configbytes/table/Market.tab.bytes
-- Assets/Resourcex/configbytes/table/AchievementPoint.tab.bytes
-- Assets/Resourcex/configbytes/table/Achievement.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/aboutBuild/RStronghold.tab.bytes
-- Assets/Resourcex/configbytes/table/DialogLevel.tab.bytes
-- Assets/Resourcex/configbytes/table/store/FavorableShop.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/RSkillEvent.tab.bytes
-- Assets/Resourcex/configbytes/table/EquitmentType.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/monster/RMonster.tab.bytes
-- Assets/Resourcex/configbytes/table/ui/uiView.tab.bytes
-- Assets/Resourcex/configbytes/table/DialogSale.tab.bytes
-- Assets/Resourcex/configbytes/table/favorable/NewHeroHobby.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/RBuff.tab.bytes
-- Assets/Resourcex/configbytes/table/Heart.tab.bytes
-- Assets/Resourcex/configbytes/table/equit/EquitLevel.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/monster/RBattleData.tab.bytes
-- Assets/Resourcex/configbytes/table/Hero.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/hero/RHero.tab.bytes
-- Assets/Resourcex/configbytes/table/uiText.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/aboutBuild/RProps.tab.bytes
-- Assets/Resourcex/configbytes/table/MainTask.tab.bytes
-- Assets/Resourcex/configbytes/table/equit/EquitReward.tab.bytes
-- Assets/Resourcex/configbytes/table/guild/GuildLevel.tab.bytes
-- Assets/Resourcex/configbytes/table/OtherData.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/RFormulation.tab.bytes
-- Assets/Resourcex/configbytes/table/TaskEvt.tab.bytes
-- Assets/Resourcex/configbytes/table/store/ArenaShop.tab.bytes
-- Assets/Resourcex/configbytes/table/guild/GuildRes.tab.bytes
-- Assets/Resourcex/configbytes/table/WorldBuff.tab.bytes
-- Assets/Resourcex/configbytes/table/ItemStyle.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/RMapEvent.tab.bytes
-- Assets/Resourcex/configbytes/table/Guide.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/aboutBuild/RCard.tab.bytes
-- Assets/Resourcex/configbytes/table/Dialog.tab.bytes
 - Assets/Resourcex/configbytes/table/audio/audio_voice.tab.bytes
-- Assets/Resourcex/configbytes/table/TaskStory.tab.bytes
-- Assets/Resourcex/configbytes/table/SevenSign.tab.bytes
-- Assets/Resourcex/configbytes/table/DialogStory.tab.bytes
-- Assets/Resourcex/configbytes/table/HelpTips.tab.bytes
-- Assets/Resourcex/configbytes/table/Point.tab.bytes
-- Assets/Resourcex/configbytes/table/store/DropShop.tab.bytes
-- Assets/Resourcex/configbytes/table/BuildLv.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/scene/RDoor.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/scene/RWave.tab.bytes
-- Assets/Resourcex/configbytes/table/MysteriousShop.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/ROtherData.tab.bytes
-- Assets/Resourcex/configbytes/table/Drop.tab.bytes
-- Assets/Resourcex/configbytes/table/HeroLevel.tab.bytes
-- Assets/Resourcex/configbytes/table/VipLv.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/hero/RHeroSkill.tab.bytes
+- Assets/Resourcex/configbytes/table/ui/uiView.tab.bytes
+- Assets/Resourcex/configbytes/table/TelegramEquit.tab.bytes
+- Assets/Resourcex/configbytes/table/audio/audio_mixer.tab.bytes
+- Assets/Resourcex/configbytes/table/Guide.tab.bytes
+- Assets/Resourcex/configbytes/table/EquitProperty.tab.bytes
 - Assets/Resourcex/configbytes/table/audio/audio_battle.tab.bytes
-- Assets/Resourcex/configbytes/table/equit/EquitPropertyUp.tab.bytes
-- Assets/Resourcex/configbytes/table/RMB.tab.bytes
-- Assets/Resourcex/configbytes/table/audio/audio_bgm.tab.bytes
-- Assets/Resourcex/configbytes/table/WorldBoss.tab.bytes
-- Assets/Resourcex/configbytes/table/WorldBossDamage.tab.bytes
-- Assets/Resourcex/configbytes/table/favorable/HeroFavorable.tab.bytes
-- Assets/Resourcex/configbytes/table/Wish.tab.bytes
-- Assets/Resourcex/configbytes/table/SkipGet.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/RTower.tab.bytes
-- Assets/Resourcex/configbytes/table/HeroAmin.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/scene/RMonsterIdle.tab.bytes
-- Assets/Resourcex/configbytes/table/Room.tab.bytes
-- Assets/Resourcex/configbytes/table/BuffSkill.tab.bytes
-- Assets/Resourcex/configbytes/table/Food.tab.bytes
-- Assets/Resourcex/configbytes/table/MainTaskDialog.tab.bytes
-- Assets/Resourcex/configbytes/table/PayAward.tab.bytes
-- Assets/Resourcex/configbytes/table/BuildRoad.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/hero/RHeroSkillLevel.tab.bytes
-- Assets/Resourcex/configbytes/table/VisitorFlowRate.tab.bytes
-- Assets/Resourcex/configbytes/table/Skin.tab.bytes
-- Assets/Resourcex/configbytes/table/ShopItem.tab.bytes
-- Assets/Resourcex/configbytes/table/WorldBossShop.tab.bytes
-- Assets/Resourcex/configbytes/table/store/BuildShop.tab.bytes
-- Assets/Resourcex/configbytes/table/SystemUnlock.tab.bytes
-- Assets/Resourcex/configbytes/table/BuildCount.tab.bytes
+- Assets/Resourcex/configbytes/table/TelegramAchievement.tab.bytes
+- Assets/Resourcex/configbytes/table/Task.tab.bytes
 - Assets/Resourcex/configbytes/table/audio/audio_ui.tab.bytes
-- Assets/Resourcex/configbytes/table/GiftGetReaction.tab.bytes
-- Assets/Resourcex/configbytes/table/ExplorePlane.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/RLevel.tab.bytes
-- Assets/Resourcex/configbytes/table/worldArea.tab.bytes
-- Assets/Resourcex/configbytes/table/equit/EquitProperty.tab.bytes
-- Assets/Resourcex/configbytes/table/roguelike/monster/RMonsterSkill.tab.bytes
+- Assets/Resourcex/configbytes/table/Group.tab.bytes
+- Assets/Resourcex/configbytes/table/TelegramTask.tab.bytes
+- Assets/Resourcex/configbytes/table/OtherData.tab.bytes
+- Assets/Resourcex/configbytes/table/EquitPool.tab.bytes
+- Assets/Resourcex/configbytes/table/audio/audio_bgm.tab.bytes
+- Assets/Resourcex/configbytes/table/TelegramShop.tab.bytes
 Dependencies: []

@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 2733364200
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 34985a402d0e69ea28c49374b54ab3fe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b5f7aa48bd54920f7220ab43fddecfa9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 34985a402d0e69ea28c49374b54ab3fe
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57daf337127b0d94887c7f15c6cc314b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Resourcex/art/ui/GoodsItem.prefab
+Dependencies:
+- D:/works/telegram_operations/Assets/StreamingAssets/art_ui_texture_touming1.png.ab

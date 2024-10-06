@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 59031181
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 23debf03878dea501f73311e352fd0d2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 033fafe2c9f6c610c3a734393882fd4c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 23debf03878dea501f73311e352fd0d2
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/atlas/Loading.spriteatlas
+Dependencies: []

@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3572998631
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c439555cc0f183d939c57a71794b81ce
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a07b15a616602af203cc786fcaa66f1e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c439555cc0f183d939c57a71794b81ce
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/effect/UI_DuanLu_WPG/UI_DuanLu_WPG_T_Lan.prefab
+Dependencies: []

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1701900870
+CRC: 2729102232
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ce43dc1f1d2f7a849114fd74d1744aa7
+    Hash: ceb510adef0d35365df67044f6d44ddf
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2d8df09e698f722ada1caa03d3413830
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: ce43dc1f1d2f7a849114fd74d1744aa7
+    Hash: ceb510adef0d35365df67044f6d44ddf
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -19,5 +19,4 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resources/updatedi.png
-- Assets/Resourcex/art/ui/texture/Loading/updatedi.png
 Dependencies: []
