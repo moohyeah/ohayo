@@ -2,11 +2,13 @@ import { useNavigate } from "react-router-dom";
 import { useKeylessAccounts } from "../core/useKeylessAccounts";
 import { useEffect, useCallback } from 'react';
 import { adminAdress } from "../core/constants";
+import { GOOGLE_CLIENT_ID } from "../core/constants";
+import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 
 function Unity() {
   return (
     <>
-      <div id="game-container" style={{ position: 'fixed', top: '-100em' }}>
+      <div id="game-container" style={{ position: 'fixed', top: '-100em', left: '50%', transform: 'translateX(-50%)' }}>
         <canvas id="unity-canvas"></canvas>
         <div id="unity-loading-bar">
           <div id="unity-logo"></div>
@@ -27,6 +29,7 @@ function Unity() {
 
 function HomePage() {
   const navigate = useNavigate();
+  const ephemeralKeyPair = useEphemeralKeyPair();
 
   const { activeAccount, disconnectKeylessAccount, transferNft, getNfts } = useKeylessAccounts();
 
@@ -42,9 +45,56 @@ function HomePage() {
     };
   }, [activeAccount, navigate]);
 
+  const googleLogin = useCallback(()=> {
+
+    const redirectUrl = new URL("https://accounts.google.com/o/oauth2/v2/auth");
+  
+    const searchParams = new URLSearchParams({
+      /**
+       * Replace with your own client ID
+       */
+      client_id: GOOGLE_CLIENT_ID,
+      /**
+       * The redirect_uri must be registered in the Google Developer Console. This callback page
+       * parses the id_token from the URL fragment and combines it with the ephemeral key pair to
+       * derive the keyless account.
+       *
+       * window.location.origin == http://localhost:5173
+       */
+      redirect_uri: `${window.location.origin}/callback`,
+      /**
+       * This uses the OpenID Connect implicit flow to return an id_token. This is recommended
+       * for SPAs as it does not require a backend server.
+       */
+      response_type: "id_token",
+      scope: "openid email profile",
+      nonce: ephemeralKeyPair.nonce,
+    });
+    redirectUrl.search = searchParams.toString();
+    window.location.href = redirectUrl.toString();
+  }, [useEphemeralKeyPair]);
+
+  const playGame = useCallback(()=> {
+    if (activeAccount == null) {
+      googleLogin();
+      return;
+    }
+    const indexElement = document.getElementById('index');
+    const gameContainerElement = document.getElementById('game-container');
+    if (indexElement) indexElement.style.display = 'none';
+    if (gameContainerElement) gameContainerElement.style.top = '0'; 
+  }, []);
+
   const handleGameLogin = useCallback(()=>{
-    const account = activeAccount?.accountAddress.toString();
-    (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify({account:account, token:account}))
+    const account = activeAccount?.accountAddress?.toString();
+    if (account) {
+      console.log(`=======login?${account}`);
+      const nick = `${account.slice(0, 4)}...${account.slice(-6)}`;
+      (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify({account: account, token: account, nick: nick}));
+    } else {
+      console.warn("账户未定义，无法登录");
+    }
+    disconnectKeylessAccount()
   }, []);
 
   const handleGameLogout = useCallback(()=>{
@@ -97,7 +147,6 @@ function HomePage() {
                         
   return (
     <>
-    <Unity></Unity>
     <div className="min-h-screen flex flex-col  bg-cover bg-center" style={{ backgroundImage: "url('/bg.svg')" }}>
       <Unity></Unity>
       <div id="index">
@@ -130,10 +179,10 @@ function HomePage() {
               </div>
               <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-gray-200 text-center" style={{ marginTop: '1em' }}>
                 Game Is Live!<p/>
-                Download And Play Now!<p/>
-              <a href="#" className="flex justify-center mx-auto" style={{ backgroundImage: "url('/anniu.png')", width: '317px', height: '80px', backgroundSize: 'cover', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '0.3em' }}>
-              </a>
-              </h1>
+                <p>Download And Play Now!</p>
+                <a href="#" className="flex justify-center mx-auto" style={{ backgroundImage: "url('/anniu.png')", width: '317px', height: '80px', backgroundSize: 'cover', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '0.3em' }} onClick={playGame}>
+                </a>
+              </h1>  
             </div>
           </div>
         </div>

@@ -12,30 +12,30 @@ function initGame() {
   // Modify or remove this function to customize the visually presented
   // way that non-critical warnings and error messages are presented to the
   // user.
-  function unityShowBanner(msg, type) {
-    function updateBannerVisibility() {
-      warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
-    }
-    var div = document.createElement('div');
-    div.innerHTML = msg;
-    warningBanner.appendChild(div);
-    if (type == 'error') div.style = 'background: red; padding: 10px;';
-    else {
-      if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
-      setTimeout(function() {
-        warningBanner.removeChild(div);
-        updateBannerVisibility();
-      }, 5000);
-    }
-    updateBannerVisibility();
-  }
+  // function unityShowBanner(msg, type) {
+  //   function updateBannerVisibility() {
+  //     warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+  //   }
+  //   var div = document.createElement('div');
+  //   div.innerHTML = msg;
+  //   warningBanner.appendChild(div);
+  //   if (type == 'error') div.style = 'background: red; padding: 10px;';
+  //   else {
+  //     if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+  //     setTimeout(function() {
+  //       warningBanner.removeChild(div);
+  //       updateBannerVisibility();
+  //     }, 5000);
+  //   }
+  //   updateBannerVisibility();
+  // }
 
   var buildUrl = "/Build";
   var loaderUrl = buildUrl + "/web.loader.js";
   var config = {
-    dataUrl: buildUrl + "/web.data.unityweb",
-    frameworkUrl: buildUrl + "/web.framework.js.unityweb",
-    codeUrl: buildUrl + "/web.wasm.unityweb",
+    dataUrl: buildUrl + "/a169ec8942a690cf6abf995eb2421773.data.unityweb",
+    frameworkUrl: buildUrl + "/63d8883e55c957cd7263debbd76886ee.js.unityweb",
+    codeUrl: buildUrl + "/e476ae52ebc70ab593634e206376a86d.wasm.unityweb",
     cacheControl: function(url) {
       // Caching enabled for .data and .bundle files. 
       // Revalidate if file is up to date before loading from cache
@@ -57,7 +57,7 @@ function initGame() {
     companyName: "Zhuhai Theophilus Network Technology Co. Ltd.",
     productName: "方舟之旅",
     productVersion: "1.5.7",
-    showBanner: unityShowBanner,
+    // showBanner: unityShowBanner,
   };
 
   // By default Unity keeps WebGL canvas render target size matched with
@@ -106,7 +106,6 @@ function initGame() {
   }
 
   loadingBar.style.display = "block";
-  console.log("============add Loader")
   var script = document.createElement("script");
   script.src = loaderUrl;
   script.onload = () => {
