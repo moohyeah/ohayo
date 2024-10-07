@@ -30,7 +30,7 @@ function initGame() {
   //   updateBannerVisibility();
   // }
 
-  var buildUrl = "/Build";
+  var buildUrl = "./Build";
   var loaderUrl = buildUrl + "/web.loader.js";
   var config = {
     dataUrl: buildUrl + "/a169ec8942a690cf6abf995eb2421773.data.unityweb",
@@ -53,7 +53,7 @@ function initGame() {
       // Note: the default browser cache may cache them anyway.
       return "no-store";
     },
-    streamingAssetsUrl: "/StreamingAssets",
+    streamingAssetsUrl: "./StreamingAssets",
     companyName: "Zhuhai Theophilus Network Technology Co. Ltd.",
     productName: "方舟之旅",
     productVersion: "1.5.7",

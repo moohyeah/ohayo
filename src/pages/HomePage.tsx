@@ -30,6 +30,8 @@ function Unity() {
 function HomePage() {
   const navigate = useNavigate();
   const ephemeralKeyPair = useEphemeralKeyPair();
+  const baseUrl = import.meta.env.VITE_BASE_URL || '/';
+
 
   const { activeAccount, disconnectKeylessAccount, transferNft, getNfts } = useKeylessAccounts();
 
@@ -37,7 +39,7 @@ function HomePage() {
     const head = document.querySelector("head");
     const script = document.createElement("script");
 
-    script.setAttribute("src", "/Build/init.js");
+    script.setAttribute("src", "./Build/init.js");
     head?.appendChild(script);
 
     return () => {
@@ -61,7 +63,7 @@ function HomePage() {
        *
        * window.location.origin == http://localhost:5173
        */
-      redirect_uri: `${window.location.origin}/callback`,
+      redirect_uri: `${window.location.origin}${baseUrl}callback`,
       /**
        * This uses the OpenID Connect implicit flow to return an id_token. This is recommended
        * for SPAs as it does not require a backend server.
@@ -71,6 +73,7 @@ function HomePage() {
       nonce: ephemeralKeyPair.nonce,
     });
     redirectUrl.search = searchParams.toString();
+    console.log(`${redirectUrl.toString()}`);
     window.location.href = redirectUrl.toString();
   }, [useEphemeralKeyPair]);
 
@@ -147,12 +150,12 @@ function HomePage() {
                         
   return (
     <>
-    <div className="min-h-screen flex flex-col  bg-cover bg-center" style={{ backgroundImage: "url('/bg.svg')" }}>
+    <div className="min-h-screen flex flex-col  bg-cover bg-center" style={{ backgroundImage: `url('./bg.svg')` }}>
       <Unity></Unity>
       <div id="index">
         <nav className="bg-gray-800 px-4 h-16"> {/* 高度设置为4em，即16个单位 */}
           <div className="container mx-auto flex items-center justify-start h-full">
-            <img src="/logo.png" alt="logo" className="h-8 mr-16" /> {/* 修改为 mr-16 以实现4em的间距 */}
+            <img src="./logo.png" alt="logo" className="h-8 mr-16" /> {/* 修改为 mr-16 以实现4em的间距 */}
             <ul className="flex items-center space-x-8 justify-start h-full">
               <li><a href="#" className="text-white hover:text-gray-300 active:text-blue-500">HOME</a></li>
               <li><a href="#" className="text-white hover:text-gray-300 active:text-blue-500">SHOP</a></li>
@@ -161,12 +164,12 @@ function HomePage() {
           </div>
         </nav>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-4">
-          <img src="/rr.svg" alt="rr" className="h-auto absolute" />
+          <img src="./rr.svg" alt="rr" className="h-auto absolute" />
           <div className="grid sm:grid-cols-3 gap-4 relative">
             <div className="sm:col-span-1">
             </div>
             <div className="sm:col-span-2">
-              <div className="justify-center" style={{ width: '35em', height:'12em', backgroundImage: "url('/beijingkuang.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat', marginLeft: '3em' }}>
+              <div className="justify-center" style={{ width: '35em', height:'12em', backgroundImage: "url('./beijingkuang.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat', marginLeft: '3em' }}>
                 <p className="justify-center" style={{ color: "aliceblue", textAlign: "center", fontSize: "1.5em"}}>
                 USER 
                 </p>
@@ -180,7 +183,7 @@ function HomePage() {
               <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-gray-200 text-center" style={{ marginTop: '1em' }}>
                 Game Is Live!<p/>
                 <p>Download And Play Now!</p>
-                <a href="#" className="flex justify-center mx-auto" style={{ backgroundImage: "url('/anniu.png')", width: '317px', height: '80px', backgroundSize: 'cover', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '0.3em' }} onClick={playGame}>
+                <a href="#" className="flex justify-center mx-auto" style={{ backgroundImage: "url('./anniu.png')", width: '317px', height: '80px', backgroundSize: 'cover', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '0.3em' }} onClick={playGame}>
                 </a>
               </h1>  
             </div>
