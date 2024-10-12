@@ -14,4 +14,4 @@ export const devnetClient = new Aptos(
 /// FIXME: Put your client id here
 export const GOOGLE_CLIENT_ID = "654936766903-3hvv86qokdbhv1oouf7slormgeoh6l0k.apps.googleusercontent.com";
 export const adminAdress = "0xb99efb212699f360849001ad54679c51c8557cf533f601942810f94be0fd8fb1"
-export const NftCollectionAddr = ""
+export const NftCollectionAddr = "0xeae12edd5c14e463917e12f37487310e0e01e5ca7a41d69541f589d4c16acca8"

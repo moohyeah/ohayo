@@ -4,10 +4,10 @@ import { adminAdress } from "../core/constants";
 import { GOOGLE_CLIENT_ID } from "../core/constants";
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 
-const GAME_WASM_PATH = "./Build/a2630aec6f4e1eb2f510ff4313ea0673.wasm.unityweb";
+const GAME_WASM_PATH = "./Build/9c13b407488744a1a9bc4663259eb6d0.wasm.unityweb";
 const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-const GAME_DATA_PATH  = "./Build/306d7bcdd5be729a5980c4f3ece40881.data.unityweb";
-const GAME_FRAMEWORK_PATH = "./Build/ba7f793600b09a0f8fd01742aba2300b.framework.js.unityweb";
+const GAME_DATA_PATH  = "./Build/c4148ed2dd249a9fd96b3447b589ea24.data.unityweb";
+const GAME_FRAMEWORK_PATH = "./Build/1012f80a950f80dbffcb7083fb5f0b0a.framework.js.unityweb";
 
 function HomePage() {
   const ephemeralKeyPair = useEphemeralKeyPair();
@@ -137,13 +137,15 @@ function HomePage() {
   }, [transferNft]);
 
   const handleGetNfts = useCallback(async () => {
+    console.log("handleGetNfts=======")
     const nfts = await getNfts();
     const formattedNfts = nfts.map(nft => ({
       token_id: nft.token_data_id,
-      property: nft.current_token_data?.token_properties
+      // property: nft.current_token_data?.token_properties,
+      tid: parseInt(nft.current_token_data?.token_properties?.id),
     }));
     console.log('格式化的NFT列表:', formattedNfts);
-    (window as any).unityInstance.SendMessage("MainController", "OnNftListMsg", JSON.stringify(formattedNfts))
+    (window as any).unityInstance.SendMessage("MainController", "OnNftListMsg", JSON.stringify(formattedNfts));
   }, [getNfts]);
 
   useEffect(()=>{
@@ -174,24 +176,24 @@ function HomePage() {
     };
   }, [handleGetNfts])
 
-  const [userTotal, setUserTotal] = useState<number | null>(null); // 添加状态管理
+  // const [userTotal, setUserTotal] = useState<number | null>(null); // 添加状态管理
 
-  useEffect(() => {
-    const fetchUserBalance = async () => {
-      try {
-        const response = await fetch(`https://ohayoaptos.com/op_hammer/getServerUserNum`); // 替换为实际的 API 地址
-        if (!response.ok) {
-          throw new Error('网络响应不正常');
-        }
-        const data = await response.text();
-        setUserTotal(parseInt(data)); // 假设返回的数据中有 balance 字段
-      } catch (error) {
-        console.error('获取用户数:', error);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchUserBalance = async () => {
+  //     try {
+  //       const response = await fetch(`https://ohayoaptos.com/op_hammer/getServerUserNum`); // 替换为实际的 API 地址
+  //       if (!response.ok) {
+  //         throw new Error('网络响应不正常');
+  //       }
+  //       const data = await response.text();
+  //       setUserTotal(parseInt(data)); // 假设返回的数据中有 balance 字段
+  //     } catch (error) {
+  //       console.error('获取用户数:', error);
+  //     }
+  //   };
 
-    fetchUserBalance(); // 调用函数以获取用户余额
-  }, []); // 依赖于 baseUrl
+  //   fetchUserBalance(); // 调用函数以获取用户余额
+  // }, []); // 依赖于 baseUrl
                         
   return (
     <>
