@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1348058573
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 652dff05318d9f211fe9283ad251dc97
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 652dff05318d9f211fe9283ad251dc97
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/nft/new/20241010-112217.png
+Dependencies: []

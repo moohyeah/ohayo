@@ -1,51 +1,93 @@
-import { useNavigate } from "react-router-dom";
 import { useKeylessAccounts } from "../core/useKeylessAccounts";
-import { useEffect, useCallback } from 'react';
+import { useEffect, useCallback, useState } from 'react';
 import { adminAdress } from "../core/constants";
 import { GOOGLE_CLIENT_ID } from "../core/constants";
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 
-function Unity() {
-  return (
-    <>
-      <div id="game-container" style={{ position: 'fixed', top: '-100em', left: '50%', transform: 'translateX(-50%)' }}>
-        <canvas id="unity-canvas"></canvas>
-        <div id="unity-loading-bar">
-          <div id="unity-logo"></div>
-          <div id="unity-progress-bar-empty">
-            <div id="unity-progress-bar-full"></div>
-          </div>
-        </div>
-        <div id="unity-warning"> </div>
-        <div id="unity-footer" style= {{display : "none"}}>
-          <div id="unity-webgl-logo"></div>
-          <div id="unity-fullscreen-button"></div>
-          <div id="unity-build-title">ZKFairy</div>
-        </div>
-      </div>
-    </>
-  );
-}
+const GAME_WAS_PATH = "./Build/a2630aec6f4e1eb2f510ff4313ea0673.wasm.unityweb";
+const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
+const GAME_DATA_PATH  = "./Build/306d7bcdd5be729a5980c4f3ece40881.data.unityweb";
+const GAME_FRAMEWORK_PATH = "./Build/ba7f793600b09a0f8fd01742aba2300b.framework.js.unityweb";
 
 function HomePage() {
-  const navigate = useNavigate();
   const ephemeralKeyPair = useEphemeralKeyPair();
   const baseUrl = import.meta.env.VITE_BASE_URL || '/';
 
-
   const { activeAccount, disconnectKeylessAccount, transferNft, getNfts } = useKeylessAccounts();
+  const [progress, setProgress] = useState<number>(0);
+
+  function Unity() {
+    return (
+      <>
+        <div id="#unity-container" className="fixed inset-0 flex flex-col justify-center items-center" style={{display: activeAccount == null ? 'none' : 'flex'}}>
+          <canvas id="unity-canvas" className="h-full max-w-full justify-center border items-center aspect-[720/1280] bg-zinc-400"></canvas>
+          <div id="game-loader" className="h-full max-w-full justify-center items-center aspect-[720/1280] absolute top-0" style={{backgroundImage: "url('./loading-bg.jpg')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'top', display: progress >= 100 ? 'none' : 'flex'}}>
+            <div id="unity-progress-bar-empty" className="w-4/5 bg-neutral-500 rounded-full h-4 absolute bottom-6 left-1/2 transform -translate-x-1/2">
+              <div id="unity-progress-bar-full" className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-4 rounded-full" style={{width: progress + "%"}}></div>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  }
+
 
   useEffect(() => {
+    if (activeAccount == null) {
+      return;
+    }
+
+    var canvas = document.querySelector("#unity-canvas");
+
+    var config = {
+      dataUrl: GAME_DATA_PATH,
+      frameworkUrl: GAME_FRAMEWORK_PATH,
+      codeUrl: GAME_WAS_PATH,
+      cacheControl: function(url: string) {
+        // Caching enabled for .data and .bundle files. 
+        // Revalidate if file is up to date before loading from cache
+        if (url.match(/\.data/) || url.match(/\.unityweb/) || url.match(/\.ab/)) {
+          return "must-revalidate";
+        }
+
+        // Caching enabled for .mp4 and .custom files
+        // Load file from cache without revalidation.
+        if (url.match(/\.mp4/) || url.match(/\.custom/)) {
+          return "immutable";
+        }
+
+        // Disable explicit caching for all other files.
+        // Note: the default browser cache may cache them anyway.
+        return "no-store";
+      },
+      streamingAssetsUrl: "./StreamingAssets",
+      companyName: "Zhuhai Theophilus Network Technology Co. Ltd.",
+      productName: "方舟之旅",
+      productVersion: "1.5.7",
+      // showBanner: unityShowBanner,
+    };
+
     const head = document.querySelector("head");
     const script = document.createElement("script");
 
-    script.setAttribute("src", "./Build/init.js");
+    script.setAttribute("src", GAME_LOADER_PATH);
     head?.appendChild(script);
+    script.onload = () => {
+      (window as any).createUnityInstance(canvas, config, (progress: number) => {
+        // console.log(`progress: ${progress}`);
+        setProgress(100 * progress);
+      }).then((unityInstance: any) => {
+        (window as any).unityInstance = unityInstance;
+        console.log('init Done')
+      }).catch((message: string) => {
+        alert(message);
+      });
+    };
 
     return () => {
       head?.removeChild(script);
     };
-  }, [activeAccount, navigate]);
+  }, [activeAccount]);
 
   const googleLogin = useCallback(()=> {
 
@@ -97,7 +139,6 @@ function HomePage() {
     } else {
       console.warn("账户未定义，无法登录");
     }
-    disconnectKeylessAccount()
   }, []);
 
   const handleGameLogout = useCallback(()=>{
@@ -147,14 +188,38 @@ function HomePage() {
       window.removeEventListener("NFTList", handleGetNfts);
     };
   }, [handleGetNfts])
+
+  const [userTotal, setUserTotal] = useState<number | null>(null); // 添加状态管理
+
+  useEffect(() => {
+    const fetchUserBalance = async () => {
+      try {
+        const response = await fetch(`https://ohayoaptos.com/op_hammer/getServerUserNum`); // 替换为实际的 API 地址
+        if (!response.ok) {
+          throw new Error('网络响应不正常');
+        }
+        const data = await response.text();
+        setUserTotal(parseInt(data)); // 假设返回的数据中有 balance 字段
+      } catch (error) {
+        console.error('获取用户数:', error);
+      }
+    };
+
+    fetchUserBalance(); // 调用函数以获取用户余额
+  }, []); // 依赖于 baseUrl
                         
   return (
     <>
+    {/* <link rel="preload" href={GAME_WAS_PATH} as="fetch" type="application/wasm"></link>
+    <link rel="preload" href={GAME_LOADER_PATH} as="script"></link>
+    <link rel="preload" href={GAME_DATA_PATH} as="fetch" type="application/wasm"></link>
+    <link rel="preload" href={GAME_FRAMEWORK_PATH} as="fetch" type="application/wasm"></link> */}
+
     <div className="min-h-screen flex flex-col  bg-cover bg-center" style={{ backgroundImage: `url('./bg.svg')` }}>
       <Unity></Unity>
-      <div id="index">
-        <nav className="bg-gray-800 px-4 h-16"> {/* 高度设置为4em，即16个单位 */}
-          <div className="container mx-auto flex items-center justify-start h-full">
+      <div id="index" style={{display: activeAccount != null ? 'none' : 'block'}}>
+        <nav className="bg-gray-800 px-4 h-16 w-full"> {/* 高度设置为4em，即16个单位 */}
+          <div className="container mx-auto flex items-center justify-start h-full flex">
             <img src="./logo.png" alt="logo" className="h-8 mr-16" /> {/* 修改为 mr-16 以实现4em的间距 */}
             <ul className="flex items-center space-x-8 justify-start h-full">
               <li><a href="#" className="text-white hover:text-gray-300 active:text-blue-500">HOME</a></li>
@@ -163,30 +228,28 @@ function HomePage() {
             </ul>
           </div>
         </nav>
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-4">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-4 max-w-5xl">
           <img src="./rr.svg" alt="rr" className="h-auto absolute" />
-          <div className="grid sm:grid-cols-3 gap-4 relative">
-            <div className="sm:col-span-1">
-            </div>
-            <div className="sm:col-span-2">
-              <div className="justify-center" style={{ width: '35em', height:'12em', backgroundImage: "url('./beijingkuang.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat', marginLeft: '3em' }}>
-                <p className="justify-center" style={{ color: "aliceblue", textAlign: "center", fontSize: "1.5em"}}>
-                USER 
+          <div className="relative sm:w-3/5 text-center sm:ml-auto rounded-lg pt-40 sm:pl-16 sm:pt-2">
+            <div className="relative justify-center w-full item-center" style={{backgroundImage: "url('./beijingkuang.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', paddingBottom: '33.33%'}}>
+              <div className="absolute inset-0 block items-center justify-center text-slate-200">
+                <p className="justify-center text-center text-xl sm:text-2xl" style={{ marginTop:"0.15em"}}>
+                  USER 
                 </p>
-                <p className="justify-center" style={{ color: "aliceblue", textAlign: "center", fontSize: "2.5em"}}>
-                800000 
+                <p className="justify-center text-center text-2xl sm:text-4xl mt-7"id="user-total">
+                {userTotal !== null ? userTotal : '加载中...'} 
                 </p>
-                <div className="progress-bar" style={{ width: '80%', backgroundColor: '#e0e0e0', borderRadius: '5px', overflow: 'hidden', margin: '1em auto' }}>
+                {/* <div className="progress-bar" style={{ width: '80%', backgroundColor: '#e0e0e0', borderRadius: '5px', overflow: 'hidden', margin: '1em auto' }}>
                   <div className="progress" style={{ width: '80%', height: '13px', backgroundColor: '#76c7c0', transition: 'width 0.5s ease' }}></div>
-                </div>
+                </div> */}
               </div>
-              <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-gray-200 text-center" style={{ marginTop: '1em' }}>
-                Game Is Live!<p/>
-                <p>Download And Play Now!</p>
-                <a href="#" className="flex justify-center mx-auto" style={{ backgroundImage: "url('./anniu.png')", width: '317px', height: '80px', backgroundSize: 'cover', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '0.3em' }} onClick={playGame}>
-                </a>
-              </h1>  
             </div>
+            <h1 className="text-4xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-gray-200 text-center" style={{ marginTop: '1em' }}>
+              Game Is Live!<p/>
+              <p>Download And Play Now!</p>
+              <a href="#" className="flex justify-center mx-auto" style={{ backgroundImage: "url('./anniu.png')", width: '317px', height: '80px', backgroundSize: 'cover', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '0.3em' }} onClick={playGame}>
+              </a>
+            </h1> 
           </div>
         </div>
       </div>

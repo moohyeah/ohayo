@@ -20,7 +20,7 @@ function CallbackPage() {
     async function deriveAccount(idToken: string) {
       try {
         await switchKeylessAccount(idToken);
-        navigate("/home");
+        navigate("/");
       } catch (error) {
         console.error(error);
         navigate("/");

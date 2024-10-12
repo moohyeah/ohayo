@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3170824507
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ed0cedf932a0e33e71b51f0b0e027d1e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ed0cedf932a0e33e71b51f0b0e027d1e
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/Resourcex/art/ui/texture/Main/New Folder/\u56FE\u6807.png"
+Dependencies: []

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 95025910
+CRC: 2012250313
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 061af375f3554bca2e131bb8e3a08003
+    Hash: b5410fe2f27236308a26555c6eddc141
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d3f41c025ac8e2268e1bd107504c24e3
+    Hash: 2f75faf827415655fd2623d74357a6d9
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 061af375f3554bca2e131bb8e3a08003
+    Hash: b5410fe2f27236308a26555c6eddc141
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -20,6 +20,10 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
@@ -32,10 +36,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
 - Class: 114
@@ -101,4 +101,7 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.Toggle/ToggleEvent
 Assets:
 - Assets/Resourcex/art/ui/DecomposeItem.prefab
-Dependencies: []
+Dependencies:
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241008-173643.jpg.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-102932.png.ab

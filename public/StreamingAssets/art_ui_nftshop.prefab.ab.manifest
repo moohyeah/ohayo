@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3390704651
+CRC: 3596029088
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7324a9ebe267b1f0d7667ee586cd7fb3
+    Hash: b0a905b8d8383753afbc24f91f9f7685
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1d886ad6b069d73805548e359144d4e7
+    Hash: ddc3a088594b7f956a241958457b8890
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 7324a9ebe267b1f0d7667ee586cd7fb3
+    Hash: b0a905b8d8383753afbc24f91f9f7685
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,9 +29,19 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
 - Class: 114
@@ -47,9 +57,7 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
 - Class: 114
@@ -57,15 +65,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 57daf337127b0d94887c7f15c6cc314b, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 21e22bb11f26ec24fa7aea461da4a16e, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f3b33ad6e6452d845b44631f8e3348ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57daf337127b0d94887c7f15c6cc314b, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 39c5def9a2e223c408b8106cc0c26bd0, type: 3}
 - Class: 115
@@ -137,8 +143,18 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Toggle/ToggleEvent
 Assets:
 - Assets/Resourcex/art/ui/NftShop.prefab
 Dependencies:
-- D:/works/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_bg.jpg.ab
-- D:/works/telegram_operations/Assets/StreamingAssets/art_ui_texture_touming1.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_20241009-170532.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241009-144903.jpg.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_bb.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_gg.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_ss.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_bg.jpg.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_touming1.png.ab

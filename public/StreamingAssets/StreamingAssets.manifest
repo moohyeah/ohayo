@@ -1,298 +1,428 @@
 ManifestFileVersion: 0
-CRC: 3540580626
+CRC: 1396671394
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: tabpackage.ab
       Dependencies: {}
     Info_1:
-      Name: art_ui_uigameupdateview.prefab.ab
-      Dependencies: {}
-    Info_2:
       Name: json.ab
       Dependencies: {}
+    Info_2:
+      Name: art_effect_ui_jiemian_dianji_ui_jiemian_dianji.prefab.ab
+      Dependencies: {}
     Info_3:
-      Name: art_ui_uigamewarningview.prefab.ab
+      Name: art_scene_empty.unity.ab
       Dependencies: {}
     Info_4:
-      Name: art_effect_ui_jiemian_jindutiao2_ui_jiemian_jindutiao2.prefab.ab
-      Dependencies: {}
-    Info_5:
-      Name: art_ui_uiloading.prefab.ab
-      Dependencies: {}
-    Info_6:
-      Name: art_ui_texture_loading_updatedi.png.ab
-      Dependencies: {}
-    Info_7:
       Name: art_audio_mixer_masteraudiomixer.mixer.ab
       Dependencies: {}
+    Info_5:
+      Name: art_ui_texture_loading_updatedi.png.ab
+      Dependencies: {}
+    Info_6:
+      Name: art_ui_uiloading.prefab.ab
+      Dependencies: {}
+    Info_7:
+      Name: art_ui_uigamewarningview.prefab.ab
+      Dependencies: {}
     Info_8:
-      Name: art_effect_ui_jiemian_yanhua_ui_jiemian_yanhua.prefab.ab
+      Name: configbytes_cfg_resversion.txt.bytes.ab
       Dependencies: {}
     Info_9:
-      Name: art_audio_ui_qingzhu.ogg.ab
+      Name: art_ui_uigameupdateview.prefab.ab
       Dependencies: {}
     Info_10:
       Name: art_ui_texture_loading_update.png.ab
       Dependencies: {}
     Info_11:
-      Name: configbytes_cfg_resversion.txt.bytes.ab
+      Name: art_effect_ui_jiemian_jindutiao2_ui_jiemian_jindutiao2.prefab.ab
       Dependencies: {}
     Info_12:
-      Name: art_audio_ui_click.ogg.ab
-      Dependencies: {}
-    Info_13:
-      Name: art_scene_survivor_0_0_survivor_0_0.unity.ab
-      Dependencies: {}
-    Info_14:
-      Name: art_audio_ui_get_gold_01.ogg.ab
-      Dependencies: {}
-    Info_15:
       Name: art_effect_ui_jiemian_loading_ui_jiemian_loading.prefab.ab
       Dependencies: {}
-    Info_16:
-      Name: art_effect_ui_jiemian_tanchutx_ui_jiemian_tanchutx.prefab.ab
-      Dependencies: {}
-    Info_17:
-      Name: art_audio_ui_get_gold_03.ogg.ab
-      Dependencies: {}
-    Info_18:
-      Name: art_scene_empty.unity.ab
-      Dependencies: {}
-    Info_19:
-      Name: art_audio_ui_get_gold_02.ogg.ab
-      Dependencies: {}
-    Info_20:
-      Name: art_effect_ui_jiemian_dianji_ui_jiemian_dianji.prefab.ab
-      Dependencies: {}
-    Info_21:
-      Name: art_effect_ui_duanlu_chuizi_ui_duanlu_chuizi.prefab.ab
-      Dependencies: {}
-    Info_22:
-      Name: art_effect_ui_duanlu_chuizi_ui_duanlu_chuizid.prefab.ab
-      Dependencies: {}
-    Info_23:
-      Name: art_effect_ui_duanlu_luhuo_ui_duanlu_luhuo.prefab.ab
-      Dependencies: {}
-    Info_24:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_dd.prefab.ab
-      Dependencies: {}
-    Info_25:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_bai.prefab.ab
-      Dependencies: {}
-    Info_26:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_jin.prefab.ab
-      Dependencies: {}
-    Info_27:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_lan.prefab.ab
-      Dependencies: {}
-    Info_28:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_lv.prefab.ab
-      Dependencies: {}
-    Info_29:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_zi.prefab.ab
-      Dependencies: {}
-    Info_30:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_bai.prefab.ab
-      Dependencies: {}
-    Info_31:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_jin.prefab.ab
-      Dependencies: {}
-    Info_32:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_lan.prefab.ab
-      Dependencies: {}
-    Info_33:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_lv.prefab.ab
-      Dependencies: {}
-    Info_34:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_zi.prefab.ab
-      Dependencies: {}
-    Info_35:
-      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_bai.prefab.ab
-      Dependencies: {}
-    Info_36:
-      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_jin.prefab.ab
-      Dependencies: {}
-    Info_37:
-      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_lan.prefab.ab
-      Dependencies: {}
-    Info_38:
-      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_lv.prefab.ab
-      Dependencies: {}
-    Info_39:
-      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_zi.prefab.ab
-      Dependencies: {}
-    Info_40:
-      Name: art_ui_successbox.prefab.ab
-      Dependencies: {}
-    Info_41:
-      Name: art_ui_systemprompt.prefab.ab
-      Dependencies: {}
-    Info_42:
-      Name: art_ui_uiboosttips.prefab.ab
-      Dependencies: {}
-    Info_43:
-      Name: art_ui_uigamemainview.prefab.ab
-      Dependencies:
-        Dependency_0: art_ui_texture_shop_reddot.png.ab
-    Info_44:
-      Name: art_ui_uimaketips.prefab.ab
-      Dependencies: {}
-    Info_45:
-      Name: art_atlas_boosttips.spriteatlas.ab
-      Dependencies: {}
-    Info_46:
-      Name: art_atlas_equipicon.spriteatlas.ab
-      Dependencies: {}
-    Info_47:
-      Name: art_atlas_loading.spriteatlas.ab
-      Dependencies: {}
-    Info_48:
-      Name: art_atlas_main.spriteatlas.ab
-      Dependencies: {}
-    Info_49:
-      Name: art_atlas_successbox.spriteatlas.ab
-      Dependencies: {}
-    Info_50:
-      Name: art_ui_uigroup.prefab.ab
-      Dependencies: {}
-    Info_51:
+    Info_13:
       Name: art_ui_uirank.prefab.ab
       Dependencies: {}
-    Info_52:
+    Info_14:
+      Name: art_atlas_boosttips.spriteatlas.ab
+      Dependencies: {}
+    Info_15:
+      Name: art_effect_ui_duanlu_luhuo_ui_duanlu_luhuo.prefab.ab
+      Dependencies: {}
+    Info_16:
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_lan.prefab.ab
+      Dependencies: {}
+    Info_17:
       Name: art_ui_uisetting.prefab.ab
       Dependencies: {}
+    Info_18:
+      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_hong.prefab.ab
+      Dependencies: {}
+    Info_19:
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_jin.prefab.ab
+      Dependencies: {}
+    Info_20:
+      Name: art_effect_ui_duanlu_jinbi_ui_duanlu_jinbi_baokaijuji_x4.prefab.ab
+      Dependencies: {}
+    Info_21:
+      Name: art_atlas_successbox.spriteatlas.ab
+      Dependencies: {}
+    Info_22:
+      Name: art_ui_uigroup.prefab.ab
+      Dependencies: {}
+    Info_23:
+      Name: art_ui_uigamemainview.prefab.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_item_1.png.ab
+        Dependency_1: art_ui_texture_shop_reddot.png.ab
+        Dependency_2: art_ui_texture_common_20241009-170532.png.ab
+        Dependency_3: art_ui_texture_item_20241009-1705321.png.ab
+        Dependency_4: art_ui_texture_item_t.png.ab
+        Dependency_5: art_ui_texture_main_newfolder_20241011-100605.jpg.ab
+        Dependency_6: art_ui_texture_main_newfolder_jindutiao.png.ab
+        Dependency_7: art_ui_texture_main_newfolder_jindutuai2.png.ab
+        Dependency_8: "art_ui_texture_main_newfolder_\u56FE\u6807.png.ab"
+    Info_24:
+      Name: art_ui_uimail.prefab.ab
+      Dependencies: {}
+    Info_25:
+      Name: art_ui_texture_shop_bg.jpg.ab
+      Dependencies: {}
+    Info_26:
+      Name: art_effect_ui_jiemian_tanchutx_ui_jiemian_tanchutx.prefab.ab
+      Dependencies: {}
+    Info_27:
+      Name: art_ui_uiboosttips.prefab.ab
+      Dependencies: {}
+    Info_28:
+      Name: art_audio_ui_duan.ogg.ab
+      Dependencies: {}
+    Info_29:
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_jin.prefab.ab
+      Dependencies: {}
+    Info_30:
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_lv.prefab.ab
+      Dependencies: {}
+    Info_31:
+      Name: art_audio_ui_bgm_maprainbow.ogg.ab
+      Dependencies: {}
+    Info_32:
+      Name: art_effect_ui_duanlu_chuizi_ui_duanlu_chuizid.prefab.ab
+      Dependencies: {}
+    Info_33:
+      Name: art_ui_texture_shop_itembg.png.ab
+      Dependencies: {}
+    Info_34:
+      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_lv.prefab.ab
+      Dependencies: {}
+    Info_35:
+      Name: art_atlas_equipicon.spriteatlas.ab
+      Dependencies: {}
+    Info_36:
+      Name: art_ui_texture_guild.png.ab
+      Dependencies: {}
+    Info_37:
+      Name: art_effect_ui_duanlu_chuizi_ui_duanlu_chuizi.prefab.ab
+      Dependencies: {}
+    Info_38:
+      Name: art_audio_ui_get_gold_01.ogg.ab
+      Dependencies: {}
+    Info_39:
+      Name: art_audio_ui_chui.ogg.ab
+      Dependencies: {}
+    Info_40:
+      Name: art_ui_uiuser.prefab.ab
+      Dependencies: {}
+    Info_41:
+      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_bai.prefab.ab
+      Dependencies: {}
+    Info_42:
+      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_zi.prefab.ab
+      Dependencies: {}
+    Info_43:
+      Name: art_audio_ui_jin.ogg.ab
+      Dependencies: {}
+    Info_44:
+      Name: art_effect_ui_duanlu_luhuo_ui_duanlu_luhuo_lv.prefab.ab
+      Dependencies: {}
+    Info_45:
+      Name: art_atlas_main.spriteatlas.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_main_newfolder_20241010-153422.png.ab
+        Dependency_1: art_ui_texture_main_newfolder_20241011-100605.jpg.ab
+        Dependency_2: art_ui_texture_main_newfolder_jindutiao.png.ab
+        Dependency_3: art_ui_texture_main_newfolder_jindutuai2.png.ab
+        Dependency_4: "art_ui_texture_main_newfolder_\u56FE\u6807.png.ab"
+    Info_46:
+      Name: art_atlas_loading.spriteatlas.ab
+      Dependencies: {}
+    Info_47:
+      Name: art_effect_ui_duanlu_tskxl_ui_duanlu_tskxl.prefab.ab
+      Dependencies: {}
+    Info_48:
+      Name: art_effect_ui_duanlu_wzk_ui_duanlu_wzk.prefab.ab
+      Dependencies: {}
+    Info_49:
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_hong.prefab.ab
+      Dependencies: {}
+    Info_50:
+      Name: art_effect_ui_duanlu_xinshouyd_ui_duanlu__xinshouyd.prefab.ab
+      Dependencies: {}
+    Info_51:
+      Name: art_ui_uibook.prefab.ab
+      Dependencies: {}
+    Info_52:
+      Name: art_effect_ui_duanlu_jinbi_ui_duanlu_jinbi_baokaijuji_x1.prefab.ab
+      Dependencies: {}
     Info_53:
+      Name: art_effect_ui_jiemian_yanhua_ui_jiemian_yanhua.prefab.ab
+      Dependencies: {}
+    Info_54:
+      Name: art_effect_ui_duanlu_minets_ui_duanlu_minets.prefab.ab
+      Dependencies: {}
+    Info_55:
+      Name: art_audio_ui_get_gold_02.ogg.ab
+      Dependencies: {}
+    Info_56:
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_bai.prefab.ab
+      Dependencies: {}
+    Info_57:
+      Name: art_ui_texture_item_1.png.ab
+      Dependencies: {}
+    Info_58:
       Name: art_ui_uishop.prefab.ab
       Dependencies:
         Dependency_0: art_ui_texture_shop_bg.jpg.ab
         Dependency_1: art_ui_texture_shop_itembg.png.ab
-        Dependency_2: art_ui_texture_shop_reddot.png.ab
-        Dependency_3: art_ui_texture_shop_shouqing.png.ab
-    Info_54:
-      Name: art_ui_uitask.prefab.ab
-      Dependencies:
-        Dependency_0: art_ui_texture_item_1.png.ab
-        Dependency_1: art_ui_texture_shop_bg.jpg.ab
-        Dependency_2: art_ui_texture_shop_reddot.png.ab
-    Info_55:
-      Name: art_ui_texture_item_1.png.ab
-      Dependencies: {}
-    Info_56:
-      Name: art_ui_texture_shop_bg.jpg.ab
-      Dependencies: {}
-    Info_57:
-      Name: art_ui_texture_shop_itembg.png.ab
-      Dependencies: {}
-    Info_58:
-      Name: art_ui_texture_shop_reddot.png.ab
-      Dependencies: {}
+        Dependency_2: art_ui_texture_shop_shouqing.png.ab
+        Dependency_3: art_ui_texture_shop_reddot.png.ab
+        Dependency_4: art_ui_texture_shop_20241008-172526.jpg.ab
     Info_59:
-      Name: art_ui_texture_shop_shouqing.png.ab
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_zi.prefab.ab
       Dependencies: {}
     Info_60:
-      Name: art_effect_ui_duanlu_tskxl_ui_duanlu_tskxl.prefab.ab
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_lan.prefab.ab
       Dependencies: {}
     Info_61:
+      Name: art_effect_ui_duanlu_luhuo_ui_duanlu_luhuo_zi.prefab.ab
+      Dependencies: {}
+    Info_62:
+      Name: art_effect_ui_duanlu_jinbi_ui_duanlu_jinbi_baokaijuji_x2.prefab.ab
+      Dependencies: {}
+    Info_63:
+      Name: art_audio_ui_click.ogg.ab
+      Dependencies: {}
+    Info_64:
+      Name: art_ui_uitask.prefab.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_shop_bg.jpg.ab
+        Dependency_1: art_ui_texture_item_1.png.ab
+        Dependency_2: art_ui_texture_shop_reddot.png.ab
+    Info_65:
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_hong.prefab.ab
+      Dependencies: {}
+    Info_66:
+      Name: art_ui_texture_shop_shouqing.png.ab
+      Dependencies: {}
+    Info_67:
+      Name: art_effect_ui_duanlu_luhuo_ui_duanlu_luhuo_huang.prefab.ab
+      Dependencies: {}
+    Info_68:
+      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_jin.prefab.ab
+      Dependencies: {}
+    Info_69:
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_zi.prefab.ab
+      Dependencies: {}
+    Info_70:
+      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_lan.prefab.ab
+      Dependencies: {}
+    Info_71:
       Name: art_ui_tutorial.prefab.ab
       Dependencies:
         Dependency_0: art_ui_texture_guild.png.ab
-    Info_62:
-      Name: art_ui_texture_guild.png.ab
-      Dependencies: {}
-    Info_63:
-      Name: art_audio_ui_bgm_maprainbow.ogg.ab
-      Dependencies: {}
-    Info_64:
-      Name: art_audio_ui_chui.ogg.ab
-      Dependencies: {}
-    Info_65:
-      Name: art_audio_ui_duan.ogg.ab
-      Dependencies: {}
-    Info_66:
-      Name: art_audio_ui_jin.ogg.ab
-      Dependencies: {}
-    Info_67:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_d_hong.prefab.ab
-      Dependencies: {}
-    Info_68:
-      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_hong.prefab.ab
-      Dependencies: {}
-    Info_69:
-      Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_hong.prefab.ab
-      Dependencies: {}
-    Info_70:
-      Name: art_effect_ui_duanlu_wzk_ui_duanlu_wzk.prefab.ab
-      Dependencies: {}
-    Info_71:
-      Name: art_effect_ui_duanlu_xinshouyd_ui_duanlu__xinshouyd.prefab.ab
-      Dependencies: {}
     Info_72:
-      Name: art_ui_uibook.prefab.ab
+      Name: art_ui_systemprompt.prefab.ab
       Dependencies: {}
     Info_73:
-      Name: art_ui_uimail.prefab.ab
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_dd.prefab.ab
       Dependencies: {}
     Info_74:
-      Name: art_ui_uiuser.prefab.ab
+      Name: art_ui_uimaketips.prefab.ab
       Dependencies: {}
     Info_75:
-      Name: art_effect_ui_duanlu_luhuo_ui_duanlu_luhuo_huang.prefab.ab
+      Name: art_ui_successbox.prefab.ab
       Dependencies: {}
     Info_76:
       Name: art_effect_ui_duanlu_luhuo_ui_duanlu_luhuo_lan.prefab.ab
       Dependencies: {}
     Info_77:
-      Name: art_effect_ui_duanlu_jinbi_ui_duanlu_jinbi_baokaijuji_x4.prefab.ab
+      Name: art_audio_ui_get_gold_03.ogg.ab
       Dependencies: {}
     Info_78:
-      Name: art_effect_ui_duanlu_minets_ui_duanlu_minets.prefab.ab
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_lv.prefab.ab
       Dependencies: {}
     Info_79:
-      Name: art_effect_ui_duanlu_jinbi_ui_duanlu_jinbi_baokaijuji_x2.prefab.ab
+      Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_bai.prefab.ab
       Dependencies: {}
     Info_80:
-      Name: art_effect_ui_duanlu_jinbi_ui_duanlu_jinbi_baokaijuji_x1.prefab.ab
+      Name: art_ui_texture_shop_reddot.png.ab
       Dependencies: {}
     Info_81:
-      Name: art_effect_ui_duanlu_luhuo_ui_duanlu_luhuo_zi.prefab.ab
+      Name: art_audio_ui_qingzhu.ogg.ab
       Dependencies: {}
     Info_82:
-      Name: art_effect_ui_duanlu_luhuo_ui_duanlu_luhuo_lv.prefab.ab
+      Name: art_atlas_setting.spriteatlas.ab
       Dependencies: {}
     Info_83:
-      Name: art_ui_decomposeitem.prefab.ab
-      Dependencies: {}
-    Info_84:
-      Name: art_ui_goodsitem.prefab.ab
-      Dependencies:
-        Dependency_0: art_ui_texture_touming1.png.ab
-    Info_85:
       Name: art_ui_nftshop.prefab.ab
       Dependencies:
         Dependency_0: art_ui_texture_shop_bg.jpg.ab
-        Dependency_1: art_ui_texture_touming1.png.ab
-    Info_86:
-      Name: art_ui_texture_touming1.png.ab
-      Dependencies: {}
-    Info_87:
-      Name: art_atlas_nft.spriteatlas.ab
-      Dependencies: {}
-    Info_88:
-      Name: art_atlas_mission.spriteatlas.ab
-      Dependencies: {}
-    Info_89:
+        Dependency_1: art_ui_texture_item_1.png.ab
+        Dependency_2: art_ui_texture_touming1.png.ab
+        Dependency_3: art_ui_texture_common_20241009-170532.png.ab
+        Dependency_4: art_ui_texture_item_20241009-1705321.png.ab
+        Dependency_5: art_ui_texture_item_t.png.ab
+        Dependency_6: art_ui_texture_nft_new_20241009-144903.jpg.ab
+        Dependency_7: art_ui_texture_nft_new_bb.png.ab
+        Dependency_8: art_ui_texture_nft_new_gg.png.ab
+        Dependency_9: art_ui_texture_nft_new_ss.png.ab
+    Info_84:
       Name: art_atlas_rank.spriteatlas.ab
       Dependencies: {}
-    Info_90:
-      Name: art_atlas_setting.spriteatlas.ab
+    Info_85:
+      Name: art_atlas_mission.spriteatlas.ab
       Dependencies: {}
-    Info_91:
+    Info_86:
       Name: art_atlas_userinfo.spriteatlas.ab
       Dependencies: {}
-    Info_92:
+    Info_87:
+      Name: art_ui_goodsitem.prefab.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_touming1.png.ab
+    Info_88:
+      Name: art_atlas_group.spriteatlas.ab
+      Dependencies: {}
+    Info_89:
       Name: art_atlas_widget.spriteatlas.ab
       Dependencies: {}
+    Info_90:
+      Name: art_ui_texture_touming1.png.ab
+      Dependencies: {}
+    Info_91:
+      Name: art_atlas_nft.spriteatlas.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_nft_new_20241008-173643.jpg.ab
+        Dependency_1: art_ui_texture_nft_new_20241009-112400.jpg.ab
+        Dependency_2: art_ui_texture_nft_new_20241009-112409.jpg.ab
+        Dependency_3: art_ui_texture_nft_new_20241009-144903.jpg.ab
+        Dependency_4: art_ui_texture_nft_new_20241010-102932.png.ab
+        Dependency_5: art_ui_texture_nft_new_20241010-112015.png.ab
+        Dependency_6: art_ui_texture_nft_new_20241010-112217.png.ab
+        Dependency_7: art_ui_texture_nft_new_bb.png.ab
+        Dependency_8: art_ui_texture_nft_new_cc.png.ab
+        Dependency_9: art_ui_texture_nft_new_dd.png.ab
+        Dependency_10: art_ui_texture_nft_new_gg.png.ab
+        Dependency_11: art_ui_texture_nft_new_ss.png.ab
+    Info_92:
+      Name: art_ui_decomposeitem.prefab.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_item_20241009-1705321.png.ab
+        Dependency_1: art_ui_texture_nft_new_20241008-173643.jpg.ab
+        Dependency_2: art_ui_texture_nft_new_20241010-102932.png.ab
     Info_93:
-      Name: art_atlas_group.spriteatlas.ab
+      Name: art_ui_nftshop_itemwindows.prefab.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_item_20241009-1705321.png.ab
+        Dependency_1: art_ui_texture_item_t.png.ab
+        Dependency_2: art_ui_texture_nft_new_20241010-102932.png.ab
+        Dependency_3: art_ui_texture_nft_new_20241010-112015.png.ab
+        Dependency_4: art_ui_texture_nft_new_20241010-112217.png.ab
+    Info_94:
+      Name: art_ui_uisecondconfirmation.prefab.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_nft_new_20241010-102932.png.ab
+        Dependency_1: art_ui_texture_common_button_20241011-093730.png.ab
+    Info_95:
+      Name: art_ui_commcon_currency.prefab.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_common_20241009-170532.png.ab
+        Dependency_1: art_ui_texture_item_20241009-1705321.png.ab
+    Info_96:
+      Name: art_ui_texture_common_20241009-170532.png.ab
+      Dependencies: {}
+    Info_97:
+      Name: art_ui_texture_common_20241011-093730.png.ab
+      Dependencies: {}
+    Info_98:
+      Name: art_ui_texture_item_20241009-1705321.png.ab
+      Dependencies: {}
+    Info_99:
+      Name: art_ui_texture_item_t.png.ab
+      Dependencies: {}
+    Info_100:
+      Name: art_ui_texture_nft_new_20241008-173643.jpg.ab
+      Dependencies: {}
+    Info_101:
+      Name: art_ui_texture_nft_new_20241009-112400.jpg.ab
+      Dependencies: {}
+    Info_102:
+      Name: art_ui_texture_nft_new_20241009-112409.jpg.ab
+      Dependencies: {}
+    Info_103:
+      Name: art_ui_texture_nft_new_20241009-144903.jpg.ab
+      Dependencies: {}
+    Info_104:
+      Name: art_ui_texture_nft_new_20241010-102932.png.ab
+      Dependencies: {}
+    Info_105:
+      Name: art_ui_texture_nft_new_20241010-112015.png.ab
+      Dependencies: {}
+    Info_106:
+      Name: art_ui_texture_nft_new_20241010-112217.png.ab
+      Dependencies: {}
+    Info_107:
+      Name: art_ui_texture_shop_20241008-172526.jpg.ab
+      Dependencies: {}
+    Info_108:
+      Name: art_ui_texture_nft_new_bb.png.ab
+      Dependencies: {}
+    Info_109:
+      Name: art_ui_texture_nft_new_cc.png.ab
+      Dependencies: {}
+    Info_110:
+      Name: art_ui_texture_nft_new_dd.png.ab
+      Dependencies: {}
+    Info_111:
+      Name: art_ui_texture_nft_new_gg.png.ab
+      Dependencies: {}
+    Info_112:
+      Name: art_ui_texture_nft_new_ss.png.ab
+      Dependencies: {}
+    Info_113:
+      Name: art_ui_uiomcwindows.prefab.ab
+      Dependencies:
+        Dependency_0: art_ui_texture_nft_new_20241010-102932.png.ab
+        Dependency_1: art_ui_texture_common_button_20241011-160639.png.ab
+        Dependency_2: art_ui_texture_main_newfolder_20241010-153422.png.ab
+    Info_114:
+      Name: art_ui_texture_common_button_20241011-093730.png.ab
+      Dependencies: {}
+    Info_115:
+      Name: art_ui_texture_common_button_20241011-160639.png.ab
+      Dependencies: {}
+    Info_116:
+      Name: art_ui_texture_main_newfolder_20241010-153422.png.ab
+      Dependencies: {}
+    Info_117:
+      Name: art_ui_texture_main_newfolder_20241011-100605.jpg.ab
+      Dependencies: {}
+    Info_118:
+      Name: art_ui_texture_main_newfolder_jindutiao.png.ab
+      Dependencies: {}
+    Info_119:
+      Name: art_ui_texture_main_newfolder_jindutuai2.png.ab
+      Dependencies: {}
+    Info_120:
+      Name: "art_ui_texture_main_newfolder_\u56FE\u6807.png.ab"
       Dependencies: {}

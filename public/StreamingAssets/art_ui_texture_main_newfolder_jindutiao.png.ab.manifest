@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2645343167
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 462cca7e19bf8f3652e9714e95012883
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 462cca7e19bf8f3652e9714e95012883
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/Main/New Folder/jindutiao.png
+Dependencies: []

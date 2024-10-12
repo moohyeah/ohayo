@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 955280882
+CRC: 902114774
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 384b249870b68ab913d016c002a271cd
+    Hash: 1eaf5e672e2e5789014c111efb2b0cb4
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b6ec9f5c6639f1b03eefca0a44bc8dee
+    Hash: d9ddb0112e87a94d614de75668a4df3a
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 384b249870b68ab913d016c002a271cd
+    Hash: 1eaf5e672e2e5789014c111efb2b0cb4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,7 +25,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: d5ffe7a993ce61842a9c711868269056, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
@@ -47,13 +53,7 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: dc565e183a2331546869e0560b4be438, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0f0025618797a474b967327bffb63e73, type: 3}
 - Class: 114
@@ -122,6 +122,6 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/UITask.prefab
 Dependencies:
-- D:/works/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png.ab
-- D:/works/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_bg.jpg.ab
-- D:/works/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_reddot.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_bg.jpg.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_reddot.png.ab

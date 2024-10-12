@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1984053330
+CRC: 3709574488
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f67607dbaf552e5d4fb2b40e9e68bd47
+    Hash: a2e93c1deb2a5d9e1c71f084fcdaffb9
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: f67607dbaf552e5d4fb2b40e9e68bd47
+    Hash: a2e93c1deb2a5d9e1c71f084fcdaffb9
 HashAppended: 0
 ClassTypes:
 - Class: 49
@@ -20,16 +20,16 @@ Assets:
 - Assets/Resourcex/configbytes/table/ui/uiView.tab.bytes
 - Assets/Resourcex/configbytes/table/TelegramEquit.tab.bytes
 - Assets/Resourcex/configbytes/table/audio/audio_mixer.tab.bytes
-- Assets/Resourcex/configbytes/table/Guide.tab.bytes
 - Assets/Resourcex/configbytes/table/EquitProperty.tab.bytes
+- Assets/Resourcex/configbytes/table/Guide.tab.bytes
 - Assets/Resourcex/configbytes/table/audio/audio_battle.tab.bytes
 - Assets/Resourcex/configbytes/table/TelegramAchievement.tab.bytes
 - Assets/Resourcex/configbytes/table/Task.tab.bytes
 - Assets/Resourcex/configbytes/table/audio/audio_ui.tab.bytes
+- Assets/Resourcex/configbytes/table/EquitPool.tab.bytes
 - Assets/Resourcex/configbytes/table/Group.tab.bytes
 - Assets/Resourcex/configbytes/table/TelegramTask.tab.bytes
 - Assets/Resourcex/configbytes/table/OtherData.tab.bytes
-- Assets/Resourcex/configbytes/table/EquitPool.tab.bytes
 - Assets/Resourcex/configbytes/table/audio/audio_bgm.tab.bytes
 - Assets/Resourcex/configbytes/table/TelegramShop.tab.bytes
 Dependencies: []

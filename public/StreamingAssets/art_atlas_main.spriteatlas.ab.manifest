@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1282975693
+CRC: 2240174208
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 75e964f78434400bc6c67c56161b0e6b
+    Hash: 00edb07e6d4c3d52c33fd664accd94a6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 033fafe2c9f6c610c3a734393882fd4c
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 75e964f78434400bc6c67c56161b0e6b
+    Hash: 00edb07e6d4c3d52c33fd664accd94a6
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -21,4 +21,9 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resourcex/art/atlas/Main.spriteatlas
-Dependencies: []
+Dependencies:
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_20241010-153422.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_20241011-100605.jpg.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutiao.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutuai2.png.ab
+- "E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_\u56FE\u6807.png.ab"
