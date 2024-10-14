@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2509811379
+CRC: 519076191
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 37d864583d83dc7a498800de9a395363
+    Hash: bd1abbafaafef0e06ebc4bfd742eba4a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 927c4f8152c54bed58c3e49bf9be354c
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 37d864583d83dc7a498800de9a395363
+    Hash: bd1abbafaafef0e06ebc4bfd742eba4a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -60,27 +60,15 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.KerningTable
 - AssemblyName: Unity.TextMeshPro
-  ClassName: TMPro.TMP_Character
-- AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontFeatureTable
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontWeightPair
-- AssemblyName: Unity.TextMeshPro
-  ClassName: TMPro.TMP_GlyphAdjustmentRecord
-- AssemblyName: Unity.TextMeshPro
-  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
-- AssemblyName: Unity.TextMeshPro
-  ClassName: TMPro.TMP_GlyphValueRecord
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.VertexGradient
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.PersistentCallGroup
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.FaceInfo
-- AssemblyName: UnityEngine.TextCoreFontEngineModule
-  ClassName: UnityEngine.TextCore.Glyph
-- AssemblyName: UnityEngine.TextCoreFontEngineModule
-  ClassName: UnityEngine.TextCore.GlyphMetrics
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.GlyphRect
 - AssemblyName: UnityEngine.UI
@@ -98,6 +86,7 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/NftShop_ItemWindows.prefab
 Dependencies:
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_equipicon_5101.png.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-102932.png.ab

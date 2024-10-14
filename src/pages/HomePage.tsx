@@ -4,10 +4,12 @@ import { adminAdress } from "../core/constants";
 import { GOOGLE_CLIENT_ID } from "../core/constants";
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 
-const GAME_WASM_PATH = "./Build/9c13b407488744a1a9bc4663259eb6d0.wasm.unityweb";
+const GAME_WASM_PATH = "./Build/090807a5ab992a087ac09e30b932771c.wasm.unityweb";
 const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-const GAME_DATA_PATH  = "./Build/c4148ed2dd249a9fd96b3447b589ea24.data.unityweb";
+const GAME_DATA_PATH  = "./Build/249377f15da5acd60fcf49174d869251.data.unityweb";
 const GAME_FRAMEWORK_PATH = "./Build/1012f80a950f80dbffcb7083fb5f0b0a.framework.js.unityweb";
+const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab.ab";
+
 
 function HomePage() {
   const ephemeralKeyPair = useEphemeralKeyPair();
@@ -15,7 +17,7 @@ function HomePage() {
 
   const { activeAccount, disconnectKeylessAccount, transferNft, getNfts } = useKeylessAccounts();
   const [progress, setProgress] = useState<number>(0);
-
+  const [gameInited, setGameInited] = useState<boolean>(false);
 
   useEffect(() => {
     if (activeAccount == null) {
@@ -60,10 +62,14 @@ function HomePage() {
     script.onload = () => {
       (window as any).createUnityInstance(canvas, config, (progress: number) => {
         // console.log(`progress: ${progress}`);
-        setProgress(100 * progress);
+        setProgress(100 * progress - 1);
       }).then((unityInstance: any) => {
         (window as any).unityInstance = unityInstance;
-        console.log('init Done')
+        console.log('init Done');
+        setTimeout(function() {
+          setProgress(100)
+          setGameInited(true);
+        }, 3000)
       }).catch((message: string) => {
         alert(message);
       });
@@ -72,7 +78,7 @@ function HomePage() {
     return () => {
       head?.removeChild(script);
     };
-  }, [activeAccount]);
+  }, [activeAccount, setProgress, setGameInited]);
 
   const googleLogin = useCallback(()=> {
 
@@ -197,16 +203,17 @@ function HomePage() {
                         
   return (
     <>
-    <link rel="preload" href={GAME_WASM_PATH} as="fetch" type="application/wasm"></link>
-    <link rel="preload" href={GAME_LOADER_PATH} as="script"></link>
-    <link rel="preload" href={GAME_DATA_PATH} as="fetch" type="application/wasm"></link>
-    <link rel="preload" href={GAME_FRAMEWORK_PATH} as="fetch" type="application/wasm"></link>
+    <link rel="preload" href={GAME_WASM_PATH} type="application/wasm" as="fetch"></link>
+    <link rel="preload" href={GAME_LOADER_PATH} type="text/javascript" as="script"></link>
+    <link rel="preload" href={GAME_DATA_PATH} type="application/wasm" as="fetch"></link>
+    <link rel="preload" href={GAME_FRAMEWORK_PATH} type="application/wasm" as="fetch"></link>
+    <link rel="preload" href={GAME_InitView_PATH} type="application/octet-stream" as="fetch"></link>
 
     <div className="min-h-screen flex flex-col bg-gradient-to-r from-cyan-950 from-10% via-zinc-950 via-50% to-fuchsia-950">
     {/* <div className="min-h-screen flex flex-col  bg-cover bg-center" style={{ backgroundImage: `url('./bg.svg')` }}> */}
       <div id="#unity-container" className="fixed inset-0 flex flex-col justify-center items-center" style={{display: activeAccount == null ? 'none' : 'flex'}}>
         <canvas id="unity-canvas" className="h-full max-w-full justify-center border items-center aspect-[720/1280] bg-zinc-400"></canvas>
-        <div id="game-loader" className="h-full max-w-full justify-center items-center aspect-[720/1280] absolute top-0" style={{backgroundImage: "url('./loading-bg.jpg')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'top', display: progress >= 100 ? 'none' : 'flex'}}>
+        <div id="game-loader" className="h-full max-w-full justify-center items-center aspect-[720/1280] absolute top-0" style={{backgroundImage: "url('./loading-bg.jpg')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'top', display: gameInited ? 'none' : 'flex'}}>
           <div id="unity-progress-bar-empty" className="w-4/5 bg-neutral-500 rounded-full h-4 absolute bottom-6 left-1/2 transform -translate-x-1/2">
             <div id="unity-progress-bar-full" className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-4 rounded-full" style={{width: progress + "%"}}></div>
           </div>

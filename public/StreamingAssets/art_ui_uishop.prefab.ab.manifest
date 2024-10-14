@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2335851352
+CRC: 2108539971
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a90681a48114acf37238005578fe320f
+    Hash: e967d9c4193665ea6094ed7b87db7bc0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 6142cbaaf5cdc62565989605a8853a04
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: a90681a48114acf37238005578fe320f
+    Hash: e967d9c4193665ea6094ed7b87db7bc0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -110,7 +110,6 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/UIShop.prefab
 Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_20241008-172526.jpg.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_bg.jpg.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_itembg.png.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_reddot.png.ab

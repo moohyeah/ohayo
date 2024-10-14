@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1652951862
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8e474e3a7f704560f59fc9d2bb4ddc17
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8e474e3a7f704560f59fc9d2bb4ddc17
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/EquipIcon/5506.png
+Dependencies: []

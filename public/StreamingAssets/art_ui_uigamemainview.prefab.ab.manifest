@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1764253720
+CRC: 778523800
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 27a5c97c258c28c0ad253fd5d994308c
+    Hash: c15e31a6d907adc5b6ef218cf3b2dc6f
   TypeTreeHash:
     serializedVersion: 2
     Hash: cdb0550242589a2dba6b823146159676
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 27a5c97c258c28c0ad253fd5d994308c
+    Hash: c15e31a6d907adc5b6ef218cf3b2dc6f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -132,8 +132,7 @@ Dependencies:
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_20241011-100605.jpg.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_ff.png.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutiao.png.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutuai2.png.ab
-- "E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_\u56FE\u6807.png.ab"
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_reddot.png.ab

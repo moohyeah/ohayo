@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1699879228
+CRC: 4140499731
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cb7373b5e2f9f60cc7a466cbd987b94a
+    Hash: a50d643de024a18254eef153d18f89e8
   TypeTreeHash:
     serializedVersion: 2
     Hash: 23b6c2ec7c82c48fdbe2fe047a8c5ad4
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: cb7373b5e2f9f60cc7a466cbd987b94a
+    Hash: a50d643de024a18254eef153d18f89e8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -58,27 +58,15 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.KerningTable
 - AssemblyName: Unity.TextMeshPro
-  ClassName: TMPro.TMP_Character
-- AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontFeatureTable
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontWeightPair
-- AssemblyName: Unity.TextMeshPro
-  ClassName: TMPro.TMP_GlyphAdjustmentRecord
-- AssemblyName: Unity.TextMeshPro
-  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
-- AssemblyName: Unity.TextMeshPro
-  ClassName: TMPro.TMP_GlyphValueRecord
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.VertexGradient
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.PersistentCallGroup
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.FaceInfo
-- AssemblyName: UnityEngine.TextCoreFontEngineModule
-  ClassName: UnityEngine.TextCore.Glyph
-- AssemblyName: UnityEngine.TextCoreFontEngineModule
-  ClassName: UnityEngine.TextCore.GlyphMetrics
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.GlyphRect
 - AssemblyName: UnityEngine.UI

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3485280827
+CRC: 2020232935
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7096eb420582b195fcfee0c865128f76
+    Hash: e8d04dcac20d32e2b95c904df58b4e70
   TypeTreeHash:
     serializedVersion: 2
     Hash: 289854c921f250ed316eba442fbd3521
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 7096eb420582b195fcfee0c865128f76
+    Hash: e8d04dcac20d32e2b95c904df58b4e70
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -115,4 +115,6 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.SpriteState
 Assets:
 - Assets/Resourcex/art/ui/UIGameUpdateView.prefab
-Dependencies: []
+Dependencies:
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_update_logo.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_update_newdeng.jpg.ab

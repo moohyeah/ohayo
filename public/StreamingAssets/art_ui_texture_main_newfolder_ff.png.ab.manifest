@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2046038957
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7012d5c2e80fe95378331fce827622cb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9000e56e955832e18b547895309e5b00
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7012d5c2e80fe95378331fce827622cb
+HashAppended: 0
+ClassTypes:
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/Main/New Folder/ff.png
+Dependencies: []

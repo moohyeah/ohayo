@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2569511214
+CRC: 1417845426
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 44506787677453f6b86ca67afedb9898
+    Hash: 588157803371f13ba1eeb3c52b999e09
   TypeTreeHash:
     serializedVersion: 2
     Hash: b02cc63d92bd9f5c4fd6d644ba45501f
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 44506787677453f6b86ca67afedb9898
+    Hash: 588157803371f13ba1eeb3c52b999e09
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -121,4 +121,5 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.SpriteState
 Assets:
 - Assets/Resourcex/art/ui/UIBook.prefab
-Dependencies: []
+Dependencies:
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_equipicon_5201.png.ab
