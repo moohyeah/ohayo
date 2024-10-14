@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-CRC: 2877755840
+CRC: 746875964
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: db16a39d13a3abb10994c1b209a18c31
+    Hash: fe3b23f9e25294e21e024238c245fded
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ddc3a088594b7f956a241958457b8890
+    Hash: 6f6dd156e267d72d96a5b9021b6ecac9
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: db16a39d13a3abb10994c1b209a18c31
-HashAppended: 0
+    Hash: fe3b23f9e25294e21e024238c245fded
+HashAppended: 1
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
@@ -31,11 +31,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
@@ -47,11 +47,15 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: d595d402a50661c4ca02fb6295c8015a, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 39c5def9a2e223c408b8106cc0c26bd0, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 95d84bcd96a9f5249abf1c836cb12e98, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f3b33ad6e6452d845b44631f8e3348ec, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 - Class: 114
@@ -65,15 +69,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 57daf337127b0d94887c7f15c6cc314b, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 21e22bb11f26ec24fa7aea461da4a16e, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: f3b33ad6e6452d845b44631f8e3348ec, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 57daf337127b0d94887c7f15c6cc314b, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 39c5def9a2e223c408b8106cc0c26bd0, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -102,9 +102,17 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.KerningTable
 - AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontFeatureTable
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.VertexGradient
 - AssemblyName: UnityEngine.CoreModule
@@ -113,6 +121,10 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.RectOffset
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.GlyphRect
 - AssemblyName: UnityEngine.UI
@@ -136,12 +148,12 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/NftShop.prefab
 Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_20241009-170532.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_bb.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_gg.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_ss.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_bg.jpg.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_touming1.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_20241009-170532.png_a762b4b66955199d6d9e4d757087b434.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png_cfc8bef334db80bc34a8b9bca2add4dc.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png_9a597aac1e64bf448b791622f583c052.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_bb.png_4011439ec5ba44438d142c68c0847d5a.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_gg.png_07d330c4c7501ecadcc5927a40c589c3.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_ss.png_564af4f108457d10b3b1ff1e69f0d3cb.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_bg.jpg_7158b4c1df39567bef5c39ac7cbd8856.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_touming1.png_fa59f33b7823a0e0b8b1db3f886950e1.ab

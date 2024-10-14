@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-CRC: 734647887
+CRC: 2451554868
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7305611d9318f50532e8e07448971e06
+    Hash: ea9ae0323d535228804c4ce6175ee099
   TypeTreeHash:
     serializedVersion: 2
     Hash: 033fafe2c9f6c610c3a734393882fd4c
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 7305611d9318f50532e8e07448971e06
-HashAppended: 0
+    Hash: ea9ae0323d535228804c4ce6175ee099
+HashAppended: 1
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
@@ -22,7 +22,8 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resourcex/art/atlas/Main.spriteatlas
 Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_20241010-153422.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_ff.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutiao.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutuai2.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_20241010-153422.png_85b7e8236b61a8a8aea67628b8dbdc79.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_ff.png_b3ce9d54562b245ba9c56b286173e58c.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutiao.png_462cca7e19bf8f3652e9714e95012883.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutuai2.png_37c985c806881a6b88c94c41a2d6dc5a.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_tubiao.png_c67f08b09c44fc24ba0fbdb456f4d390.ab

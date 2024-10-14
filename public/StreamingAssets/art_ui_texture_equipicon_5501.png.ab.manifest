@@ -10,7 +10,7 @@ Hashes:
   IncrementalBuildHash:
     serializedVersion: 2
     Hash: a59712db134baaa27eafb5805da77298
-HashAppended: 0
+HashAppended: 1
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}

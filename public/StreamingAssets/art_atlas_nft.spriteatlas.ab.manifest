@@ -10,7 +10,7 @@ Hashes:
   IncrementalBuildHash:
     serializedVersion: 2
     Hash: f58627ab96fba734e4aa53a9b948b918
-HashAppended: 0
+HashAppended: 1
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
@@ -22,9 +22,9 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resourcex/art/atlas/nft.spriteatlas
 Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-102932.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-112015.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-112217.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_bb.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_gg.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_ss.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-102932.png_07475533f55178f2fdaadf2430f90173.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-112015.png_3911b64b84c40b89155a86d2dbe9a937.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-112217.png_652dff05318d9f211fe9283ad251dc97.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_bb.png_4011439ec5ba44438d142c68c0847d5a.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_gg.png_07d330c4c7501ecadcc5927a40c589c3.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_ss.png_564af4f108457d10b3b1ff1e69f0d3cb.ab

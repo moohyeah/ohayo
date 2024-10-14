@@ -10,7 +10,7 @@ Hashes:
   IncrementalBuildHash:
     serializedVersion: 2
     Hash: 8dda59dc05e754de24a52d66a0a76005
-HashAppended: 0
+HashAppended: 1
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
@@ -48,4 +48,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/GoodsItem.prefab
 Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_touming1.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_touming1.png_fa59f33b7823a0e0b8b1db3f886950e1.ab

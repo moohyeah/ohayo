@@ -20,11 +20,10 @@ function CallbackPage() {
     async function deriveAccount(idToken: string) {
       try {
         await switchKeylessAccount(idToken);
-        navigate("/");
       } catch (error) {
         console.error(error);
-        navigate("/");
       }
+      navigate("/");
     }
 
     if (!idToken) {

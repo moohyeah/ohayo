@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-CRC: 2181459721
+CRC: 2434774069
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 088669240cff629e4d7e5062fe29aab0
+    Hash: e883f441005372a4bc14d5bbd7d08a3c
   TypeTreeHash:
     serializedVersion: 2
     Hash: f22f9f2616aed540fb2ea7e0dcba6131
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 088669240cff629e4d7e5062fe29aab0
-HashAppended: 0
+    Hash: e883f441005372a4bc14d5bbd7d08a3c
+HashAppended: 1
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
@@ -110,4 +110,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/Tutorial.prefab
 Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_guild.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_guild.png_27f3c20ed6823b99d9daffdba2a83e2b.ab

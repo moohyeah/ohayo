@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-CRC: 778523800
+CRC: 383901694
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c15e31a6d907adc5b6ef218cf3b2dc6f
+    Hash: 3a41f8e338a5ae4ce54f66c22b35e7c3
   TypeTreeHash:
     serializedVersion: 2
     Hash: cdb0550242589a2dba6b823146159676
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c15e31a6d907adc5b6ef218cf3b2dc6f
-HashAppended: 0
+    Hash: 3a41f8e338a5ae4ce54f66c22b35e7c3
+HashAppended: 1
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
@@ -128,11 +128,11 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/UIGameMainView.prefab
 Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_20241009-170532.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_ff.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutiao.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutuai2.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_reddot.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_20241009-170532.png_a762b4b66955199d6d9e4d757087b434.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png_cfc8bef334db80bc34a8b9bca2add4dc.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png_9a597aac1e64bf448b791622f583c052.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutiao.png_462cca7e19bf8f3652e9714e95012883.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutuai2.png_37c985c806881a6b88c94c41a2d6dc5a.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_tubiao.png_c67f08b09c44fc24ba0fbdb456f4d390.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_reddot.png_747717a39ea79872dde905f2f3d9d3a3.ab

@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-CRC: 3487206082
+CRC: 2221557091
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 760e2e056f250261947d9a4279d6b21a
+    Hash: 25dd1426b08e80931c10784778dba11f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 59b73d4480dd9caa7d98257da1369c79
+    Hash: ca0df0607f56f58b6f5c79e23e3da8a2
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 760e2e056f250261947d9a4279d6b21a
-HashAppended: 0
+    Hash: 25dd1426b08e80931c10784778dba11f
+HashAppended: 1
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
@@ -27,11 +27,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
@@ -113,4 +113,5 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.SpriteState
 Assets:
 - Assets/Resourcex/art/ui/UIRank.prefab
-Dependencies: []
+Dependencies:
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab

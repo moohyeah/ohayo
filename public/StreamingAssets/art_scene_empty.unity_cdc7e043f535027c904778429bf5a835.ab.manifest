@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 2713513772
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cdc7e043f535027c904778429bf5a835
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 383f252e75b1c5cd388e7712ef8d66af
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cdc7e043f535027c904778429bf5a835
+HashAppended: 1
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/scene/empty.unity
+Dependencies: []

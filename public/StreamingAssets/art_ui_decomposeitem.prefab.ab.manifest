@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-CRC: 3556691968
+CRC: 3143613998
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e46b030007468e7b790a0802d89fe8cf
+    Hash: f43408d482468e3f9e62c1b7dc747ab1
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2f75faf827415655fd2623d74357a6d9
+    Hash: 456fe0451a5ec88e1125fdae35fc3d38
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: e46b030007468e7b790a0802d89fe8cf
-HashAppended: 0
+    Hash: f43408d482468e3f9e62c1b7dc747ab1
+HashAppended: 1
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
@@ -31,6 +31,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 659127740e5ee5349bbe5d615903f7da, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -40,8 +42,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 659127740e5ee5349bbe5d615903f7da, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -60,9 +60,17 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.KerningTable
 - AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontFeatureTable
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.VertexGradient
 - AssemblyName: UnityEngine.CoreModule
@@ -71,6 +79,10 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.RectOffset
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.GlyphRect
 - AssemblyName: UnityEngine.UI
@@ -90,5 +102,5 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/DecomposeItem.prefab
 Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-102932.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-102932.png_07475533f55178f2fdaadf2430f90173.ab

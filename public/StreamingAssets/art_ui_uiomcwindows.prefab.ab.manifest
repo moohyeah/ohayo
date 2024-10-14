@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-CRC: 4140499731
+CRC: 1864460395
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a50d643de024a18254eef153d18f89e8
+    Hash: f76aed1084fac2a2f85f81d2c550aa2e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 23b6c2ec7c82c48fdbe2fe047a8c5ad4
+    Hash: 214019028fc509e21e7c6dcccfd0bfa6
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: a50d643de024a18254eef153d18f89e8
-HashAppended: 0
+    Hash: f76aed1084fac2a2f85f81d2c550aa2e
+HashAppended: 1
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
@@ -35,11 +35,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: ca422622f6c0c0e49b4461987b5ec429, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: ca422622f6c0c0e49b4461987b5ec429, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -58,15 +58,27 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.KerningTable
 - AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontFeatureTable
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.VertexGradient
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.PersistentCallGroup
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.GlyphRect
 - AssemblyName: UnityEngine.UI
@@ -84,6 +96,6 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/UIOMCWindows.prefab
 Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_button_20241011-160639.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_20241010-153422.png.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-102932.png.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_button_20241011-160639.png_88c818d4c4f203104f705f5b576df785.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_20241010-153422.png_85b7e8236b61a8a8aea67628b8dbdc79.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-102932.png_07475533f55178f2fdaadf2430f90173.ab

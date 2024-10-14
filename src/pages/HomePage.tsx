@@ -4,11 +4,12 @@ import { adminAdress } from "../core/constants";
 import { GOOGLE_CLIENT_ID } from "../core/constants";
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 
-const GAME_WASM_PATH = "./Build/090807a5ab992a087ac09e30b932771c.wasm.unityweb";
+const GAME_WASM_PATH = "./Build/7f136d51f38ad15c5be33815858a822d.wasm.unityweb";
 const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-const GAME_DATA_PATH  = "./Build/249377f15da5acd60fcf49174d869251.data.unityweb";
-const GAME_FRAMEWORK_PATH = "./Build/1012f80a950f80dbffcb7083fb5f0b0a.framework.js.unityweb";
-const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab.ab";
+const GAME_DATA_PATH  = "./Build/cc63d785b52996cd5d3322e8acd03209.data.unityweb";
+const GAME_FRAMEWORK_PATH = "./Build/29a41bb744cd06e966b2ce78646a1f9b.framework.js.unityweb";
+const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab_d6bf55d13d246f7a5166990d03d02189.ab";
+const GAME_StreamingAsset_PATH = "./StreamingAssets/StreamingAssets";
 
 
 function HomePage() {
@@ -49,7 +50,7 @@ function HomePage() {
       },
       streamingAssetsUrl: "./StreamingAssets",
       companyName: "Zhuhai Theophilus Network Technology Co. Ltd.",
-      productName: "方舟之旅",
+      productName: "Ohayo Master",
       productVersion: "1.5.7",
       // showBanner: unityShowBanner,
     };
@@ -208,6 +209,8 @@ function HomePage() {
     <link rel="preload" href={GAME_DATA_PATH} type="application/wasm" as="fetch"></link>
     <link rel="preload" href={GAME_FRAMEWORK_PATH} type="application/wasm" as="fetch"></link>
     <link rel="preload" href={GAME_InitView_PATH} type="application/octet-stream" as="fetch"></link>
+    <link rel="preload" href={GAME_StreamingAsset_PATH} type="application/octet-stream" as="fetch"></link>
+
 
     <div className="min-h-screen flex flex-col bg-gradient-to-r from-cyan-950 from-10% via-zinc-950 via-50% to-fuchsia-950">
     {/* <div className="min-h-screen flex flex-col  bg-cover bg-center" style={{ backgroundImage: `url('./bg.svg')` }}> */}
