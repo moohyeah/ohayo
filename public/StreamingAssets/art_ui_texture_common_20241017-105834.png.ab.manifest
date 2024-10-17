@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 4227791078
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f19b14a700f2861fc84a19c3a6c70d5d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f19b14a700f2861fc84a19c3a6c70d5d
+HashAppended: 1
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resourcex/art/ui/texture/Common/20241017-105834.png
+Dependencies: []

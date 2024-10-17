@@ -1,18 +1,20 @@
 ManifestFileVersion: 0
-CRC: 2261125808
+CRC: 2505424970
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dbdb5c5dd87b56a7a20a31f641874f56
+    Hash: 40a40eb35f979df7159d1fd5c2a9e560
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9b03f0756cc427ff51356170d450f345
+    Hash: d55c86cb5b0d57a716f83f2542ae7ecf
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: dbdb5c5dd87b56a7a20a31f641874f56
+    Hash: 40a40eb35f979df7159d1fd5c2a9e560
 HashAppended: 1
 ClassTypes:
 - Class: 1
+  Script: {instanceID: 0}
+- Class: 4
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
@@ -20,10 +22,12 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: 289f5b622d50baa4fb7085b9af61450a, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 6cdaa4aaab2e81848b9b8818b8282c8d, type: 3}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
@@ -34,6 +38,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
 - Class: 114
@@ -50,9 +56,23 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76b610ae38d33124c8e843b140b069fc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 289f5b622d50baa4fb7085b9af61450a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6cdaa4aaab2e81848b9b8818b8282c8d, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
@@ -110,6 +130,11 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/UIShop.prefab
 Dependencies:
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_20241009-170532.png_a762b4b66955199d6d9e4d757087b434.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png_cfc8bef334db80bc34a8b9bca2add4dc.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png_f3a1c3af609c2a52a54a8851eaeba90f.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_20241016-154602.png_10c747b8b56c6cef7e7a60c48d18d980.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_bg.jpg_7158b4c1df39567bef5c39ac7cbd8856.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_itembg.png_2ace373a8351d27341d42b77ccc70d74.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_shop_reddot.png_747717a39ea79872dde905f2f3d9d3a3.ab

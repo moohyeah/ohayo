@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 3089205175
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 849ac3f3d82835587065ecd4c442a8fb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8b66b794b33ec92e866f5b03e8fb81ba
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 849ac3f3d82835587065ecd4c442a8fb
+HashAppended: 1
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 10b1d25573a8e824fb3a9ce9f3098031, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Resourcex/art/ui/UIRequestLoading.prefab
+Dependencies:
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_20241017-105834.png_f19b14a700f2861fc84a19c3a6c70d5d.ab

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 383901694
+CRC: 2043292376
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3a41f8e338a5ae4ce54f66c22b35e7c3
+    Hash: fc2964def9d5b72e3c1b6cdb3da1098c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cdb0550242589a2dba6b823146159676
+    Hash: b08bda61e90e45c1784cf7d293aa94d2
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 3a41f8e338a5ae4ce54f66c22b35e7c3
+    Hash: fc2964def9d5b72e3c1b6cdb3da1098c
 HashAppended: 1
 ClassTypes:
 - Class: 1
@@ -30,8 +30,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: 3d9f6cf2a9ad9ce439b46824936199ee, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
@@ -58,6 +56,10 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 0f0025618797a474b967327bffb63e73, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76b610ae38d33124c8e843b140b069fc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6f0b12ed4de01e2479b4e5e428e28ed3, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -73,8 +75,6 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 - Class: 222
-  Script: {instanceID: 0}
-- Class: 223
   Script: {instanceID: 0}
 - Class: 224
   Script: {instanceID: 0}
@@ -131,7 +131,7 @@ Dependencies:
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_20241009-170532.png_a762b4b66955199d6d9e4d757087b434.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png_cfc8bef334db80bc34a8b9bca2add4dc.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png_9a597aac1e64bf448b791622f583c052.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png_f3a1c3af609c2a52a54a8851eaeba90f.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutiao.png_462cca7e19bf8f3652e9714e95012883.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_jindutuai2.png_37c985c806881a6b88c94c41a2d6dc5a.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_tubiao.png_c67f08b09c44fc24ba0fbdb456f4d390.ab

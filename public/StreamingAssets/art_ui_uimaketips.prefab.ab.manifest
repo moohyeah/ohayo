@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 402649068
+CRC: 1424677285
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ff9df02a969e702a0ea8d831c02aa3a3
+    Hash: 3ef290be3b53a03a7aed3c5276056619
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 232885f3491bfedf97b952f058325334
+    Hash: 5021f7ebbb4530b5a066d6765307e5bb
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: ff9df02a969e702a0ea8d831c02aa3a3
+    Hash: 3ef290be3b53a03a7aed3c5276056619
 HashAppended: 1
 ClassTypes:
 - Class: 1
@@ -32,6 +32,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 0f0025618797a474b967327bffb63e73, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
 - Class: 222
   Script: {instanceID: 0}
 - Class: 224
@@ -53,4 +55,5 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.SpriteState
 Assets:
 - Assets/Resourcex/art/ui/UIMakeTips.prefab
-Dependencies: []
+Dependencies:
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_equipicon_5101.png_b6dfbb9197a3da3bd906ecf5abf5bc2c.ab

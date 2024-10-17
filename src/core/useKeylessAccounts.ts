@@ -10,7 +10,7 @@ import {
 } from "@aptos-labs/ts-sdk";
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
-import { LocalStorageKeys, devnetClient } from "./constants";
+import { APT_UNIT, LocalStorageKeys, devnetClient } from "./constants";
 import { validateIdToken } from "./idToken";
 import {
   EphemeralKeyPairEncoding,
@@ -73,6 +73,16 @@ interface KeylessAccountsActions {
    */
   getNfts: () => Promise<GetAccountOwnedTokensFromCollectionResponse>;
   
+  /**
+   * 转移 Coin 到指定接收者
+   * @param amount - 转移的金额
+   * @param recipient - 接收者的地址
+   */
+  transferCoin: (amount: number, recipient: string) => Promise<string>;
+  /**
+   * 获取账户余额
+   */
+  getBalance: () => Promise<number>;
 }
 
 const storage = createJSONStorage<KeylessAccountsState>(() => localStorage, {
@@ -215,6 +225,28 @@ export const useKeylessAccounts = create<
           }
           const assets = devnetClient.getAccountOwnedTokensFromCollectionAddress({accountAddress:activeAccount.accountAddress, collectionAddress: AccountAddress.fromString(NftCollectionAddr)})
           return assets;
+        },
+        transferCoin: async (amount: number, recipient: string) => {
+          const activeAccount = get().activeAccount;
+          if (!activeAccount) {
+            throw new Error("transferNft: 未找到活跃账户");
+          }
+          const transferTransaction = await devnetClient.transferCoinTransaction({
+            sender: activeAccount.accountAddress,
+            recipient: AccountAddress.fromString(recipient),
+            amount: amount,
+          });
+          const committedTxn = await devnetClient.signAndSubmitTransaction({ signer: activeAccount, transaction: transferTransaction });
+          await devnetClient.waitForTransaction({ transactionHash: committedTxn.hash });
+          return committedTxn.hash;
+        },
+        getBalance : async() => {
+          const activeAccount = get().activeAccount;
+          if (!activeAccount) {
+            throw new Error("transferNft: 未找到活跃账户");
+          }
+          const balance = await devnetClient.getAccountAPTAmount({accountAddress: activeAccount.accountAddress})
+          return balance;
         },
       } satisfies KeylessAccountsActions),
     }),

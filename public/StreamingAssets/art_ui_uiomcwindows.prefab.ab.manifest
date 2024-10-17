@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1864460395
+CRC: 1924997738
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f76aed1084fac2a2f85f81d2c550aa2e
+    Hash: 3309962939072afa755c37464bf1139c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 214019028fc509e21e7c6dcccfd0bfa6
+    Hash: ad2f9d2e213fae7800521134357b316d
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: f76aed1084fac2a2f85f81d2c550aa2e
+    Hash: 3309962939072afa755c37464bf1139c
 HashAppended: 1
 ClassTypes:
 - Class: 1
@@ -35,11 +35,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: ca422622f6c0c0e49b4461987b5ec429, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ca422622f6c0c0e49b4461987b5ec429, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -97,5 +97,5 @@ Assets:
 - Assets/Resourcex/art/ui/UIOMCWindows.prefab
 Dependencies:
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_button_20241011-160639.png_88c818d4c4f203104f705f5b576df785.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_main_newfolder_20241010-153422.png_85b7e8236b61a8a8aea67628b8dbdc79.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_9.png_83db07217c799c0a7d468111e4012f2c.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241010-102932.png_07475533f55178f2fdaadf2430f90173.ab

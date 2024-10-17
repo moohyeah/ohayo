@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 746875964
+CRC: 1966181890
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fe3b23f9e25294e21e024238c245fded
+    Hash: 1c100618baf62d32cb711ee5d3804c50
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6f6dd156e267d72d96a5b9021b6ecac9
+    Hash: b03fe97929f21e827b5885ba4180b987
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: fe3b23f9e25294e21e024238c245fded
+    Hash: 1c100618baf62d32cb711ee5d3804c50
 HashAppended: 1
 ClassTypes:
 - Class: 1
@@ -55,8 +55,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: f3b33ad6e6452d845b44631f8e3348ec, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
@@ -74,6 +72,10 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 21e22bb11f26ec24fa7aea461da4a16e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f3b33ad6e6452d845b44631f8e3348ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76b610ae38d33124c8e843b140b069fc, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -151,7 +153,7 @@ Dependencies:
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_20241009-170532.png_a762b4b66955199d6d9e4d757087b434.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_1.png_cfc8bef334db80bc34a8b9bca2add4dc.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png_9a597aac1e64bf448b791622f583c052.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png_f3a1c3af609c2a52a54a8851eaeba90f.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_bb.png_4011439ec5ba44438d142c68c0847d5a.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_gg.png_07d330c4c7501ecadcc5927a40c589c3.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_ss.png_564af4f108457d10b3b1ff1e69f0d3cb.ab
