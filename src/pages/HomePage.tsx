@@ -4,10 +4,10 @@ import { adminAdress } from "../core/constants";
 import { GOOGLE_CLIENT_ID } from "../core/constants";
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 
-const GAME_WASM_PATH = "./Build/5a1a514e213cc09b9e20f30be5a7a337.wasm.unityweb";
+const GAME_WASM_PATH = "./Build/5e50cfd79832794ec917abb1636fea4c.wasm.unityweb";
 const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-const GAME_DATA_PATH  = "./Build/0877ce7ef05ff398614a8059e38b3fc4.data.unityweb";
-const GAME_FRAMEWORK_PATH = "./Build/876e0c83c2bf2efcd69987d7ced2f59a.framework.js.unityweb";
+const GAME_DATA_PATH  = "./Build/b69b4c57341e9d5a7e0671c8e06081d7.data.unityweb";
+const GAME_FRAMEWORK_PATH = "./Build/46bf49cedcba08c00ea15924a626d398.framework.js.unityweb";
 const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab_d6bf55d13d246f7a5166990d03d02189.ab";
 const GAME_StreamingAsset_PATH = "./StreamingAssets/StreamingAssets";
 
@@ -230,7 +230,7 @@ function HomePage() {
     <link rel="preload" href={GAME_StreamingAsset_PATH} type="application/octet-stream" as="fetch"></link>
 
 
-    <div className="min-h-screen flex flex-col bg-gradient-to-r from-cyan-950 from-10% via-zinc-950 via-50% to-fuchsia-950">
+    <div className="min-h-screen flex flex-col bg-slate-900">
     {/* <div className="min-h-screen flex flex-col  bg-cover bg-center" style={{ backgroundImage: `url('./bg.svg')` }}> */}
       <div id="#unity-container" className="fixed inset-0 flex flex-col justify-center items-center" style={{display: activeAccount == null ? 'none' : 'flex'}}>
         <canvas id="unity-canvas" className="h-full max-w-full justify-center border items-center aspect-[720/1280] bg-zinc-400"></canvas>
@@ -240,27 +240,110 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div id="index" className="grid min-h-svh grid-rows-[auto_1fr_auto]" style={{display: activeAccount != null ? 'none' : 'grid'}}>
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-4 max-w-5xl">
-          <img src="./rr.svg" alt="rr" className="h-auto absolute" />
-          <div className="relative sm:w-3/5 text-center sm:ml-auto rounded-lg pt-60 sm:pl-16 sm:pt-2">
-            {/* <div className="relative justify-center w-full item-center" style={{backgroundImage: "url('./beijingkuang.png')", backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', paddingBottom: '33.33%'}}>
-              <div className="absolute inset-0 block items-center justify-center text-slate-200">
-                <p className="justify-center text-center text-xl sm:text-2xl" style={{ marginTop:"0.15em"}}>
-                  USER 
-                </p>
-                <p className="justify-center text-center text-2xl sm:text-4xl mt-7"id="user-total">
-                {userTotal !== null ? userTotal : '加载中...'} 
-                </p>
-              </div>
-            </div> */}
-            <h1 className="text-4xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-gray-200 text-center" style={{ marginTop: '1em' }}>
-              Game Is Live!<p/>
-              <p>Download And Play Now!</p>
-              <a href="#" className="flex justify-center mx-auto mt-8" style={{ backgroundImage: "url('./anniu.png')", width: '317px', height: '80px'}} onClick={playGame}>
-              </a>
-            </h1> 
+      <div id="index" className="grid min-h-svh grid-rows-[auto_1fr_auto] overflow-hidden" style={{display: activeAccount != null ? 'none' : 'grid'}}>
+        <div className="container mx-auto sm:px-6 lg:px-8">
+          <div className="relative h-screen text-center" style={{backgroundImage: "url('./bg2.jpg')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
+            <div className="absolute left-1/2 -translate-x-1/2 top-0 text-2xl pt-4 scale-75 sm:scale-100" style={{backgroundImage: "url('./dl.png')", width: '438px', height: '61px'}}>
+              <span className=" text-white">USER: </span> <span className=" text-amber-300">100000</span>
+            </div>
+            <div className="absolute left-1/2 -translate-x-1/2 bottom-12 pb-10 w-4/5">
+              <h1 className="text-4xl sm:text-5xl font-bold text-stroke text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 text-center" style={{ marginTop: '1em' }}>
+                Game Is Live! Play Now!<p/>
+                <a href="#" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./anniu.png')", width: '288px', height: '63px'}} onClick={playGame}>
+                </a>
+              </h1>
+              <ul className="inline-flex absolute bottom-0 right-0">
+                <li className="px-2">
+                  <a href="#" target="_blank" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./fb.png')", width: '30px', height: '30px'}}>
+                  </a>
+                </li>
+                <li  className="px-2">
+                  <a href="#" target="_blank" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./tt.png')", width: '30px', height: '30px'}}>
+                  </a>
+                </li>
+                <li  className="px-2">
+                  <a href="#" target="_blank" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./tg.png')", width: '30px', height: '30px'}}>
+                  </a>
+                </li>
+              </ul> 
+            </div>
           </div>
+          <div className="relative text-center w-full" style={{backgroundImage: "url('./gt.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height: "68px"}}>
+          </div>
+          <div className="relative text-center sm:h-auto h-1/3">
+           <img className="absolute left-1/2 -translate-x-1/2 w-full h-full" src="./bg.jpg"></img>
+            <div className="scale-50 sm:scale-100 origin-top-left">
+              <div className="px-4 relative mx-auto w-full sm:w-2/3 py-14 flex">
+                <img src="./gameshow.png" className=" h-auto absolute"></img>
+                <img src="./k.png" className=" py-20 pl-8" width={460} height={257}></img>
+                <img src="./rm.png"  width={361} height={443}></img>
+              </div>
+              <div className="px-4 relative mx-auto sm:w-2/3 py-14 flex">
+                <img src="./nft.png" className=" h-auto absolute"></img>
+                <div className=" pl-8 pt-16 pb-8 inline-flex">
+                  <img src="./nft1.png" className=" mr-4"></img>
+                  <img src="./nft2.png" className=" mr-4"></img>
+                  <img src="./nft3.png" className=" mr-4"></img>
+                </div>
+              </div>
+              <div className="px-4 relative mx-auto sm:w-2/3 py-4">
+                <img src="./hero.png" className=" h-auto absolute"></img>
+                <ul className=" inline-flex w-4/5 px-8 pt-4 text-slate-900">
+                  <li>
+                    <a className=" px-6" href="">Kagura</a>
+                    |
+                  </li>
+                  <li>
+                    <a className=" px-6" href="">Luca</a>
+                    |
+                  </li>
+                  <li>
+                    <a className=" px-6" href="">Mikoto</a>
+                  </li>
+                </ul>
+                <div className="items-center justify-center flex mt-4">
+                  <img src="./kagura.png" className=" h-auto"></img>
+                </div>
+              </div>
+              <div className="px-4 relative mx-auto sm:w-2/3 py-4 mt-16 flex">
+                <img src="./HORCRUX.png" className=" h-auto absolute"></img>
+                <div className="pt-14 pb-8 inline-flex">
+                  <img src="./HORCRUX1.png" className=" mr-4"></img>
+                  <img src="./HORCRUX2.png" className=" mr-4"></img>
+                  <img src="./HORCRUX3.png" className=" mr-4"></img>
+                  <img src="./HORCRUX4.png" className=" mr-4"></img>
+                </div>
+              </div>
+              <div className="px-4 relative mx-auto sm:w-2/3 py-4 flex">
+                <img src="./Building+AWA.png" className=" h-auto absolute"></img>
+                <div className="pt-14 pb-8 inline-flex">
+                  <img src="./jianzhu1.png" className=" mr-4"></img>
+                  <img src="./jianzhu2.png" className=" mr-4"></img>
+                  <img src="./jianzhu3.png" className=" mr-4"></img>
+                  <img src="./jianzhu4.png" className=" mr-4"></img>
+                </div>
+              </div>
+              <div className="px-4 relative mx-auto sm:w-2/3 py-4 flex">
+                <img src="./weapon.png" className=" h-auto absolute"></img>
+                <div className="pt-14 pb-8 inline-flex">
+                  <img src="./wuqi1.png" className=" mr-4"></img>
+                  <img src="./wuqi2.png" className=" mr-4"></img>
+                  <img src="./wuqi3.png" className=" mr-4"></img>
+                  <img src="./wuqi4.png" className=" mr-4"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" relative  bg-slate-900">
+            <div className=" text-white text-left block justify-center items-center mx-auto w-full sm:w-2/3 py-10">
+              <p>Welcome to Ohayo Master! </p>
+              <p>Here, you will embark on adventures and live alongside dozens of fun and adorable characters. 
+              Gather valuable materials through your adventures, use them to craft various items, fulfill 
+              orders, and earn funds. As your wealth grows, you can continually train and strengthen your 
+              characters, allowing them to excel in more challenging quests.</p>
+              <p>Are you ready to begin your journey of adventure and management?</p>
+            </div>
+          </ div>
         </div>
       </div>
     </div>

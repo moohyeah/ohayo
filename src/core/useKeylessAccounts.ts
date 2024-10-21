@@ -10,7 +10,7 @@ import {
 } from "@aptos-labs/ts-sdk";
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
-import { APT_UNIT, LocalStorageKeys, devnetClient } from "./constants";
+import { LocalStorageKeys, devnetClient } from "./constants";
 import { validateIdToken } from "./idToken";
 import {
   EphemeralKeyPairEncoding,
