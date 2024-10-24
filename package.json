@@ -12,6 +12,7 @@
   "dependencies": {
     "@aptos-labs/ts-sdk": "1.19.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/line-clamp": "^0.4.4",
     "dotenv": "^16.4.5",
     "jwt-decode": "^4.0.0",
     "react": "^18.3.1",

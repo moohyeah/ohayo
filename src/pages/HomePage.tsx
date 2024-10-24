@@ -3,11 +3,13 @@ import { useEffect, useCallback, useState } from 'react';
 import { adminAdress } from "../core/constants";
 import { GOOGLE_CLIENT_ID } from "../core/constants";
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
+import Tabs from "../components/Tabs";
 
-const GAME_WASM_PATH = "./Build/5e50cfd79832794ec917abb1636fea4c.wasm.unityweb";
+
+const GAME_WASM_PATH = "./Build/3d28b039423b3a202c1838061eee0a42.wasm.unityweb";
 const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-const GAME_DATA_PATH  = "./Build/b69b4c57341e9d5a7e0671c8e06081d7.data.unityweb";
-const GAME_FRAMEWORK_PATH = "./Build/46bf49cedcba08c00ea15924a626d398.framework.js.unityweb";
+const GAME_DATA_PATH  = "./Build/032453fd7d10db89e24bf05474e26a6c.data.unityweb";
+const GAME_FRAMEWORK_PATH = "./Build/0486703f0a386f1759114fd18ccee1d1.framework.js.unityweb";
 const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab_d6bf55d13d246f7a5166990d03d02189.ab";
 const GAME_StreamingAsset_PATH = "./StreamingAssets/StreamingAssets";
 
@@ -121,15 +123,16 @@ function HomePage() {
     if (gameContainerElement) gameContainerElement.style.top = '0'; 
   }, []);
 
+  const SendBlockChainMsgToGame = useCallback((data: any) => {
+    (window as any).unityInstance.SendMessage("MainController", "OnBlockChainMsg", JSON.stringify(data));
+  }, []);
+
   const handleGameLogin = useCallback(async ()=>{
     const account = activeAccount?.accountAddress?.toString();
     if (account) {
       console.log(`=======login?${account}`);
       const nick = `${account.slice(0, 4)}...${account.slice(-6)}`;
       (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify({account: account, token: account, nick: nick}));
-
-
-
     } else {
       console.warn("账户未定义，无法登录");
     }
@@ -139,28 +142,41 @@ function HomePage() {
     disconnectKeylessAccount()
   }, []);
 
-  const handleNFtBurn = useCallback(async (evt : any) => {
-    const {tokenId} = evt.detail;
-    const hash = await transferNft(tokenId, adminAdress);
-    console.log(`transferNft Finish: ${hash}`)
+  const handleNFtTransfer = useCallback(async (evt : any) => {
+    const {tokenId, recipient} = evt.detail;
+    console.log(`transferNft: ${tokenId}, ${recipient}`);
+    const hash = await transferNft(tokenId, recipient);
+    console.log(`transferNft Finish: ${hash}`);
+    SendBlockChainMsgToGame({msgType: "nft_transfer_ret", hash: hash});
   }, [transferNft]);
 
   const handleGetNfts = useCallback(async () => {
     const nfts = await getNfts();
     const formattedNfts = nfts.map(nft => ({
       token_id: nft.token_data_id,
-      // property: nft.current_token_data?.token_properties,
       tid: parseInt(nft.current_token_data?.token_properties?.id),
     }));
     (window as any).unityInstance.SendMessage("MainController", "OnNftListMsg", JSON.stringify(formattedNfts));
   }, [getNfts]);
 
   const handleTransferCoin = useCallback(async (evt : any) => {
+    const {amount, recipient} = evt.detail;
+    let balance = await getBalance();
+    if (amount >= balance) {
+      alert("Insufficient APT balance");
+      return;
+    }
+    const tranx_hash = await transferCoin(amount, recipient);
+    balance = await getBalance();
+    SendBlockChainMsgToGame({msgType: "transfer_coin_ret", balance: balance, hash: tranx_hash})
+  }, [transferCoin]);
+
+  const handlePayOrder = useCallback(async (evt : any) => {
     const {amount, orderId} = evt.detail;
     const balance = await getBalance();
-    console.log(`=========balance: ${balance}`);
-    if (amount <= balance) {
+    if (amount >= balance) {
       alert("Insufficient APT balance");
+      return;
     }
     const tranx_hash = await transferCoin(amount, adminAdress);
     (window as any).unityInstance.SendMessage("MainController", "OnPlatformPayMsg", JSON.stringify({hash: tranx_hash, order_id: orderId}));
@@ -181,11 +197,11 @@ function HomePage() {
   }, [handleGameLogin]);
 
   useEffect(()=>{
-    window.addEventListener("NFTBurn", handleNFtBurn);
+    window.addEventListener("NFTTransfer", handleNFtTransfer);
     return ()=> {
-      window.removeEventListener("NFTBurn", handleNFtBurn);
+      window.removeEventListener("NFTTransfer", handleNFtTransfer);
     };
-  }, [handleNFtBurn]);
+  }, [handleNFtTransfer]);
 
   useEffect(()=>{
     window.addEventListener("NFTList", handleGetNfts);
@@ -201,24 +217,31 @@ function HomePage() {
     };
   }, [handleTransferCoin]);
 
-  // const [userTotal, setUserTotal] = useState<number | null>(null); // 添加状态管理
+  useEffect(()=>{
+    window.addEventListener("PayOrder", handlePayOrder);
+    return ()=> {
+      window.removeEventListener("PayOrder", handlePayOrder);
+    };
+  }, [handlePayOrder]);
 
-  // useEffect(() => {
-  //   const fetchUserBalance = async () => {
-  //     try {
-  //       const response = await fetch(`https://ohayoaptos.com/op_hammer/getServerUserNum`); // 替换为实际的 API 地址
-  //       if (!response.ok) {
-  //         throw new Error('网络响应不正常');
-  //       }
-  //       const data = await response.text();
-  //       setUserTotal(parseInt(data)); // 假设返回的数据中有 balance 字段
-  //     } catch (error) {
-  //       console.error('获取用户数:', error);
-  //     }
-  //   };
+  const [userTotal, setUserTotal] = useState<number | null>(null); // 添加状态管理
 
-  //   fetchUserBalance(); // 调用函数以获取用户余额
-  // }, []); // 依赖于 baseUrl
+  useEffect(() => {
+    const fetchUserBalance = async () => {
+      try {
+        const response = await fetch(`https://ohayoaptos.com/op_hammer/getServerUserNum`); // 替换为实际的 API 地址
+        if (!response.ok) {
+          throw new Error('网络响应不正常');
+        }
+        const data = await response.text();
+        setUserTotal(parseInt(data)); // 假设返回的数据中有 balance 字段
+      } catch (error) {
+        console.error('获取用户数:', error);
+      }
+    };
+
+    fetchUserBalance(); // 调用函数以获取用户余额
+  }, []); // 依赖于 baseUrl
                         
   return (
     <>
@@ -228,7 +251,6 @@ function HomePage() {
     <link rel="preload" href={GAME_FRAMEWORK_PATH} type="application/wasm" as="fetch"></link>
     <link rel="preload" href={GAME_InitView_PATH} type="application/octet-stream" as="fetch"></link>
     <link rel="preload" href={GAME_StreamingAsset_PATH} type="application/octet-stream" as="fetch"></link>
-
 
     <div className="min-h-screen flex flex-col bg-slate-900">
     {/* <div className="min-h-screen flex flex-col  bg-cover bg-center" style={{ backgroundImage: `url('./bg.svg')` }}> */}
@@ -244,7 +266,7 @@ function HomePage() {
         <div className="container mx-auto sm:px-6 lg:px-8">
           <div className="relative h-screen text-center" style={{backgroundImage: "url('./bg2.jpg')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
             <div className="absolute left-1/2 -translate-x-1/2 top-0 text-2xl pt-4 scale-75 sm:scale-100" style={{backgroundImage: "url('./dl.png')", width: '438px', height: '61px'}}>
-              <span className=" text-white">USER: </span> <span className=" text-amber-300">100000</span>
+              <span className=" text-white">USER: </span> <span className=" text-amber-300">{userTotal}</span>
             </div>
             <div className="absolute left-1/2 -translate-x-1/2 bottom-12 pb-10 w-4/5">
               <h1 className="text-4xl sm:text-5xl font-bold text-stroke text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 text-center" style={{ marginTop: '1em' }}>
@@ -254,15 +276,19 @@ function HomePage() {
               </h1>
               <ul className="inline-flex absolute bottom-0 right-0">
                 <li className="px-2">
-                  <a href="#" target="_blank" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./fb.png')", width: '30px', height: '30px'}}>
+                  <a href="https://twitter.com/OhayoAptos" target="_blank" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./x.png')", width: '30px', height: '30px'}}>
                   </a>
                 </li>
                 <li  className="px-2">
-                  <a href="#" target="_blank" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./tt.png')", width: '30px', height: '30px'}}>
+                  <a href="https://www.youtube.com/@OhayoAptos" target="_blank" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./yt.png')", width: '30px', height: '30px'}}>
                   </a>
                 </li>
                 <li  className="px-2">
-                  <a href="#" target="_blank" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./tg.png')", width: '30px', height: '30px'}}>
+                  <a href="https://t.me/OhayoAptosBot" target="_blank" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./tg.png')", width: '30px', height: '30px'}}>
+                  </a>
+                </li>
+                <li  className="px-2">
+                  <a href="mailto:ohayoaptos@gmail.com" target="_blank" className="flex justify-center mx-auto mt-4" style={{ backgroundImage: "url('./mail.png')", width: '30px', height: '30px'}}>
                   </a>
                 </li>
               </ul> 
@@ -271,7 +297,7 @@ function HomePage() {
           <div className="relative text-center w-full" style={{backgroundImage: "url('./gt.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height: "68px"}}>
           </div>
           <div className="relative text-center sm:h-auto h-1/3">
-           <img className="absolute left-1/2 -translate-x-1/2 w-full h-full" src="./bg.jpg"></img>
+            <img className="absolute left-1/2 -translate-x-1/2 w-full h-full" src="./bg.jpg"></img>
             <div className="scale-50 sm:scale-100 origin-top-left">
               <div className="px-4 relative mx-auto w-full sm:w-2/3 py-14 flex">
                 <img src="./gameshow.png" className=" h-auto absolute"></img>
@@ -288,22 +314,7 @@ function HomePage() {
               </div>
               <div className="px-4 relative mx-auto sm:w-2/3 py-4">
                 <img src="./hero.png" className=" h-auto absolute"></img>
-                <ul className=" inline-flex w-4/5 px-8 pt-4 text-slate-900">
-                  <li>
-                    <a className=" px-6" href="">Kagura</a>
-                    |
-                  </li>
-                  <li>
-                    <a className=" px-6" href="">Luca</a>
-                    |
-                  </li>
-                  <li>
-                    <a className=" px-6" href="">Mikoto</a>
-                  </li>
-                </ul>
-                <div className="items-center justify-center flex mt-4">
-                  <img src="./kagura.png" className=" h-auto"></img>
-                </div>
+                <Tabs/>
               </div>
               <div className="px-4 relative mx-auto sm:w-2/3 py-4 mt-16 flex">
                 <img src="./HORCRUX.png" className=" h-auto absolute"></img>
@@ -335,7 +346,7 @@ function HomePage() {
             </div>
           </div>
           <div className=" relative  bg-slate-900">
-            <div className=" text-white text-left block justify-center items-center mx-auto w-full sm:w-2/3 py-10">
+            <div className=" text-white text-left block justify-center items-center mx-auto w-full sm:w-2/3 py-10 px-4">
               <p>Welcome to Ohayo Master! </p>
               <p>Here, you will embark on adventures and live alongside dozens of fun and adorable characters. 
               Gather valuable materials through your adventures, use them to craft various items, fulfill 
