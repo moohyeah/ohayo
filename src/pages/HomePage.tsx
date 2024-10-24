@@ -5,11 +5,10 @@ import { GOOGLE_CLIENT_ID } from "../core/constants";
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 import Tabs from "../components/Tabs";
 
-
-const GAME_WASM_PATH = "./Build/3d28b039423b3a202c1838061eee0a42.wasm.unityweb";
+const GAME_WASM_PATH = "./Build/7b7231e6f820f0ffce5628e22f52e5df.wasm.unityweb";
 const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-const GAME_DATA_PATH  = "./Build/032453fd7d10db89e24bf05474e26a6c.data.unityweb";
-const GAME_FRAMEWORK_PATH = "./Build/0486703f0a386f1759114fd18ccee1d1.framework.js.unityweb";
+const GAME_DATA_PATH  = "./Build/c488277a3f1916f7efcefcb91f5f58a7.data.unityweb";
+const GAME_FRAMEWORK_PATH = "./Build/71082b2a0870e4e16c64fad78d7f6315.framework.js.unityweb";
 const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab_d6bf55d13d246f7a5166990d03d02189.ab";
 const GAME_StreamingAsset_PATH = "./StreamingAssets/StreamingAssets";
 
@@ -353,6 +352,7 @@ function HomePage() {
               orders, and earn funds. As your wealth grows, you can continually train and strengthen your 
               characters, allowing them to excel in more challenging quests.</p>
               <p>Are you ready to begin your journey of adventure and management?</p>
+              <p className="text-left text-xs font-bold xs:text-sm mt-8">2024 Copyright. OhayoMaster Labs Inc. All Rights Reserved.</p>
             </div>
           </ div>
         </div>
