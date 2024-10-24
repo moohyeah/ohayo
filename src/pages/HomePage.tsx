@@ -295,37 +295,37 @@ function HomePage() {
           </div>
           <div className="relative text-center w-full" style={{backgroundImage: "url('./gt.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height: "68px"}}>
           </div>
-          <div className="relative text-center sm:h-auto h-1/3">
-            <img className="absolute left-1/2 -translate-x-1/2 w-full h-full" src="./bg.jpg"></img>
-            <div className="scale-50 sm:scale-100 origin-top-left">
-              <div className="px-4 relative mx-auto w-full sm:w-2/3 py-14 flex">
-                <img src="./gameshow.png" className=" h-auto absolute"></img>
-                <img src="./k.png" className=" py-20 pl-8" width={460} height={257}></img>
-                <img src="./rm.png"  width={361} height={443}></img>
+          <div className="relative text-center sm:h-auto h-1/3 bg-cover" style={{backgroundImage: "url('./bg.jpg')"}}>
+            {/* <img className="absolute left-1/2 -translate-x-1/2 w-full h-full" src="./bg.jpg"></img> */}
+            <div className="">
+              <div className="px-4 relative mx-auto w-full sm:w-2/3 py-14 flex flex-wrap items-center justify-center">
+                <img src="./gameshow.png" className=" h-auto absolute top-6 left-4"></img>
+                <img src="./k.png" className=" py-8 h-auto w-auto"></img>
+                <img src="./rm.png" className="h-auto w-auto"></img>
               </div>
-              <div className="px-4 relative mx-auto sm:w-2/3 py-14 flex">
-                <img src="./nft.png" className=" h-auto absolute"></img>
-                <div className=" pl-8 pt-16 pb-8 inline-flex">
-                  <img src="./nft1.png" className=" mr-4"></img>
-                  <img src="./nft2.png" className=" mr-4"></img>
-                  <img src="./nft3.png" className=" mr-4"></img>
+              <div className="px-4 relative mx-auto w-full sm:w-2/3 py-14 flex flex-wrap items-center justify-center">
+                <img src="./nft.png" className="h-auto absolute top-10 left-4"></img>
+                <div className="pt-16 pb-8 flex flex-wrap items-center justify-center sm:space-x-4 space-y-5">
+                  <img src="./nft1.png"></img>
+                  <img src="./nft2.png"></img>
+                  <img src="./nft3.png"></img>
                 </div>
               </div>
-              <div className="px-4 relative mx-auto sm:w-2/3 py-4">
-                <img src="./hero.png" className=" h-auto absolute"></img>
+              <div className="px-4 relative mx-auto w-full sm:w-2/3 py-14 flex flex-wrap items-center justify-center">
+                <img src="./hero.png" className=" h-auto absolute top-6 left-4"></img>
                 <Tabs/>
               </div>
-              <div className="px-4 relative mx-auto sm:w-2/3 py-4 mt-16 flex">
-                <img src="./HORCRUX.png" className=" h-auto absolute"></img>
-                <div className="pt-14 pb-8 inline-flex">
+              <div className="px-4 relative mx-auto w-full sm:w-2/3 py-14 flex flex-wrap items-center justify-center">
+                <img src="./HORCRUX.png" className=" h-auto absolute top-6 left-4"></img>
+                <div className="pl-8 pt-16 pb-8 flex flex-wrap items-center justify-center sm:space-x-4 space-y-5">
                   <img src="./HORCRUX1.png" className=" mr-4"></img>
                   <img src="./HORCRUX2.png" className=" mr-4"></img>
                   <img src="./HORCRUX3.png" className=" mr-4"></img>
                   <img src="./HORCRUX4.png" className=" mr-4"></img>
                 </div>
               </div>
-              <div className="px-4 relative mx-auto sm:w-2/3 py-4 flex">
-                <img src="./Building+AWA.png" className=" h-auto absolute"></img>
+              <div className="px-4 relative mx-auto w-full sm:w-2/3 py-14 flex flex-wrap items-center justify-center">
+                <img src="./Building+AWA.png" className=" h-auto absolute top-6 left-4"></img>
                 <div className="pt-14 pb-8 inline-flex">
                   <img src="./jianzhu1.png" className=" mr-4"></img>
                   <img src="./jianzhu2.png" className=" mr-4"></img>
@@ -333,8 +333,8 @@ function HomePage() {
                   <img src="./jianzhu4.png" className=" mr-4"></img>
                 </div>
               </div>
-              <div className="px-4 relative mx-auto sm:w-2/3 py-4 flex">
-                <img src="./weapon.png" className=" h-auto absolute"></img>
+              <div className="px-4 relative mx-auto w-full sm:w-2/3 py-14 flex flex-wrap items-center justify-center">
+                <img src="./weapon.png" className=" h-auto absolute top-6 left-4"></img>
                 <div className="pt-14 pb-8 inline-flex">
                   <img src="./wuqi1.png" className=" mr-4"></img>
                   <img src="./wuqi2.png" className=" mr-4"></img>
