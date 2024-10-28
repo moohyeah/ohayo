@@ -1,12 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { useKeylessAccounts } from "../core/useKeylessAccounts";
 
 function CallbackPage() {
   const isLoading = useRef(false);
-  const switchKeylessAccount = useKeylessAccounts(
-    (state) => state.switchKeylessAccount
-  );
   const navigate = useNavigate();
 
   const fragmentParams = new URLSearchParams(window.location.hash.substring(1));
@@ -19,7 +15,6 @@ function CallbackPage() {
 
     async function deriveAccount(idToken: string) {
       try {
-        await switchKeylessAccount(idToken);
       } catch (error) {
         console.error(error);
       }
@@ -32,7 +27,7 @@ function CallbackPage() {
     }
 
     deriveAccount(idToken);
-  }, [idToken, isLoading, navigate, switchKeylessAccount]);
+  }, [idToken, isLoading, navigate]);
 
   return (
     <div className="flex items-center justify-center h-screen w-screen">

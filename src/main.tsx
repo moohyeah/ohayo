@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage.tsx";
 import CallbackPage from "./pages/CallbackPage.tsx";
-import ShopPage from "./pages/ShopPage.tsx";
+import GamePage from "./pages/GamePage.tsx";
 
 import "./index.css";
 
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/shop",
-    element: <ShopPage />,
+    path: "/game",
+    element: <GamePage />,
   },
 ], {basename: baseUrl});
 
