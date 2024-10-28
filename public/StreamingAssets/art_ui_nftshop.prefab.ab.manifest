@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1985749746
+CRC: 647966019
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: debfa3926d3825cf03c219a4bf42eb03
+    Hash: e8a1afc652e468fc4f844b6bea43c4ca
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 79ff259cbf78a87206b13653ac205489
+    Hash: a1880df5a9270a59a1ba2019ed1092cb
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: debfa3926d3825cf03c219a4bf42eb03
+    Hash: e8a1afc652e468fc4f844b6bea43c4ca
 HashAppended: 1
 ClassTypes:
 - Class: 1
@@ -79,9 +79,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 57daf337127b0d94887c7f15c6cc314b, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 76b610ae38d33124c8e843b140b069fc, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 11b4bbfd2bcb8594ab55bdf2d94ab755, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76b610ae38d33124c8e843b140b069fc, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -171,6 +171,7 @@ Dependencies:
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241021-142242.png_92187a1c0edd7c69f17a01d952dae7d2.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_t.png_f3a1c3af609c2a52a54a8851eaeba90f.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241021-145915.png_ff220235f7dd552f73dec1b81061c2d4.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_20241021-145926.png_cd3e1ea0160d10101a43e64b2b094760.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_bb.png_4011439ec5ba44438d142c68c0847d5a.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_nft_new_gg.png_07d330c4c7501ecadcc5927a40c589c3.ab

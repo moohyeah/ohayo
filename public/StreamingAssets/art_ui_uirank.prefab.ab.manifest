@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 975688504
+CRC: 4033675224
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 582af99d62c0633a420b8c2a4ce3118b
+    Hash: fa0ad66c3656eb9b330c5974fb727a67
   TypeTreeHash:
     serializedVersion: 2
     Hash: 666d4b2e11e181ea1252b19d19a52fe8
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 582af99d62c0633a420b8c2a4ce3118b
+    Hash: fa0ad66c3656eb9b330c5974fb727a67
 HashAppended: 1
 ClassTypes:
 - Class: 1
@@ -112,4 +112,5 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/UIRank.prefab
 Dependencies:
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_common_button_20241011-160639.png_88c818d4c4f203104f705f5b576df785.ab
 - E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab

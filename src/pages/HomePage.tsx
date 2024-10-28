@@ -5,10 +5,10 @@ import { GOOGLE_CLIENT_ID } from "../core/constants";
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 import Tabs from "../components/Tabs";
 
-const GAME_WASM_PATH = "./Build/7b7231e6f820f0ffce5628e22f52e5df.wasm.unityweb";
+const GAME_WASM_PATH = "./Build/74ad9e9d0e3ab5aeff12207a7904fc2a.wasm.unityweb";
 const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-const GAME_DATA_PATH  = "./Build/c488277a3f1916f7efcefcb91f5f58a7.data.unityweb";
-const GAME_FRAMEWORK_PATH = "./Build/71082b2a0870e4e16c64fad78d7f6315.framework.js.unityweb";
+const GAME_DATA_PATH  = "./Build/d5a73ad9a30d65029b80b8023505a06f.data.unityweb";
+const GAME_FRAMEWORK_PATH = "./Build/ab093e739dec3cd108e5078791f63b3d.framework.js.unityweb";
 const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab_d6bf55d13d246f7a5166990d03d02189.ab";
 const GAME_StreamingAsset_PATH = "./StreamingAssets/StreamingAssets";
 
