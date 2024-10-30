@@ -65,8 +65,7 @@ function ShopPage() {
 
   return (
     <>
-    <div className="min-h-screen flex flex-col bg-slate-900">
-    {/* <div className="min-h-screen flex flex-col  bg-cover bg-center" style={{ backgroundImage: `url('./bg.svg')` }}> */}
+    <div className="min-h-screen flex flex-col bg-customGray">
       <div id="#unity-container" className="fixed inset-0 flex flex-col justify-center items-center">
         <canvas id="unity-canvas" className="h-full max-w-full justify-center border items-center aspect-[720/1280] bg-zinc-400"></canvas>
         <div id="game-loader" className="h-full max-w-full justify-center items-center aspect-[720/1280] absolute top-0" style={{backgroundImage: "url('./loading-bg.jpg')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'top', display: gameInited ? 'none' : 'flex'}}>

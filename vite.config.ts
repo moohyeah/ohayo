@@ -16,6 +16,13 @@ export default defineConfig(({ mode }) => {
     },
     server: {
       port: env.VITE_PORT || 5173,  // 使用环境变量来配置端口
+      proxy: {
+        '/api': {   // 假设 API 路径以 /api 开头
+          target: env.API_BASE_URL || 'http://localhost:3000', // 后端服务器地址
+          changeOrigin: true,             // 修改请求头的 Origin
+          // rewrite: (path) => path.replace(/^\/api/, '') // 去除 /api 前缀
+        }
+      }
     },
     build : {
       rollupOptions: {
