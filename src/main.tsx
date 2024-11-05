@@ -16,14 +16,6 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/callback",
-    element: <CallbackPage />,
-  },
-  {
-    path: "home",
-    element: <HomePage />,
-  },
-  {
     path: "/game",
     element: <GamePage />,
   },

@@ -93,24 +93,28 @@ function HomePage() {
 
       <div className="min-h-screen flex flex-col bg-customGray justify-center items-center relative">
         <div className="h-full max-w-full justify-center items-center aspect-[720/1280] absolute top-0" style={{backgroundImage: "url('./bg.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'top'}}>
-          <a onClick={showModal} className="absolute top-10 left-5"><img src="./rec.png" className=" w-16"/></a>
-          <div className="flex flex-col absolute top-12 right-5 bg-buttonBg border-primary rounded-xl text-white border">
+          <a onClick={showModal} className="absolute top-6 left-5"><img src="./rec.png" className=" w-16"/></a>
+          <div className="flex flex-col absolute top-8 right-5 bg-buttonBg border-primary rounded-xl text-white border">
             {account ? (
                 <button className="custom-border-stretch text-slate-950" id="logout" onClick={logoutAccount}>LOGOUT</button>
               ) : (
                 <button className="custom-border-stretch text-slate-950 font-bold" onClick={toLogin}>LOGIN</button>
             )}
           </div>
-          <div className="flex flex-col absolute top-32 h-40 items-center justify-center w-full">
+          <div className="flex flex-col absolute top-20 h-40 items-center justify-center w-full">
             {account ? (
               <div className="justify-center items-center p-2 w-40 flex flex-wrap">
                 <img src='./profile.png' alt="avatar" className="w-20 h-20" />
-                <span className="mt-4 text-slate-950 font-bold text-center w-full text-xl">{account.nick}</span><br/>
-                <span className="mt-4 text-slate-950 font-bold text-center w-full text-xl">SWP: {account.score}</span>
+                <span className="mt-2 text-slate-950 font-bold text-center w-full text-xl">{account.nick}</span><br/>
+                <span className="mt-2 text-slate-950 font-bold text-center w-full text-xl">SWP: {account.score}</span>
+                <span className="mt-2 text-slate-950 font-bold text-center w-full text-xl">Life: {account.life}</span>
               </div>
             ) : (
               <img src="./profile.png" alt="default profile" className="w-20 h-20" />
             )}
+          </div>
+          <div className="flex flex-col absolute bottom-8 self-center items-center justify-center w-full">
+            <a href="./game" className="items-center justify-center"><img src="./play.png" className=" w-32"/></a>
           </div>
         </div>
         {/* 弹窗 */}

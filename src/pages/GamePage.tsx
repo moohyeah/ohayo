@@ -1,9 +1,10 @@
 import { useEffect, useCallback, useState } from 'react';
 
-import { GAME_WASM_PATH, GAME_LOADER_PATH, GAME_DATA_PATH, GAME_FRAMEWORK_PATH} from "../core/constants";
+import { GAME_WASM_PATH, GAME_LOADER_PATH, GAME_DATA_PATH, GAME_FRAMEWORK_PATH, postJson} from "../core/constants";
 
+import {paymentVBox, getVBoxBalance} from '../core/wallet'
 
-function ShopPage() {
+function GamePage() {
 
   const [progress, setProgress] = useState<number>(0);
   const [gameInited, setGameInited] = useState<boolean>(false);
@@ -63,14 +64,38 @@ function ShopPage() {
     };
   }, [setProgress, setGameInited]);
 
+  const handlePayOrder = useCallback(async (evt : any) => {
+    const {amount, orderId} = evt.detail;
+    // const balance = await getVBoxBalance();
+    // if (amount > balance) {
+    //   alert("Insufficient balance");
+    //   console.log("Insufficient balance", amount, balance)
+    //   return;
+    // }
+    const {order_id} = await paymentVBox("0x677b877eb5b4f166e8e581dfe180824ece5b1737", amount, amount, "plt_" + orderId);
+    if (order_id) {
+      const response = await postJson("/api/check_order", {self_id: orderId, order_id : order_id});
+      if (response.code == 1) {
+        (window as any).unityInstance.SendMessage("HtmlReceiver", "OnPaySuccess");
+      }
+    }
+  }, []);
+
+  useEffect(()=>{
+    window.addEventListener("PayOrder", handlePayOrder);
+    return ()=> {
+      window.removeEventListener("PayOrder", handlePayOrder);
+    };
+  }, [handlePayOrder]);
+
   return (
     <>
     <div className="min-h-screen flex flex-col bg-customGray">
       <div id="#unity-container" className="fixed inset-0 flex flex-col justify-center items-center">
         <canvas id="unity-canvas" className="h-full max-w-full justify-center border items-center aspect-[720/1280] bg-zinc-400"></canvas>
-        <div id="game-loader" className="h-full max-w-full justify-center items-center aspect-[720/1280] absolute top-0" style={{backgroundImage: "url('./loading-bg.jpg')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'top', display: gameInited ? 'none' : 'flex'}}>
+        <div id="game-loader" className="h-full max-w-full justify-center items-center aspect-[720/1280] absolute top-0 bg-zinc-400" style={{backgroundImage: "url('./bg.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', display: gameInited ? 'none' : 'flex'}}>
           <div id="unity-progress-bar-empty" className="w-4/5 bg-neutral-500 rounded-full h-4 absolute bottom-6 left-1/2 transform -translate-x-1/2">
-            <div id="unity-progress-bar-full" className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-4 rounded-full" style={{width: progress + "%"}}></div>
+            <div id="unity-progress-bar-full" className="bg-gray-950 h-4 rounded-full" style={{width: progress + "%"}}></div>
           </div>
         </div>
       </div>
@@ -79,4 +104,4 @@ function ShopPage() {
   );
 }
 
-export default ShopPage;
+export default GamePage;

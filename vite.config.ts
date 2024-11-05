@@ -1,6 +1,7 @@
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
+import { viteVConsole } from 'vite-plugin-vconsole';
 
 export default defineConfig(({ mode }) => {
   // 通过 `mode` 获取当前的环境（如 'development' 或 'production'）
@@ -8,7 +9,17 @@ export default defineConfig(({ mode }) => {
 
   return {
     base: env.VITE_BASE_URL,  // 通过 `env` 获取 .env 文件中的变量
-    plugins: [react()],
+    plugins: [
+      react(),
+      viteVConsole({
+        entry: path.resolve('src/main.tsx'),
+        enabled: true,
+        config: {
+          maxLogNumber: 1000,
+          theme: 'dark'
+        }
+      })
+    ],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, './src'),
@@ -16,6 +27,7 @@ export default defineConfig(({ mode }) => {
     },
     server: {
       port: env.VITE_PORT || 5173,  // 使用环境变量来配置端口
+      host: "0.0.0.0",
       proxy: {
         '/api': {   // 假设 API 路径以 /api 开头
           target: env.API_BASE_URL || 'http://localhost:3000', // 后端服务器地址
