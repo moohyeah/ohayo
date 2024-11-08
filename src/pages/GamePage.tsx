@@ -18,7 +18,7 @@ function GamePage() {
       cacheControl: function(url: string) {
         // Caching enabled for .data and .bundle files. 
         // Revalidate if file is up to date before loading from cache
-        if (url.match(/\.data/) || url.match(/\.unityweb/) || url.match(/\.ab/)) {
+        if (url.match(/\.data/) || url.match(/\.unityweb/) || url.match(/\.ab/) || url.match(/\.gz/)) {
           return "must-revalidate";
         }
 
