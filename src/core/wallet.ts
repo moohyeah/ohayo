@@ -93,46 +93,46 @@ if (typeof (window as any).deboxWallet !== "undefined") {
   }
   
   // debox_paymentVBox
-  export async function paymentVBox(receiver_address : string, amount : number, donation_amount : number, note : string) {
-    console.log("testSDK run debox_paymentVBox", receiver_address, amount, donation_amount, note);
+  // export async function paymentVBox(receiver_address : string, amount : number, donation_amount : number, note : string) {
+  //   console.log("testSDK run debox_paymentVBox", receiver_address, amount, donation_amount, note);
   
-    if (typeof (window as any).deboxWallet !== "undefined") {
-        if (!walletConnected) {
-            await connectWallet();
-        }
-      if (!receiver_address) {
-        return;
-      }
-      try {
-        const param = {
-            receiver_address,
-            amount : amount.toString(),
-            note,
-            donation_amount: donation_amount.toString(),
-            nonce: new Date().valueOf(),// int 可选
-        }
-        console.log("debox_paymentVBox param", param);
-        const response = await (window as any).deboxWallet.request({
-          method: "debox_paymentVBox",
-          params: [
-            param,
-          ],
-        });
-        console.log("debox_paymentVBox", response, typeof response);
-        return response;
-      } catch (error: unknown) {
-        if (error instanceof Error) {
-          console.log("paymentVBox err!!");
-          console.error(error);
-        }
-      }
-    } else {
-    }
-  }
+  //   if (typeof (window as any).deboxWallet !== "undefined") {
+  //       if (!walletConnected) {
+  //           await connectWallet();
+  //       }
+  //     if (!receiver_address) {
+  //       return;
+  //     }
+  //     try {
+  //       const param = {
+  //           receiver_address,
+  //           amount : amount.toString(),
+  //           note,
+  //           donation_amount: donation_amount.toString(),
+  //           nonce: new Date().valueOf(),// int 可选
+  //       }
+  //       console.log("debox_paymentVBox param", param);
+  //       const response = await (window as any).deboxWallet.request({
+  //         method: "debox_paymentVBox",
+  //         params: [
+  //           param,
+  //         ],
+  //       });
+  //       console.log("debox_paymentVBox", response, typeof response);
+  //       return response;
+  //     } catch (error: unknown) {
+  //       if (error instanceof Error) {
+  //         console.log("paymentVBox err!!");
+  //         console.error(error);
+  //       }
+  //     }
+  //   } else {
+  //   }
+  // }
   
 
 // 通过 Ethers.js 调用智能合约方法
-async function callContractMethod() {
+export async function callContractMethod(amount: number) {
     try {
         // 检查 MetaMask 或其他以太坊钱包是否已连接
         if (typeof (window as any).deboxWallet === "undefined") {
@@ -149,13 +149,24 @@ async function callContractMethod() {
         // 合约地址和 ABI
         const contractAddress = "0x2eCDf7198Db3e5FD19Fb1ed9B09C54B26aB13C70"; // zs: 0x4623CD0ED546e047111a39697f80166c311E21Be cs: 0x11dEb3396a6A01A2853Aff40833835C22743760A
         const contractABI = [
-        {
-            type: "function",
-            name: "playGameWithETH",
-            inputs: [],
-            outputs: [],
-            stateMutability: "payable",
-        },
+          {
+            "inputs": [
+                {
+                    "internalType": "contract IERC20",
+                    "name": "token",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "amount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "playGameAndShareAll",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+          },
         ];
 
         // 创建合约实例
@@ -167,17 +178,14 @@ async function callContractMethod() {
 
         try {
             // 调用 playGameWithETH 方法，并支付 0.00001 ETH
-            const tx = await contract
-                .playGameWithETH({
-                value: ethers.utils.parseEther("0.00001"), // 设置支付的ETH金额
-                })
-                .catch((error : unknown) => {
-                console.log("Error---", error);
-                });
-
+            const tx = await contract.playGameAndShareAll(
+              "0x55d398326f99059ff775485246999027b3197955", //USDT 合约地址
+              ethers.utils.parseEther(amount.toString()) // 设置支付的金额
+            );
             console.log("TX: ", tx);
             // 等待交易被矿工确认
             await tx.wait();
+            return tx?.hash;
         } catch (error) {
             console.error("error", error);
         }

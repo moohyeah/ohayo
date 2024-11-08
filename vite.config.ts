@@ -40,7 +40,6 @@ export default defineConfig(({ mode }) => {
       rollupOptions: {
         output: {
           manualChunks(id) {
-            // console.log("====manualChunks:" + id);
             if (id.includes('node_modules')) {
               if (id.includes('react')) {
                 return 'react-vendor'; // 把 react 和 react-dom 拆成一个单独的 chunk
@@ -48,7 +47,6 @@ export default defineConfig(({ mode }) => {
               if (id.includes('ethers')) {
                 return 'ethers-vendor'; // 把 react 和 react-dom 拆成一个单独的 chunk
               }
-              console.log("====manualChunks:" + id);
               return 'vendor'; // 所有来自 node_modules 的模块将打包到 vendor chunk 中
             }
           },
