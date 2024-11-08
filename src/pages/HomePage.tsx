@@ -72,6 +72,7 @@ function HomePage() {
         const data = await response.json();
         if (data.user) {
           setAccount(data.user);
+          console.log(data.use);
         }
       }
     };
@@ -119,7 +120,7 @@ function HomePage() {
           <div className="flex flex-col absolute top-20 h-40 items-center justify-center w-full">
             {account ? (
               <div className="justify-center items-center p-2 w-40 flex flex-wrap">
-                <img src='./profile.png' alt="avatar" className="w-20 h-20" />
+                <img src={`/api/image-proxy?url=${account.avatar}`} alt="avatar" className="w-20 h-20" />
                 <span className="mt-2 text-slate-950 font-bold text-center w-full text-xl">{account.nick}</span><br/>
                 <span className="mt-2 text-slate-950 font-bold text-center w-full text-xl">SWP: {account.score}</span>
                 <span className="mt-2 text-slate-950 font-bold text-center w-full text-xl">Life: {account.life}</span>
