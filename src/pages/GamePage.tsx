@@ -2,7 +2,7 @@ import { useEffect, useCallback, useState } from 'react';
 
 import { GAME_WASM_PATH, GAME_LOADER_PATH, GAME_DATA_PATH, GAME_FRAMEWORK_PATH, postJson} from "../core/constants";
 
-import {paymentVBox} from '../core/wallet'
+import {callContractMethod} from '../core/wallet'
 
 function GamePage() {
 
@@ -72,7 +72,8 @@ function GamePage() {
     //   console.log("Insufficient balance", amount, balance)
     //   return;
     // }
-    const {order_id} = await paymentVBox("0x677b877eb5b4f166e8e581dfe180824ece5b1737", amount, amount, "plt_" + orderId);
+    // const {order_id} = await paymentVBox("0x677b877eb5b4f166e8e581dfe180824ece5b1737", amount, amount, "plt_" + orderId);
+    const order_id = await callContractMethod(amount);
     if (order_id) {
       const response = await postJson("/api/check_order", {self_id: orderId, order_id : order_id});
       if (response.code == 1) {
