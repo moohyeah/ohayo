@@ -132,56 +132,56 @@ if (typeof (window as any).deboxWallet !== "undefined") {
   
 
 // 通过 Ethers.js 调用智能合约方法
-// async function callContractMethod() {
-//     try {
-//         // 检查 MetaMask 或其他以太坊钱包是否已连接
-//         if (typeof (window as any).deboxWallet === "undefined") {
-//             alert("MetaMask is not installed!");
-//             return;
-//         }
+async function callContractMethod() {
+    try {
+        // 检查 MetaMask 或其他以太坊钱包是否已连接
+        if (typeof (window as any).deboxWallet === "undefined") {
+            alert("MetaMask is not installed!");
+            return;
+        }
 
-//         if (!walletConnected) {
-//             await connectWallet();
-//         }
+        if (!walletConnected) {
+            await connectWallet();
+        }
 
-//         const signer =  (window as any).ethersProvider.getSigner();
+        const signer =  (window as any).ethersProvider.getSigner();
 
-//         // 合约地址和 ABI
-//         const contractAddress = "0x4623CD0ED546e047111a39697f80166c311E21Be"; // zs: 0x4623CD0ED546e047111a39697f80166c311E21Be cs: 0x11dEb3396a6A01A2853Aff40833835C22743760A
-//         const contractABI = [
-//         {
-//             type: "function",
-//             name: "playGameWithETH",
-//             inputs: [],
-//             outputs: [],
-//             stateMutability: "payable",
-//         },
-//         ];
+        // 合约地址和 ABI
+        const contractAddress = "0x2eCDf7198Db3e5FD19Fb1ed9B09C54B26aB13C70"; // zs: 0x4623CD0ED546e047111a39697f80166c311E21Be cs: 0x11dEb3396a6A01A2853Aff40833835C22743760A
+        const contractABI = [
+        {
+            type: "function",
+            name: "playGameWithETH",
+            inputs: [],
+            outputs: [],
+            stateMutability: "payable",
+        },
+        ];
 
-//         // 创建合约实例
-//         const contract = new ethers.Contract(
-//             contractAddress,
-//             contractABI,
-//             signer
-//         );
+        // 创建合约实例
+        const contract = new ethers.Contract(
+            contractAddress,
+            contractABI,
+            signer
+        );
 
-//         try {
-//             // 调用 playGameWithETH 方法，并支付 0.00001 ETH
-//             const tx = await contract
-//                 .playGameWithETH({
-//                 value: ethers.utils.parseEther("0.00001"), // 设置支付的ETH金额
-//                 })
-//                 .catch((error : unknown) => {
-//                 console.log("Error---", error);
-//                 });
+        try {
+            // 调用 playGameWithETH 方法，并支付 0.00001 ETH
+            const tx = await contract
+                .playGameWithETH({
+                value: ethers.utils.parseEther("0.00001"), // 设置支付的ETH金额
+                })
+                .catch((error : unknown) => {
+                console.log("Error---", error);
+                });
 
-//             console.log("TX: ", tx);
-//             // 等待交易被矿工确认
-//             await tx.wait();
-//         } catch (error) {
-//             console.error("error", error);
-//         }
-//     } catch (error) {
-//         console.error("Error calling contract method:", error);
-//     }
-// }
+            console.log("TX: ", tx);
+            // 等待交易被矿工确认
+            await tx.wait();
+        } catch (error) {
+            console.error("error", error);
+        }
+    } catch (error) {
+        console.error("Error calling contract method:", error);
+    }
+}
