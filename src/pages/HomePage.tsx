@@ -33,7 +33,13 @@ function HomePage() {
   }
 
   const showModal = async ()=> {
-    setIsOpen(true)
+    const response = await fetch("/api/records");
+    if (!response.ok) {
+      return;
+    }
+    const data = await response.json();
+    setRecords(data.list);
+    setIsOpen(true);
   }
 
   const logoutAccount = async ()=> {
@@ -43,6 +49,15 @@ function HomePage() {
   }
 
   const params = getQueryParams();
+  function removeParameterFromCurrentURL() {
+    const url = new URL(window.location.href);
+    url.search = "";
+    // 更新地址栏的 URL
+    window.history.replaceState({}, document.title, url.toString());
+  }
+  
+  // 示例
+  removeParameterFromCurrentURL();
   
   useEffect(() => {
     const fetchUser = async () => {
@@ -120,7 +135,7 @@ function HomePage() {
         {/* 弹窗 */}
         {isOpen && (
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50" onClick={()=> setIsOpen(false)}>
-            <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-11/12">
+            <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-11/12 overflow-y-auto max-h-96 ">
               <h2 className="text-xl font-bold mb-4 text-center">Records</h2>
               {records.length > 0 ? (
                 <table className="w-full" id="rec-tabl">
@@ -134,9 +149,9 @@ function HomePage() {
                   <tbody>
                   {records.map((record : any) => (
                     <tr className="border-b">
-                      <td className="py-2 text-center"><img src={record.icon} className="w-8 h-8 inline-block"/></td>
-                      <td className="py-2 text-center">{record.name}</td>
-                      <td className="py-2 text-center">{record.num}</td>
+                      <td className="py-2 text-center"><img src={record.icon || './vbox.png'} className="w-8 h-8 inline-block"/></td>
+                      <td className="py-2 text-center">{record.name || 'vBOX'}</td>
+                      <td className="py-2 text-center">{record.item_num}</td>
                     </tr>
                   ))}
                   </tbody>

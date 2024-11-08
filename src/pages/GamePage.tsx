@@ -2,7 +2,7 @@ import { useEffect, useCallback, useState } from 'react';
 
 import { GAME_WASM_PATH, GAME_LOADER_PATH, GAME_DATA_PATH, GAME_FRAMEWORK_PATH, postJson} from "../core/constants";
 
-import {paymentVBox, getVBoxBalance} from '../core/wallet'
+import {paymentVBox} from '../core/wallet'
 
 function GamePage() {
 

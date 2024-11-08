@@ -1,8 +1,6 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage.tsx";
-import CallbackPage from "./pages/CallbackPage.tsx";
 import GamePage from "./pages/GamePage.tsx";
 
 import "./index.css";
@@ -23,7 +21,7 @@ const router = createBrowserRouter([
 
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  // </React.StrictMode>
 );

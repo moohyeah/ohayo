@@ -45,14 +45,8 @@ export default defineConfig(({ mode }) => {
               if (id.includes('react')) {
                 return 'react-vendor'; // 把 react 和 react-dom 拆成一个单独的 chunk
               }
-              if (id.includes('aptos')) {
-                return 'aptos-vendor'; // 把 react 和 react-dom 拆成一个单独的 chunk
-              }
-              if (id.includes('lodash') || id.includes('axios')) {
-                return 'utility-vendor'; // 把 lodash 和 axios 拆成另一个 chunk
-              }
-              if (id.includes('poseidon')) {
-                return 'poseidon-vendor'; // 把 react 和 react-dom 拆成一个单独的 chunk
+              if (id.includes('ethers')) {
+                return 'ethers-vendor'; // 把 react 和 react-dom 拆成一个单独的 chunk
               }
               console.log("====manualChunks:" + id);
               return 'vendor'; // 所有来自 node_modules 的模块将打包到 vendor chunk 中
