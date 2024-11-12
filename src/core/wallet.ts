@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 
 let walletConnected = false;
-
+let switchedToBSC = false;
 // test the availability of deboxWallet
 if (typeof (window as any).deboxWallet !== "undefined") {
     (window as any).ethersProvider = new ethers.providers.Web3Provider((window as any).deboxWallet);
@@ -20,7 +20,8 @@ if (typeof (window as any).deboxWallet !== "undefined") {
           method: "eth_requestAccounts",
         });
         console.log("eth_requestAccounts: ", accounts, typeof accounts);
-        requestPermissionsParams();
+        walletConnected = true;
+        // requestPermissionsParams();
       } catch (error) {
         // Handle error (e.g., user denied account access)
       }
@@ -131,6 +132,88 @@ if (typeof (window as any).deboxWallet !== "undefined") {
   // }
   
 
+  const BNBChainId = "0x38"; // 0xA is the hexadecimal representation of 10, Optimism chain ID
+  const BNBParams = {
+    chainId: '0x38',
+    chainName: 'Binance Smart Chain',
+    rpcUrls: ['https://bsc-dataseed.binance.org/'],
+    nativeCurrency: {
+        name: 'BNB',
+        symbol: 'BNB',
+        decimals: 18
+    },
+    blockExplorerUrls: ['https://bscscan.com']
+  };
+  async function switchToBSC() {
+    try {
+      // Check if the Ethereum provider (MetaMask) is available
+      if ((window as any).deboxWallet) {
+        // Request to switch to the Optimism chain
+        await (window as any).deboxWallet.request({
+          method: "wallet_switchEthereumChain",
+          params: [{ chainId: BNBChainId }],
+        });
+        console.log("Successfully switched to BSC!");
+        switchedToBSC = true;
+      } else {
+        alert("Ethereum provider (MetaMask) is not available.");
+      }
+    } catch (error : any) {
+      // If the chain is not available in MetaMask, prompt the user to add it
+      if (error.code === 4902) {
+        try {
+          await (window as any).deboxWallet.request({
+            method: "wallet_addEthereumChain",
+            params: [BNBParams],
+          });
+          console.log("BSC chain added and switched successfully!");
+          switchedToBSC = true;
+        } catch (addError) {
+          console.error("Error adding BSC chain:", addError);
+        }
+      } else {
+        console.error("Error switching to BSC chain:", error);
+      }
+    }
+  }
+
+const usdtAddress = "0x55d398326f99059fF775485246999027B3197955"; // BSC上的USDT地址
+const erc20Abi = [
+    {
+        "constant": false,
+        "inputs": [
+            { "name": "_spender", "type": "address" },
+            { "name": "_value", "type": "uint256" }
+        ],
+        "name": "approve",
+        "outputs": [{ "name": "", "type": "bool" }],
+        "type": "function"
+    }
+];
+
+// 合约地址和 ABI
+const contractAddress = "0x2eCDf7198Db3e5FD19Fb1ed9B09C54B26aB13C70"; // zs: 0x4623CD0ED546e047111a39697f80166c311E21Be cs: 0x11dEb3396a6A01A2853Aff40833835C22743760A
+const contractABI = [
+    {
+    "inputs": [
+        {
+            "internalType": "contract IERC20",
+            "name": "token",
+            "type": "address"
+        },
+        {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+        }
+    ],
+    "name": "playGameAndShareAll",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+    },
+];
+
 // 通过 Ethers.js 调用智能合约方法
 export async function callContractMethod(amount: number) {
     try {
@@ -143,31 +226,12 @@ export async function callContractMethod(amount: number) {
         if (!walletConnected) {
             await connectWallet();
         }
+        if (!switchedToBSC) {
+            await switchToBSC();
+        }
 
         const signer =  (window as any).ethersProvider.getSigner();
 
-        // 合约地址和 ABI
-        const contractAddress = "0x2eCDf7198Db3e5FD19Fb1ed9B09C54B26aB13C70"; // zs: 0x4623CD0ED546e047111a39697f80166c311E21Be cs: 0x11dEb3396a6A01A2853Aff40833835C22743760A
-        const contractABI = [
-          {
-            "inputs": [
-                {
-                    "internalType": "contract IERC20",
-                    "name": "token",
-                    "type": "address"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "amount",
-                    "type": "uint256"
-                }
-            ],
-            "name": "playGameAndShareAll",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-          },
-        ];
 
         // 创建合约实例
         const contract = new ethers.Contract(
@@ -175,13 +239,19 @@ export async function callContractMethod(amount: number) {
             contractABI,
             signer
         );
+        const usdtContract = new ethers.Contract(usdtAddress, erc20Abi, signer);
+
+        const usdt = ethers.utils.parseUnits(amount.toString(), 6); // 10 USDT
+        console.log("usdt???", amount, usdt);
 
         try {
-            // 调用 playGameWithETH 方法，并支付 0.00001 ETH
-            const tx = await contract.playGameAndShareAll(
-              "0x55d398326f99059ff775485246999027b3197955", //USDT 合约地址
-              ethers.utils.parseEther(amount.toString()) // 设置支付的金额
-            );
+             // 首先授权目标合约可以使用用户的 USDT
+            const approveTx = await usdtContract.approve(contractAddress, usdt);
+            console.log("等待授权交易确认中...");
+            await approveTx.wait();
+            console.log("授权完成！");
+
+            const tx = await contract.playGameAndShareAll(usdtAddress, usdt);
             console.log("TX: ", tx);
             // 等待交易被矿工确认
             await tx.wait();
