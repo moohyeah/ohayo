@@ -246,8 +246,8 @@ export async function callContractMethod(amount: number) {
 
         try {
              // 首先授权目标合约可以使用用户的 USDT
-            const approveTx = await usdtContract.approve(contractAddress, usdt);
             console.log("等待授权交易确认中...");
+            const approveTx = await usdtContract.approve(contractAddress, usdt);
             await approveTx.wait();
             console.log("授权完成！");
 
