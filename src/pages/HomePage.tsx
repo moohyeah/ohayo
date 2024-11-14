@@ -131,7 +131,11 @@ function HomePage() {
             )}
           </div>
           <div className="flex flex-col absolute bottom-8 self-center items-center justify-center w-full">
-            <a href="./game" className="items-center justify-center"><img src="./play.png" className=" w-32"/></a>
+            {account ? (
+              <a href="./game" className="items-center justify-center"><img src="./play.png" className=" w-32"/></a>
+            ) : (
+              <button onClick={toLogin} className="items-center justify-center"><img src="./play.png" className=" w-32"/></button>
+            )}
           </div>
         </div>
         {/* 弹窗 */}
