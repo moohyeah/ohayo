@@ -5,10 +5,10 @@ import { GOOGLE_CLIENT_ID } from "../core/constants";
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 import Tabs from "../components/Tabs";
 
-const GAME_WASM_PATH = "./Build/74ad9e9d0e3ab5aeff12207a7904fc2a.wasm.unityweb";
+const GAME_WASM_PATH = "./Build/c21b6204ca19e9804e0fc25701e4a7d9.wasm.unityweb";
 const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-const GAME_DATA_PATH  = "./Build/d5a73ad9a30d65029b80b8023505a06f.data.unityweb";
-const GAME_FRAMEWORK_PATH = "./Build/ab093e739dec3cd108e5078791f63b3d.framework.js.unityweb";
+const GAME_DATA_PATH  = "./Build/198b490b97aa1b84cb61b535751f3499.data.unityweb";
+const GAME_FRAMEWORK_PATH = "./Build/43d52332fe0cba2624bc110bf28ffbfb.framework.js.unityweb";
 const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab_d6bf55d13d246f7a5166990d03d02189.ab";
 const GAME_StreamingAsset_PATH = "./StreamingAssets/StreamingAssets";
 
@@ -20,6 +20,23 @@ function HomePage() {
   const { activeAccount, disconnectKeylessAccount, transferNft, getNfts, transferCoin, getBalance} = useKeylessAccounts();
   const [progress, setProgress] = useState<number>(0);
   const [gameInited, setGameInited] = useState<boolean>(false);
+
+  function removeParameterFromCurrentURL() {
+    const url = new URL(window.location.href);
+    url.search = "";
+    // 更新地址栏的 URL
+    window.history.replaceState({}, document.title, url.toString());
+  }
+
+  if (window.location.search) {
+    console.log(window.location.search);
+    const params = new URLSearchParams(window.location.search);
+    const ref_user = params.get("__ref");
+    if (ref_user) {
+      sessionStorage.setItem("ref_user", ref_user);
+      removeParameterFromCurrentURL();
+    }
+  }
 
   useEffect(() => {
     if (activeAccount == null) {
@@ -129,9 +146,11 @@ function HomePage() {
   const handleGameLogin = useCallback(async ()=>{
     const account = activeAccount?.accountAddress?.toString();
     if (account) {
-      console.log(`=======login?${account}`);
+      
       const nick = `${account.slice(0, 4)}...${account.slice(-6)}`;
-      (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify({account: account, token: account, nick: nick}));
+      const ref_user = sessionStorage.getItem("ref_user");
+      console.log(`=======login?${account}, ${ref_user}`);
+      (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify({account: account, token: account, nick: nick, ref_user: ref_user}));
     } else {
       console.warn("账户未定义，无法登录");
     }

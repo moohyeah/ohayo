@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4237553767
+CRC: 2346540513
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -9,7 +9,7 @@ AssetBundleManifest:
       Name: art_ui_uiloading.prefab_7da4bf4ac6d42d82d11931044e048404.ab
       Dependencies: {}
     Info_2:
-      Name: tabpackage_2764cdba8c31417a889bdd2348e4f107.ab
+      Name: tabpackage_70cccce43bb7760e3927b747ebbccb22.ab
       Dependencies: {}
     Info_3:
       Name: art_ui_texture_update_newdeng.jpg_b2f840bd99177e96926ab69fc7f4ea77.ab
@@ -61,12 +61,12 @@ AssetBundleManifest:
       Name: art_effect_ui_duanlu_luhuo_ui_duanlu_luhuo.prefab_c50db2b732ef1b7da71e8e234eec8f37.ab
       Dependencies: {}
     Info_19:
-      Name: art_ui_commcon_currency.prefab_9b690e64547935909108fb1e9e8b059b.ab
+      Name: art_ui_commcon_currency.prefab_2af0de40eed68f69b50fd14230ae1005.ab
       Dependencies:
         Dependency_0: art_ui_texture_common_20241009-170532.png_a762b4b66955199d6d9e4d757087b434.ab
         Dependency_1: art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
     Info_20:
-      Name: art_ui_uirank.prefab_fa0ad66c3656eb9b330c5974fb727a67.ab
+      Name: art_ui_uirank.prefab_f40aca89192c36716fc450a4fbe3df12.ab
       Dependencies:
         Dependency_0: art_ui_texture_common_button_20241011-160639.png_88c818d4c4f203104f705f5b576df785.ab
         Dependency_1: art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
@@ -83,7 +83,7 @@ AssetBundleManifest:
       Name: art_ui_texture_equipicon_5104.png_8ff90be61a6b2bf6bf63c8e6f18dc621.ab
       Dependencies: {}
     Info_25:
-      Name: art_ui_uitask.prefab_ab5a5d5b210d3c1f8cafc89ac99086a1.ab
+      Name: art_ui_uitask.prefab_416e68c8eac59f9991639f30ec683b81.ab
       Dependencies:
         Dependency_0: art_ui_texture_item_t.png_f3a1c3af609c2a52a54a8851eaeba90f.ab
         Dependency_1: art_ui_texture_item_1.png_cfc8bef334db80bc34a8b9bca2add4dc.ab
@@ -93,12 +93,12 @@ AssetBundleManifest:
         Dependency_5: art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
         Dependency_6: art_ui_texture_shop_bg.jpg_7158b4c1df39567bef5c39ac7cbd8856.ab
     Info_26:
-      Name: art_ui_decomposeitem.prefab_b12ce0962f82719b5c8d231b38aea89f.ab
+      Name: art_ui_decomposeitem.prefab_8d57767b70056bbabeacc1d9b81c0b26.ab
       Dependencies:
         Dependency_0: art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
         Dependency_1: art_ui_texture_nft_new_20241010-102932.png_07475533f55178f2fdaadf2430f90173.ab
     Info_27:
-      Name: json_e34ba6a0d3790a7a11ec1f5779e56172.ab
+      Name: json_6fd8422a0ee82a41f62f635552e31586.ab
       Dependencies: {}
     Info_28:
       Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_bai.prefab_39a2728ab5703fe456eb5118649b4a77.ab
@@ -107,7 +107,7 @@ AssetBundleManifest:
       Name: art_effect_ui_duanlu_wpg_ui_duanlu_wpg_t_lan.prefab_4558f827cfe663bea52d182a36fa0555.ab
       Dependencies: {}
     Info_30:
-      Name: art_ui_successbox.prefab_5a1c7a6113b4bc69763c23c927616817.ab
+      Name: art_ui_successbox.prefab_aedebdbacbd6fe75fc8834b62729e645.ab
       Dependencies: {}
     Info_31:
       Name: art_ui_texture_equipicon_5502.png_3eaa9bfe3c0bb2484901d2df7592fb6d.ab
@@ -136,7 +136,7 @@ AssetBundleManifest:
       Name: art_ui_texture_nft_new_20241021-145929.png_080b8ad336000af3707b321cc92f9da3.ab
       Dependencies: {}
     Info_36:
-      Name: art_ui_uisecondconfirmation.prefab_629329629049f37b63a57fc210566937.ab
+      Name: art_ui_uisecondconfirmation.prefab_4bce9600f336e9ef620de34e19dc40b7.ab
       Dependencies:
         Dependency_0: art_ui_texture_common_button_20241011-093730.png_49ddce84ab95e8e510199382c5f614d4.ab
         Dependency_1: art_ui_texture_nft_new_20241010-102932.png_07475533f55178f2fdaadf2430f90173.ab
@@ -165,7 +165,7 @@ AssetBundleManifest:
       Name: art_ui_texture_main_newfolder_jindutiao.png_462cca7e19bf8f3652e9714e95012883.ab
       Dependencies: {}
     Info_45:
-      Name: art_ui_tutorial.prefab_fc73f2a0365f3843ab8c7d7aa5f3b985.ab
+      Name: art_ui_tutorial.prefab_deb6a82525d09d9fd433463b01575870.ab
       Dependencies:
         Dependency_0: art_ui_texture_guild.png_27f3c20ed6823b99d9daffdba2a83e2b.ab
     Info_46:
@@ -190,7 +190,7 @@ AssetBundleManifest:
       Name: art_ui_texture_equipicon_5501.png_a59712db134baaa27eafb5805da77298.ab
       Dependencies: {}
     Info_53:
-      Name: art_ui_uiomcwindows.prefab_10d16cb8c50d72a50ef454ac1ae46428.ab
+      Name: art_ui_uiomcwindows.prefab_621f82b6629f2a12e9d81127e39b264f.ab
       Dependencies:
         Dependency_0: art_ui_texture_common_button_20241011-160639.png_88c818d4c4f203104f705f5b576df785.ab
         Dependency_1: art_ui_texture_item_9.png_83db07217c799c0a7d468111e4012f2c.ab
@@ -208,10 +208,10 @@ AssetBundleManifest:
       Name: art_ui_texture_equipicon_5402.png_dfe06d7c96b9db498644b41c26f8169f.ab
       Dependencies: {}
     Info_58:
-      Name: art_ui_uisetting.prefab_4839ed76103df99b345f3ec12d3341d9.ab
+      Name: art_ui_uisetting.prefab_8ba0e6f05e6ab9e9b38c27da6aedae66.ab
       Dependencies: {}
     Info_59:
-      Name: art_ui_nftshop_itemwindows.prefab_bfea776d61daaced516219b09cc998ca.ab
+      Name: art_ui_nftshop_itemwindows.prefab_59500a0bb39a3805ef5454171d1143c7.ab
       Dependencies:
         Dependency_0: art_ui_texture_item_t.png_f3a1c3af609c2a52a54a8851eaeba90f.ab
         Dependency_1: art_ui_texture_touming1.png_fa59f33b7823a0e0b8b1db3f886950e1.ab
@@ -224,7 +224,7 @@ AssetBundleManifest:
       Name: art_ui_texture_item_1.png_cfc8bef334db80bc34a8b9bca2add4dc.ab
       Dependencies: {}
     Info_61:
-      Name: art_ui_uigamemainview.prefab_9081d923d9e33cba0834c93011dbc769.ab
+      Name: art_ui_uigamemainview.prefab_5c740f68c5f3c121042c6e69a1ca35dc.ab
       Dependencies:
         Dependency_0: art_ui_texture_item_t.png_f3a1c3af609c2a52a54a8851eaeba90f.ab
         Dependency_1: art_ui_texture_main_newfolder_jindutuai2.png_37c985c806881a6b88c94c41a2d6dc5a.ab
@@ -235,7 +235,7 @@ AssetBundleManifest:
         Dependency_6: art_ui_texture_item_20241021-142242.png_92187a1c0edd7c69f17a01d952dae7d2.ab
         Dependency_7: art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
     Info_62:
-      Name: art_ui_systemprompt.prefab_b67ee8b2b222f9ba46cc80e4a1b36197.ab
+      Name: art_ui_systemprompt.prefab_e41898e314d41fc441d8b352ed5a2eac.ab
       Dependencies: {}
     Info_63:
       Name: art_ui_texture_common_20241017-105834.png_a49d88e2cf7c32a9b49dbe086c22a4ce.ab
@@ -271,7 +271,7 @@ AssetBundleManifest:
       Name: art_ui_texture_equipicon_5509.png_8e52808b5e89ad2e1df13097d2a64b49.ab
       Dependencies: {}
     Info_74:
-      Name: art_ui_uishop.prefab_0ba0c41292bccc7c92bd03907616dfca.ab
+      Name: art_ui_uishop.prefab_1337a3a3f26bb8fd17adc20aac970cf1.ab
       Dependencies:
         Dependency_0: art_ui_texture_item_t.png_f3a1c3af609c2a52a54a8851eaeba90f.ab
         Dependency_1: art_ui_texture_shop_itembg.png_2ace373a8351d27341d42b77ccc70d74.ab
@@ -290,7 +290,7 @@ AssetBundleManifest:
       Name: art_ui_texture_equipicon_5106.png_953f983f67057d19ec994763fc815a83.ab
       Dependencies: {}
     Info_77:
-      Name: art_ui_uigametop.prefab_c5af327d2b270392389fc181c6e34d60.ab
+      Name: art_ui_uigametop.prefab_0b8351014eb1dd031a7379867dfba2b7.ab
       Dependencies:
         Dependency_0: art_ui_texture_item_t.png_f3a1c3af609c2a52a54a8851eaeba90f.ab
         Dependency_1: art_ui_texture_item_1.png_cfc8bef334db80bc34a8b9bca2add4dc.ab
@@ -349,7 +349,7 @@ AssetBundleManifest:
       Name: art_ui_texture_equipicon_5302.png_abdf37ebc588bc010e042ab060293d59.ab
       Dependencies: {}
     Info_95:
-      Name: art_atlas_mission.spriteatlas_10a94b71e9bfae2e096b3f5e42380b96.ab
+      Name: art_atlas_mission.spriteatlas_75ac73aefbd33a31c192f0018d7c704c.ab
       Dependencies: {}
     Info_96:
       Name: art_audio_ui_duan.ogg_c47f35fa6c9ebbc885652dc42a88490c.ab
@@ -422,7 +422,7 @@ AssetBundleManifest:
       Name: art_ui_texture_nft_new_20241021-145915.png_ff220235f7dd552f73dec1b81061c2d4.ab
       Dependencies: {}
     Info_118:
-      Name: art_ui_uibook.prefab_73103edb9f2f0490b2fbcc48b784802c.ab
+      Name: art_ui_uibook.prefab_03bb8e31ceae88ddcb6876b38036d19a.ab
       Dependencies:
         Dependency_0: art_ui_texture_equipicon_5201.png_50fabc140c6236205cb5226187c9ec21.ab
     Info_119:
@@ -458,13 +458,13 @@ AssetBundleManifest:
       Name: art_ui_texture_nft_new_gg.png_07d330c4c7501ecadcc5927a40c589c3.ab
       Dependencies: {}
     Info_129:
-      Name: art_ui_uiuser.prefab_be3e9fe543f9c335c877e66b041b4d01.ab
+      Name: art_ui_uiuser.prefab_dfc16a538e821bb4dcfaf6612b5f4549.ab
       Dependencies: {}
     Info_130:
       Name: art_audio_ui_qingzhu.ogg_7b852717c6ba9f469c6e68b909f310cf.ab
       Dependencies: {}
     Info_131:
-      Name: art_ui_nftshop_nftwindows.prefab_4467e6ff21f7279879c457865e03217f.ab
+      Name: art_ui_nftshop_nftwindows.prefab_d93b3b685f6eaa93c6889a95dc85a548.ab
       Dependencies:
         Dependency_0: art_ui_texture_nft_new_20241021-145929.png_080b8ad336000af3707b321cc92f9da3.ab
         Dependency_1: art_ui_texture_nft_new_20241021-160549.png_0883e63dc3ac21c746af4ee85dcf4393.ab
@@ -521,13 +521,13 @@ AssetBundleManifest:
       Name: art_effect_ui_duanlu_jinbi_ui_duanlu_jinbi_baokaijuji_x1.prefab_bdb8e7464412ac839f08d4539abd49ba.ab
       Dependencies: {}
     Info_148:
-      Name: art_ui_uigroup.prefab_e2578e58b45ce30ebed2aa14ad1f8c68.ab
+      Name: art_ui_uigroup.prefab_4a8718776d3644f353d7c7966ef52c23.ab
       Dependencies: {}
     Info_149:
-      Name: art_ui_uiboosttips.prefab_54542631445284b7cac6c2a3eb738b98.ab
+      Name: art_ui_uiboosttips.prefab_534018ff54e90d4a6f77a61eee3b76f7.ab
       Dependencies: {}
     Info_150:
-      Name: art_ui_uimail.prefab_4945aaa1f7c008d24b7d465263ca1c0b.ab
+      Name: art_ui_uimail.prefab_344b2890842103dbf0075c160e95626b.ab
       Dependencies:
         Dependency_0: art_ui_texture_item_20241021-142242.png_92187a1c0edd7c69f17a01d952dae7d2.ab
         Dependency_1: art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
@@ -550,7 +550,7 @@ AssetBundleManifest:
       Name: art_audio_ui_jin.ogg_742dadc5cef5ee1dc0e00677206292e6.ab
       Dependencies: {}
     Info_157:
-      Name: art_ui_nftshop.prefab_e8a1afc652e468fc4f844b6bea43c4ca.ab
+      Name: art_ui_nftshop.prefab_c6aa90164568d5d3238fcc61df98f7bf.ab
       Dependencies:
         Dependency_0: art_ui_texture_item_t.png_f3a1c3af609c2a52a54a8851eaeba90f.ab
         Dependency_1: art_ui_texture_item_1.png_cfc8bef334db80bc34a8b9bca2add4dc.ab
@@ -596,4 +596,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_168:
       Name: art_ui_texture_shop_bg.jpg_7158b4c1df39567bef5c39ac7cbd8856.ab
+      Dependencies: {}
+    Info_169:
+      Name: art_ui_tosocail.prefab_50489494112c5a927f24b27366414dc2.ab
       Dependencies: {}

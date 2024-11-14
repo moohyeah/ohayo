@@ -1,35 +1,33 @@
 ManifestFileVersion: 0
-CRC: 1424677285
+CRC: 4270999763
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3ef290be3b53a03a7aed3c5276056619
+    Hash: 50489494112c5a927f24b27366414dc2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 89aa1fea367a2c9d295fc5d587a58a95
+    Hash: a0e8af864369b5fd745670d85c63702e
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 3ef290be3b53a03a7aed3c5276056619
+    Hash: 50489494112c5a927f24b27366414dc2
 HashAppended: 1
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: 848634c413b3d4e4583fea05d4cb1f39, type: 3}
+- Class: 28
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9e643de6b54c1ee4c843467bc32c5d6e, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 39ceae50a01ee7248b340d87245f5f64, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a626465a5c806e48954b2fafe1d365c, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 9f17f445706c18f4ab904000a7133fcc, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 0f0025618797a474b967327bffb63e73, type: 3}
+  Script: {fileID: 11500000, guid: 31953994127559141a6ba092d5e11b27, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 213
@@ -54,6 +52,5 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.SpriteState
 Assets:
-- Assets/Resourcex/art/ui/UIMakeTips.prefab
-Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_equipicon_5101.png_b6dfbb9197a3da3bd906ecf5abf5bc2c.ab
+- Assets/Resourcex/art/ui/toSocail.prefab
+Dependencies: []
