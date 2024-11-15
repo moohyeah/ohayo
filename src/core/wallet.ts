@@ -230,8 +230,8 @@ export async function callContractMethod(amount: number) {
             await switchToBSC();
         }
 
+        (window as any).ethersProvider = new ethers.providers.Web3Provider((window as any).deboxWallet);
         const signer =  (window as any).ethersProvider.getSigner();
-
 
         // 创建合约实例
         const contract = new ethers.Contract(
@@ -241,7 +241,7 @@ export async function callContractMethod(amount: number) {
         );
         const usdtContract = new ethers.Contract(usdtAddress, erc20Abi, signer);
 
-        const usdt = ethers.utils.parseUnits(amount.toString(), 6); // 10 USDT
+        const usdt = ethers.utils.parseUnits(amount.toString(), 18); // 10 USDT
         console.log("usdt???", amount, usdt);
 
         try {
