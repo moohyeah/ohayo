@@ -5,9 +5,9 @@ import { GOOGLE_CLIENT_ID } from "../core/constants";
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 import Tabs from "../components/Tabs";
 
-const GAME_WASM_PATH = "./Build/c21b6204ca19e9804e0fc25701e4a7d9.wasm.unityweb";
+const GAME_WASM_PATH = "./Build/41284d8c6029159c15885906f2ac529e.wasm.unityweb";
 const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-const GAME_DATA_PATH  = "./Build/198b490b97aa1b84cb61b535751f3499.data.unityweb";
+const GAME_DATA_PATH  = "./Build/289c7e886b4a09e0d0f1c879821047cd.data.unityweb";
 const GAME_FRAMEWORK_PATH = "./Build/43d52332fe0cba2624bc110bf28ffbfb.framework.js.unityweb";
 const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab_d6bf55d13d246f7a5166990d03d02189.ab";
 const GAME_StreamingAsset_PATH = "./StreamingAssets/StreamingAssets";
@@ -146,11 +146,14 @@ function HomePage() {
   const handleGameLogin = useCallback(async ()=>{
     const account = activeAccount?.accountAddress?.toString();
     if (account) {
-      
       const nick = `${account.slice(0, 4)}...${account.slice(-6)}`;
       const ref_user = sessionStorage.getItem("ref_user");
-      console.log(`=======login?${account}, ${ref_user}`);
-      (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify({account: account, token: account, nick: nick, ref_user: ref_user}));
+      let msg = {account, token: account, nick, ref_user};
+      if (msg.ref_user == null) {
+        msg.ref_user="";
+      }
+      console.log("=======login?", msg);
+      (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify(msg));
     } else {
       console.warn("账户未定义，无法登录");
     }
