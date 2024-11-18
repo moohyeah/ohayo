@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 17409106
+CRC: 36276101
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -9,7 +9,7 @@ AssetBundleManifest:
       Name: art_ui_uiloading.prefab_7da4bf4ac6d42d82d11931044e048404.ab
       Dependencies: {}
     Info_2:
-      Name: tabpackage_70cccce43bb7760e3927b747ebbccb22.ab
+      Name: tabpackage_cad6c22d5d11f2e51f6c58a0666f7527.ab
       Dependencies: {}
     Info_3:
       Name: art_ui_texture_update_newdeng.jpg_b2f840bd99177e96926ab69fc7f4ea77.ab
@@ -98,7 +98,7 @@ AssetBundleManifest:
         Dependency_0: art_ui_texture_item_20241009-1705321.png_28b796ac73bb51e4b1649b2469a19821.ab
         Dependency_1: art_ui_texture_nft_new_20241010-102932.png_07475533f55178f2fdaadf2430f90173.ab
     Info_27:
-      Name: json_b610c10fdd51a9a1b33e20a29442a1b0.ab
+      Name: json_18b9f212d054a01b6bd25ecc8a331edb.ab
       Dependencies: {}
     Info_28:
       Name: art_effect_ui_duanlu_wptc_ui_duanlu_wptc_bai.prefab_39a2728ab5703fe456eb5118649b4a77.ab

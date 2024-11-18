@@ -16,3 +16,9 @@ export const GOOGLE_CLIENT_ID = "654936766903-3hvv86qokdbhv1oouf7slormgeoh6l0k.a
 export const adminAdress = "0xb99efb212699f360849001ad54679c51c8557cf533f601942810f94be0fd8fb1"
 export const NftCollectionAddr = "0xeae12edd5c14e463917e12f37487310e0e01e5ca7a41d69541f589d4c16acca8"
 
+export const GAME_WASM_PATH = "./Build/43c17e4173b8d5f066e67affbff836cd.wasm.unityweb";
+export const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
+export const GAME_DATA_PATH  = "./Build/852944280096bb0395655ae9f8b9ffa2.data.unityweb";
+export const GAME_FRAMEWORK_PATH = "./Build/43d52332fe0cba2624bc110bf28ffbfb.framework.js.unityweb";
+export const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab_d6bf55d13d246f7a5166990d03d02189.ab";
+export const GAME_StreamingAsset_PATH = "./StreamingAssets/StreamingAssets";

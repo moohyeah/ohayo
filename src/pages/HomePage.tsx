@@ -1,25 +1,16 @@
 import { useKeylessAccounts } from "../core/useKeylessAccounts";
 import { useEffect, useCallback, useState } from 'react';
-import { adminAdress } from "../core/constants";
-import { GOOGLE_CLIENT_ID } from "../core/constants";
+import { GAME_WASM_PATH, GAME_LOADER_PATH, GAME_DATA_PATH,
+  GAME_FRAMEWORK_PATH, GAME_InitView_PATH, GAME_StreamingAsset_PATH} from "../core/constants";
+
 import useEphemeralKeyPair from "../core/useEphemeralKeyPair";
 import Tabs from "../components/Tabs";
-
-const GAME_WASM_PATH = "./Build/41284d8c6029159c15885906f2ac529e.wasm.unityweb";
-const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-const GAME_DATA_PATH  = "./Build/289c7e886b4a09e0d0f1c879821047cd.data.unityweb";
-const GAME_FRAMEWORK_PATH = "./Build/43d52332fe0cba2624bc110bf28ffbfb.framework.js.unityweb";
-const GAME_InitView_PATH = "./StreamingAssets/art_ui_uigameupdateview.prefab_d6bf55d13d246f7a5166990d03d02189.ab";
-const GAME_StreamingAsset_PATH = "./StreamingAssets/StreamingAssets";
-
+import {googleLogin} from '../core/utils';
 
 function HomePage() {
   const ephemeralKeyPair = useEphemeralKeyPair();
-  const baseUrl = import.meta.env.VITE_BASE_URL || '/';
 
-  const { activeAccount, disconnectKeylessAccount, transferNft, getNfts, transferCoin, getBalance} = useKeylessAccounts();
-  const [progress, setProgress] = useState<number>(0);
-  const [gameInited, setGameInited] = useState<boolean>(false);
+  const { activeAccount } = useKeylessAccounts();
 
   function removeParameterFromCurrentURL() {
     const url = new URL(window.location.href);
@@ -38,212 +29,12 @@ function HomePage() {
     }
   }
 
-  useEffect(() => {
-    if (activeAccount == null) {
-      return;
-    }
-
-    var canvas = document.querySelector("#unity-canvas");
-
-    var config = {
-      dataUrl: GAME_DATA_PATH,
-      frameworkUrl: GAME_FRAMEWORK_PATH,
-      codeUrl: GAME_WASM_PATH,
-      cacheControl: function(url: string) {
-        // Caching enabled for .data and .bundle files. 
-        // Revalidate if file is up to date before loading from cache
-        if (url.match(/\.data/) || url.match(/\.unityweb/) || url.match(/\.ab/)) {
-          return "must-revalidate";
-        }
-
-        // Caching enabled for .mp4 and .custom files
-        // Load file from cache without revalidation.
-        if (url.match(/\.mp4/) || url.match(/\.custom/)) {
-          return "immutable";
-        }
-
-        // Disable explicit caching for all other files.
-        // Note: the default browser cache may cache them anyway.
-        return "no-store";
-      },
-      streamingAssetsUrl: "./StreamingAssets",
-      companyName: "Zhuhai Theophilus Network Technology Co. Ltd.",
-      productName: "Ohayo Master",
-      productVersion: "1.5.7",
-      // showBanner: unityShowBanner,
-    };
-
-    const head = document.querySelector("head");
-    const script = document.createElement("script");
-
-    script.setAttribute("src", GAME_LOADER_PATH);
-    head?.appendChild(script);
-    script.onload = () => {
-      (window as any).createUnityInstance(canvas, config, (progress: number) => {
-        setProgress(100 * progress - 1);
-      }).then((unityInstance: any) => {
-        (window as any).unityInstance = unityInstance;
-        console.log('init Done');
-        setTimeout(function() {
-          setProgress(100)
-          setGameInited(true);
-        }, 3000)
-      }).catch((message: string) => {
-        alert(message);
-      });
-    };
-
-    return () => {
-      head?.removeChild(script);
-    };
-  }, [activeAccount, setProgress, setGameInited]);
-
-  const googleLogin = useCallback(()=> {
-
-    const redirectUrl = new URL("https://accounts.google.com/o/oauth2/v2/auth");
-  
-    const searchParams = new URLSearchParams({
-      /**
-       * Replace with your own client ID
-       */
-      client_id: GOOGLE_CLIENT_ID,
-      /**
-       * The redirect_uri must be registered in the Google Developer Console. This callback page
-       * parses the id_token from the URL fragment and combines it with the ephemeral key pair to
-       * derive the keyless account.
-       *
-       * window.location.origin == http://localhost:5173
-       */
-      redirect_uri: `${window.location.origin}${baseUrl}callback`,
-      /**
-       * This uses the OpenID Connect implicit flow to return an id_token. This is recommended
-       * for SPAs as it does not require a backend server.
-       */
-      response_type: "id_token",
-      scope: "openid email profile",
-      nonce: ephemeralKeyPair.nonce,
-    });
-    redirectUrl.search = searchParams.toString();
-    console.log(`${redirectUrl.toString()}`);
-    window.location.href = redirectUrl.toString();
-  }, [useEphemeralKeyPair]);
-
   const playGame = useCallback(()=> {
     if (activeAccount == null) {
-      googleLogin();
+      googleLogin(ephemeralKeyPair.nonce);
       return;
     }
-    const indexElement = document.getElementById('index');
-    const gameContainerElement = document.getElementById('game-container');
-    if (indexElement) indexElement.style.display = 'none';
-    if (gameContainerElement) gameContainerElement.style.top = '0'; 
   }, []);
-
-  const SendBlockChainMsgToGame = useCallback((data: any) => {
-    (window as any).unityInstance.SendMessage("MainController", "OnBlockChainMsg", JSON.stringify(data));
-  }, []);
-
-  const handleGameLogin = useCallback(async ()=>{
-    const account = activeAccount?.accountAddress?.toString();
-    if (account) {
-      const nick = `${account.slice(0, 4)}...${account.slice(-6)}`;
-      const ref_user = sessionStorage.getItem("ref_user");
-      let msg = {account, token: account, nick, ref_user};
-      if (msg.ref_user == null) {
-        msg.ref_user="";
-      }
-      console.log("=======login?", msg);
-      (window as any).unityInstance.SendMessage("MainController", "OnPlatformLoginMsg", JSON.stringify(msg));
-    } else {
-      console.warn("账户未定义，无法登录");
-    }
-  }, []);
-
-  const handleGameLogout = useCallback(()=>{
-    disconnectKeylessAccount()
-  }, []);
-
-  const handleNFtTransfer = useCallback(async (evt : any) => {
-    const {tokenId, recipient} = evt.detail;
-    console.log(`transferNft: ${tokenId}, ${recipient}`);
-    const hash = await transferNft(tokenId, recipient);
-    console.log(`transferNft Finish: ${hash}`);
-    SendBlockChainMsgToGame({msgType: "nft_transfer_ret", hash: hash});
-  }, [transferNft]);
-
-  const handleGetNfts = useCallback(async () => {
-    const nfts = await getNfts();
-    const formattedNfts = nfts.map(nft => ({
-      token_id: nft.token_data_id,
-      tid: parseInt(nft.current_token_data?.token_properties?.id),
-    }));
-    (window as any).unityInstance.SendMessage("MainController", "OnNftListMsg", JSON.stringify(formattedNfts));
-  }, [getNfts]);
-
-  const handleTransferCoin = useCallback(async (evt : any) => {
-    const {amount, recipient} = evt.detail;
-    let balance = await getBalance();
-    if (amount >= balance) {
-      alert("Insufficient APT balance");
-      return;
-    }
-    const tranx_hash = await transferCoin(amount, recipient);
-    balance = await getBalance();
-    SendBlockChainMsgToGame({msgType: "transfer_coin_ret", balance: balance, hash: tranx_hash})
-  }, [transferCoin]);
-
-  const handlePayOrder = useCallback(async (evt : any) => {
-    const {amount, orderId} = evt.detail;
-    const balance = await getBalance();
-    if (amount >= balance) {
-      alert("Insufficient APT balance");
-      return;
-    }
-    const tranx_hash = await transferCoin(amount, adminAdress);
-    (window as any).unityInstance.SendMessage("MainController", "OnPlatformPayMsg", JSON.stringify({hash: tranx_hash, order_id: orderId}));
-  }, [transferCoin]);
-
-  useEffect(()=>{
-    window.addEventListener("GameLogout", handleGameLogout);
-    return ()=> {
-      window.removeEventListener("GameLogout", handleGameLogout);
-    };
-  }, [handleGameLogout]);
-
-  useEffect(()=>{
-    window.addEventListener("GameLogin", handleGameLogin);
-    return ()=> {
-      window.removeEventListener("GameLogin", handleGameLogin);
-    };
-  }, [handleGameLogin]);
-
-  useEffect(()=>{
-    window.addEventListener("NFTTransfer", handleNFtTransfer);
-    return ()=> {
-      window.removeEventListener("NFTTransfer", handleNFtTransfer);
-    };
-  }, [handleNFtTransfer]);
-
-  useEffect(()=>{
-    window.addEventListener("NFTList", handleGetNfts);
-    return ()=> {
-      window.removeEventListener("NFTList", handleGetNfts);
-    };
-  }, [handleGetNfts]);
-
-  useEffect(()=>{
-    window.addEventListener("TransferCoin", handleTransferCoin);
-    return ()=> {
-      window.removeEventListener("TransferCoin", handleTransferCoin);
-    };
-  }, [handleTransferCoin]);
-
-  useEffect(()=>{
-    window.addEventListener("PayOrder", handlePayOrder);
-    return ()=> {
-      window.removeEventListener("PayOrder", handlePayOrder);
-    };
-  }, [handlePayOrder]);
 
   const [userTotal, setUserTotal] = useState<number | null>(null); // 添加状态管理
 
@@ -274,15 +65,6 @@ function HomePage() {
     <link rel="preload" href={GAME_StreamingAsset_PATH} type="application/octet-stream" as="fetch"></link>
 
     <div className="min-h-screen flex flex-col bg-slate-900">
-    {/* <div className="min-h-screen flex flex-col  bg-cover bg-center" style={{ backgroundImage: `url('./bg.svg')` }}> */}
-      <div id="#unity-container" className="fixed inset-0 flex flex-col justify-center items-center" style={{display: activeAccount == null ? 'none' : 'flex'}}>
-        <canvas id="unity-canvas" className="h-full max-w-full justify-center border items-center aspect-[720/1280] bg-zinc-400"></canvas>
-        <div id="game-loader" className="h-full max-w-full justify-center items-center aspect-[720/1280] absolute top-0" style={{backgroundImage: "url('./loading-bg.jpg')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'top', display: gameInited ? 'none' : 'flex'}}>
-          <div id="unity-progress-bar-empty" className="w-4/5 bg-neutral-500 rounded-full h-4 absolute bottom-6 left-1/2 transform -translate-x-1/2">
-            <div id="unity-progress-bar-full" className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-4 rounded-full" style={{width: progress + "%"}}></div>
-          </div>
-        </div>
-      </div>
       <div id="index" className="grid min-h-svh grid-rows-[auto_1fr_auto] overflow-hidden" style={{display: activeAccount != null ? 'none' : 'grid'}}>
         <div className="container mx-auto sm:px-6 lg:px-8">
           <div className="relative h-screen text-center" style={{backgroundImage: "url('./bg2.jpg')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>

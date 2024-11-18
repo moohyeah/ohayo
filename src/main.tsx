@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage.tsx";
 import CallbackPage from "./pages/CallbackPage.tsx";
 import ShopPage from "./pages/ShopPage.tsx";
+import GamePage from "./pages/GamePage.tsx";
 
 import "./index.css";
 
@@ -12,15 +13,15 @@ console.log(`baseUrl: ${baseUrl}`);
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <HomePage />,
+    path: "/game",
+    element: <GamePage />,
   },
   {
     path: "/callback",
     element: <CallbackPage />,
   },
   {
-    path: "home",
+    path: "/",
     element: <HomePage />,
   },
   {
