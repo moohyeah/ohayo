@@ -44,20 +44,23 @@ function GamePage() {
         (async () => {
           try {
             const newActiveAccount = await switchKeylessAccount(keyLessAccount.accounts[0].idToken.raw);
-            setActiveAccount(newActiveAccount); // 使用 setActiveAccount 更新状态
+            if (newActiveAccount) {
+                setActiveAccount(newActiveAccount);
+            } else {
+                navigate("/");
+            }
           } catch (error) {
             console.error(error);
-            navigate("/");
           }
-          
         })();
       }
       return;
     }
+  }, [keyLessAccount, isLoading, setProgress, setGameInited]);
 
+  useEffect(()=> {
 
     var canvas = document.querySelector("#unity-canvas");
-
     var config = {
       dataUrl: GAME_DATA_PATH,
       frameworkUrl: GAME_FRAMEWORK_PATH,
@@ -109,7 +112,7 @@ function GamePage() {
     return () => {
       head?.removeChild(script);
     };
-  }, [keyLessAccount, isLoading, setProgress, setGameInited]);
+  }, []);
 
   const SendBlockChainMsgToGame = useCallback((data: any) => {
     (window as any).unityInstance.SendMessage("MainController", "OnBlockChainMsg", JSON.stringify(data));
