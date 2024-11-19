@@ -145,19 +145,19 @@ function HomePage() {
               <h2 className="text-xl font-bold mb-4 text-center">Records</h2>
               {records.length > 0 ? (
                 <table className="w-full" id="rec-tabl">
-                  <thead>
+                  {/* <thead>
                     <tr className="border-b">
                       <th className="py-2">Icon</th>
                       <th className="py-2">Name</th>
                       <th className="py-2">Num</th>
                     </tr>
-                  </thead>
+                  </thead> */}
                   <tbody>
                   {records.map((record : any) => (
                     <tr className="border-b">
-                      <td className="py-2 text-center"><img src={record.icon || './vbox.png'} className="w-8 h-8 inline-block"/></td>
-                      <td className="py-2 text-center">{record.name || 'vBOX'}</td>
-                      <td className="py-2 text-center">{record.item_num}</td>
+                      <td className="py-2 text-center">{record.create_time}</td>
+                      <td className="py-2 text-center">{record.item_name || 'vBOX'}</td>
+                      <td className="py-2 text-center">{record.item_num / 10}</td>
                     </tr>
                   ))}
                   </tbody>

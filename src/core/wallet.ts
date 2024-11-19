@@ -242,7 +242,6 @@ export async function callContractMethod(amount: number) {
         const usdtContract = new ethers.Contract(usdtAddress, erc20Abi, signer);
 
         const usdt = ethers.utils.parseUnits(amount.toString(), 18); // 10 USDT
-        console.log("usdt???", amount, usdt);
 
         try {
              // 首先授权目标合约可以使用用户的 USDT
