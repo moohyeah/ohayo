@@ -129,7 +129,7 @@ function HomePage() {
                 </div>
               </div>
               <div className="px-4 relative mx-auto w-full sm:w-3/4 py-14 flex flex-wrap items-center justify-center">
-                <img src="./Building+AWA.png" className=" h-auto absolute top-6 left-4"></img>
+                <img src="./Building+RWA.png" className=" h-auto absolute top-6 left-4"></img>
                 <div className="sm:pl-8 pt-16 pb-8 flex flex-wrap items-center justify-center sm:space-x-4 space-y-5">
                   <img src="./jianzhu1.png"></img>
                   <img src="./jianzhu2.png"></img>
