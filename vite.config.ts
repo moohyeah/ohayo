@@ -35,7 +35,7 @@ export default defineConfig(({ mode }) => {
               if (id.includes('poseidon')) {
                 return 'poseidon-vendor'; // 把 react 和 react-dom 拆成一个单独的 chunk
               }
-              console.log("====manualChunks:" + id);
+              // console.log("====manualChunks:" + id);
               return 'vendor'; // 所有来自 node_modules 的模块将打包到 vendor chunk 中
             }
           },
