@@ -188,7 +188,16 @@ const erc20Abi = [
         "name": "approve",
         "outputs": [{ "name": "", "type": "bool" }],
         "type": "function"
-    }
+    },
+    {
+      "constant": true,
+      "inputs": [{ "name": "owner", "type": "address" }],
+      "name": "balanceOf",
+      "outputs": [{ "name": "", "type": "uint256" }],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+    },
 ];
 
 // 合约地址和 ABI
@@ -196,16 +205,16 @@ const contractAddress = "0x2eCDf7198Db3e5FD19Fb1ed9B09C54B26aB13C70"; // zs: 0x4
 const contractABI = [
     {
     "inputs": [
-        {
-            "internalType": "contract IERC20",
-            "name": "token",
-            "type": "address"
-        },
-        {
-            "internalType": "uint256",
-            "name": "amount",
-            "type": "uint256"
-        }
+      {
+        "internalType": "contract IERC20",
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
     ],
     "name": "playGameAndShareAll",
     "outputs": [],
@@ -243,18 +252,25 @@ export async function callContractMethod(amount: number) {
 
         const usdt = ethers.utils.parseUnits((amount / 1000).toString(), 18); // 0.001 USDT
 
-        try {
-             // 首先授权目标合约可以使用用户的 USDT
-            console.log("等待授权交易确认中...");
-            const approveTx = await usdtContract.approve(contractAddress, usdt);
-            await approveTx.wait();
-            console.log("授权完成！");
+        const myAddress = await signer.getAddress()
+        const balance = await usdtContract.balanceOf(myAddress);
+        if (balance >= usdt) {
+          return -1;
+        }
 
-            const tx = await contract.playGameAndShareAll(usdtAddress, usdt);
-            console.log("TX: ", tx);
-            // 等待交易被矿工确认
-            await tx.wait();
-            return tx?.hash;
+        try {
+
+          // 首先授权目标合约可以使用用户的 USDT
+          console.log("等待授权交易确认中...");
+          const approveTx = await usdtContract.approve(contractAddress, usdt);
+          await approveTx.wait();
+          console.log("授权完成！");
+
+          const tx = await contract.playGameAndShareAll(usdtAddress, usdt);
+          console.log("TX: ", tx);
+          // 等待交易被矿工确认
+          await tx.wait();
+          return tx?.hash;
         } catch (error) {
             console.error("error", error);
         }
