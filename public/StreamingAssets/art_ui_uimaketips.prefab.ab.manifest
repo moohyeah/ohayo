@@ -1,23 +1,21 @@
 ManifestFileVersion: 0
-CRC: 1424677285
+CRC: 1616296125
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3ef290be3b53a03a7aed3c5276056619
+    Hash: 039f80024a4bd5c62737911a9a25c9d8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a54a06a5abe3d904c2e7b734ab777861
+    Hash: c8ace0377a3c4a172c44f72a4a8fa68f
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 3ef290be3b53a03a7aed3c5276056619
+    Hash: 039f80024a4bd5c62737911a9a25c9d8
 HashAppended: 1
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 848634c413b3d4e4583fea05d4cb1f39, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9e643de6b54c1ee4c843467bc32c5d6e, type: 3}
 - Class: 114
@@ -30,6 +28,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: df44107d7b2637f4d90c3a380ea83ba7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0f0025618797a474b967327bffb63e73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 848634c413b3d4e4583fea05d4cb1f39, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 213
@@ -56,4 +56,4 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Resourcex/art/ui/UIMakeTips.prefab
 Dependencies:
-- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_equipicon_5101.png_b6dfbb9197a3da3bd906ecf5abf5bc2c.ab
+- E:/telegram_operations/Assets/StreamingAssets/art_ui_texture_touming1.png_fa59f33b7823a0e0b8b1db3f886950e1.ab
