@@ -18,6 +18,18 @@ const getQueryParams = () => {
   return queryParams;
 };
 
+function formatTimestampToDateTime(timestamp: number) {
+  const date = new Date(timestamp);
+
+  // 格式化 MM-dd HH:mm
+  const month = String(date.getMonth() + 1).padStart(2, '0'); // 月份从 0 开始
+  const day = String(date.getDate()).padStart(2, '0');
+  const hours = String(date.getHours()).padStart(2, '0');
+  const minutes = String(date.getMinutes()).padStart(2, '0');
+
+  return `${month}-${day} ${hours}:${minutes}`;
+}
+
 const toLogin = ()=> {
   window.location.href = "https://app.debox.pro/oauth/authorize/?app_id=ShATk8B1VYKHrzx3&grant_type=authorization_code&scope=payment&response_type=code&pay_info=loginTest&redirect_uri=https://skywarriors.pro/";
 }
@@ -145,17 +157,10 @@ function HomePage() {
               <h2 className="text-xl font-bold mb-4 text-center">Records</h2>
               {records.length > 0 ? (
                 <table className="w-full" id="rec-tabl">
-                  {/* <thead>
-                    <tr className="border-b">
-                      <th className="py-2">Icon</th>
-                      <th className="py-2">Name</th>
-                      <th className="py-2">Num</th>
-                    </tr>
-                  </thead> */}
                   <tbody>
                   {records.map((record : any) => (
                     <tr className="border-b">
-                      <td className="py-2 text-center">{record.create_time}</td>
+                      <td className="py-2 text-center">{formatTimestampToDateTime(record.create_time)}</td>
                       <td className="py-2 text-center">{record.item_name || 'vBOX'}</td>
                       <td className="py-2 text-center">{record.item_num / 10}</td>
                     </tr>

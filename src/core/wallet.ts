@@ -254,7 +254,7 @@ export async function callContractMethod(amount: number) {
 
         const myAddress = await signer.getAddress()
         const balance = await usdtContract.balanceOf(myAddress);
-        if (balance >= usdt) {
+        if (balance < usdt) {
           return -1;
         }
 

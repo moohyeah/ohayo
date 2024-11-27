@@ -92,7 +92,7 @@ function GamePage() {
 
   const handlePayOrder = useCallback(async (evt : any) => {
     const {amount, orderId} = evt.detail;
-    console.log("account=====", account)
+    
     const order_id = await callContractMethod(amount);
     if(order_id == -1){
       showTips("Insufficient balance!");
