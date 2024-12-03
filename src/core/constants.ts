@@ -2,11 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 
-export const GAME_WASM_PATH = "./Build/82bb72eab58ab4469644ebe9b25b3a10.wasm.unityweb";
+export const GAME_WASM_PATH = "./Build/4615d69aceee890b23c9e922b140b396.wasm.unityweb";
 export const GAME_LOADER_PATH = "./Build/5336a4b2c43054286fd70b1faa467eee.loader.js";
-export const GAME_DATA_PATH  = "./Build/e9112e5b3c18aa6ac7be26a12d44b426.data.unityweb";
-export const GAME_FRAMEWORK_PATH = "./Build/3567af16740b248dd0054fefe6640f5e.framework.js.unityweb";
-export const APPID = "ShATk8B1VYKHrzx3";
+export const GAME_DATA_PATH  = "./Build/f15d7be4d6637772d2b4960970f0585e.data.unityweb";
+export const GAME_FRAMEWORK_PATH = "./Build/7567b985417689c0d50a5f7dac1b2604.framework.js.unityweb";
 
 export const postJson = async (url : string, param: any) => {
     const result = await fetch(url, {

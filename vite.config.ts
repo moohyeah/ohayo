@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
       react(),
       viteVConsole({
         entry: path.resolve('src/main.tsx'),
-        enabled: true,
+        enabled: false,
         config: {
           maxLogNumber: 1000,
           theme: 'dark'
