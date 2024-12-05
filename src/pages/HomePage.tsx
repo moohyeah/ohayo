@@ -31,7 +31,7 @@ function formatTimestampToDateTime(timestamp: number) {
 }
 
 const toLogin = ()=> {
-  window.location.href = "https://app.debox.pro/oauth/authorize/?app_id=ShATk8B1VYKHrzx3&grant_type=authorization_code&scope=payment&response_type=code&pay_info=loginTest&redirect_uri=https://skywarriors.pro/";
+  window.location.href = "https://app.debox.pro/oauth/authorize/?app_id=ShATk8B1VYKHrzx3&grant_type=authorization_code&scope=payment&response_type=code&pay_info=loginTest&redirect_uri=https://skywarriors.xyz/";
 }
 
 function HomePage() {
