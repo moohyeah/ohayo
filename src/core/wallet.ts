@@ -198,6 +198,15 @@ const erc20Abi = [
       "stateMutability": "view",
       "type": "function",
     },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [{"name": "", "type": "uint8"}],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
 ];
 
 // 合约地址和 ABI
@@ -250,11 +259,14 @@ export async function callContractMethod(amount: number) {
         );
         const usdtContract = new ethers.Contract(usdtAddress, erc20Abi, signer);
 
-        const usdt = ethers.utils.parseUnits((amount / 1000).toString(), 18); // 0.001 USDT
+        const usdt = ethers.utils.parseUnits((amount).toString(), 18); // 0.001 USDT
 
         const myAddress = await signer.getAddress()
         const balance = await usdtContract.balanceOf(myAddress);
-        if (balance < usdt) {
+        const decimals = await usdtContract.decimals();
+        const formattedBalance = ethers.utils.formatUnits(balance, decimals);
+
+        if (parseFloat(formattedBalance) < amount) {
           return -1;
         }
 
