@@ -30,6 +30,8 @@ function GamePage() {
         if (data.user) {
           setAccount(data.user);
           console.log(data.use);
+        } else  if(data.code == "-100"){
+          showTips("account banned,please connect administor!");
         }
     };
 

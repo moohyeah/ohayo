@@ -55,7 +55,7 @@ function HomePage() {
   }
 
   const logoutAccount = async ()=> {
-    const response = await postJson("/api/logout", null);
+    const response = await postJson("/api/logout", {});
     setAccount(null);
     return response;
   }
@@ -76,16 +76,18 @@ function HomePage() {
       if (params.code != null && params.user_id != null) {
         const data = await loginAccount(params);
         setAccount(data.user);
-        console.log(data.use);
       } else {
         const response = await fetch("/api/profile");
         if (!response.ok) {
           return;
         }
         const data = await response.json();
+        // console.log(data);
         if (data.user) {
           setAccount(data.user);
           console.log(data.use);
+        }else if(data.code == "-100"){
+          alert("account banned,please connect administor!");
         }
       }
     };
