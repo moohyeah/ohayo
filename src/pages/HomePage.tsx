@@ -7,16 +7,7 @@ import {
   postJson,
 } from "../core/constants";
 
-const getQueryParams = () => {
-  const params = new URLSearchParams(window.location.search);
-  const queryParams: { [key: string]: string } = {};
-  
-  for (const [key, value] of params.entries()) {
-    queryParams[key] = value;
-  }
-  
-  return queryParams;
-};
+import {connect, getAccount, disconnect} from "../core/supra"
 
 function formatTimestampToDateTime(timestamp: number) {
   const date = new Date(timestamp);
@@ -30,17 +21,23 @@ function formatTimestampToDateTime(timestamp: number) {
   return `${month}-${day} ${hours}:${minutes}`;
 }
 
-const toLogin = ()=> {
-  window.location.href = "https://app.debox.pro/oauth/authorize/?app_id=ShATk8B1VYKHrzx3&grant_type=authorization_code&scope=payment&response_type=code&pay_info=loginTest&redirect_uri=https://skywarriors.xyz/";
-}
-
 function HomePage() {
   const [account, setAccount] = useState<any>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [records, setRecords] = useState([]);
 
+  const toLogin = async ()=> {
+    await connect();
+    const wallet = await getAccount();
+    if (!wallet) {
+      return
+    }
+    const data = await loginAccount({wallet});
+    setAccount(data.user);
+  }
+
   const loginAccount = async (params: any)=> {
-    const response = await postJson("/api/login", params);
+    const response = await postJson("/api/supra_login", params);
     return response;
   }
 
@@ -57,10 +54,11 @@ function HomePage() {
   const logoutAccount = async ()=> {
     const response = await postJson("/api/logout", {});
     setAccount(null);
+    await disconnect();
     return response;
   }
 
-  const params = getQueryParams();
+  // const params = getQueryParams();
   function removeParameterFromCurrentURL() {
     const url = new URL(window.location.href);
     url.search = "";
@@ -73,22 +71,20 @@ function HomePage() {
   
   useEffect(() => {
     const fetchUser = async () => {
-      if (params.code != null && params.user_id != null) {
-        const data = await loginAccount(params);
+      const wallet = await getAccount();
+      if (!wallet) {
+        return
+      }
+      const response = await fetch("/api/profile");
+      if (!response.ok) {
+        return;
+      }
+      const data = await response.json();
+      if (data.user) {
         setAccount(data.user);
-      } else {
-        const response = await fetch("/api/profile");
-        if (!response.ok) {
-          return;
-        }
-        const data = await response.json();
-        // console.log(data);
-        if (data.user) {
-          setAccount(data.user);
-          console.log(data.use);
-        }else if(data.code == "-100"){
-          alert("account banned,please connect administor!");
-        }
+        console.log(data.use);
+      }else if(data.code == "-100"){
+        alert("account banned,please connect administor!");
       }
     };
 
@@ -135,7 +131,7 @@ function HomePage() {
           <div className="flex flex-col absolute top-20 h-40 items-center justify-center w-full">
             {account ? (
               <div className="justify-center items-center p-2 w-40 flex flex-wrap">
-                <img src={`/api/image-proxy?url=${account.avatar}`} alt="avatar" className="w-20 h-20 rounded-full" />
+                {/* <img src={`/api/image-proxy?url=${account.avatar}`} alt="avatar" className="w-20 h-20 rounded-full" /> */}
                 <span className="mt-2 text-slate-950 font-bold text-center w-full text-xl">{account.nick}</span><br/>
                 <span className="mt-2 text-slate-950 font-bold text-center w-full text-xl">SWP: {account.score}</span>
                 <span className="mt-2 text-slate-950 font-bold text-center w-full text-xl">Life: {account.life}</span>

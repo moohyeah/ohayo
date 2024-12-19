@@ -2,7 +2,7 @@ import { useEffect, useCallback, useState } from 'react';
 
 import { GAME_WASM_PATH, GAME_LOADER_PATH, GAME_DATA_PATH, GAME_FRAMEWORK_PATH, postJson} from "../core/constants";
 
-import {callContractMethod} from '../core/wallet'
+import {transacte} from '../core/supra'
 
 function GamePage() {
 
@@ -15,7 +15,6 @@ function GamePage() {
     }
   }
 
-  const [account, setAccount] = useState<any>(null);
   const [progress, setProgress] = useState<number>(0);
   const [gameInited, setGameInited] = useState<boolean>(false);
 
@@ -28,7 +27,6 @@ function GamePage() {
         }
         const data = await response.json();
         if (data.user) {
-          setAccount(data.user);
           console.log(data.use);
         } else  if(data.code == "-100"){
           showTips("account banned,please connect administor!");
@@ -94,8 +92,8 @@ function GamePage() {
 
   const handlePayOrder = useCallback(async (evt : any) => {
     const {amount, orderId} = evt.detail;
-    
-    const order_id = await callContractMethod(amount);
+    console.log("=========handlePayOrder");
+    const order_id = await transacte(amount);
     if(order_id == -1){
       showTips("Insufficient balance!");
     }
@@ -105,7 +103,7 @@ function GamePage() {
         (window as any).unityInstance.SendMessage("HtmlReceiver", "OnPaySuccess");
       }
     }
-  }, [account]);
+  }, []);
 
   useEffect(()=>{
     window.addEventListener("PayOrder", handlePayOrder);
