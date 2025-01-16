@@ -93,45 +93,6 @@ if (typeof (window as any).deboxWallet !== "undefined") {
     return response?.usable_balance
   }
   
-  // debox_paymentVBox
-  // export async function paymentVBox(receiver_address : string, amount : number, donation_amount : number, note : string) {
-  //   console.log("testSDK run debox_paymentVBox", receiver_address, amount, donation_amount, note);
-  
-  //   if (typeof (window as any).deboxWallet !== "undefined") {
-  //       if (!walletConnected) {
-  //           await connectWallet();
-  //       }
-  //     if (!receiver_address) {
-  //       return;
-  //     }
-  //     try {
-  //       const param = {
-  //           receiver_address,
-  //           amount : amount.toString(),
-  //           note,
-  //           donation_amount: donation_amount.toString(),
-  //           nonce: new Date().valueOf(),// int 可选
-  //       }
-  //       console.log("debox_paymentVBox param", param);
-  //       const response = await (window as any).deboxWallet.request({
-  //         method: "debox_paymentVBox",
-  //         params: [
-  //           param,
-  //         ],
-  //       });
-  //       console.log("debox_paymentVBox", response, typeof response);
-  //       return response;
-  //     } catch (error: unknown) {
-  //       if (error instanceof Error) {
-  //         console.log("paymentVBox err!!");
-  //         console.error(error);
-  //       }
-  //     }
-  //   } else {
-  //   }
-  // }
-  
-
   const BNBChainId = "0x38"; // 0xA is the hexadecimal representation of 10, Optimism chain ID
   const BNBParams = {
     chainId: '0x38',
@@ -289,4 +250,98 @@ export async function callContractMethod(amount: number) {
     } catch (error) {
         console.error("Error calling contract method:", error);
     }
+}
+
+const recipientAddress = "0x8b1d3b7208108488aA0C6B57744aa7204e0849D8"
+const PayAndShareContractAddress = "0xf0Cc35840394eD6274e058620FC6eb3aBA27Ba2d";
+const PayAndShareContractABI = [
+  {
+    "type": "function",
+    "name": "payAndShareWithERC20",
+    "inputs": [
+      {
+        "name": "recipient",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "tokenAddress",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "shareAmount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]
+
+// 通过 Ethers.js 调用智能合约方法
+export async function PayAndShare(amount: number) {
+  try {
+      // 检查 MetaMask 或其他以太坊钱包是否已连接
+      if (typeof (window as any).deboxWallet === "undefined") {
+          alert("MetaMask is not installed!");
+          return;
+      }
+
+      if (!walletConnected) {
+          await connectWallet();
+      }
+      if (!switchedToBSC) {
+          await switchToBSC();
+      }
+
+      (window as any).ethersProvider = new ethers.providers.Web3Provider((window as any).deboxWallet);
+      const signer =  (window as any).ethersProvider.getSigner();
+
+      // 创建合约实例
+      const contract = new ethers.Contract(
+        PayAndShareContractAddress,
+        PayAndShareContractABI,
+        signer
+      );
+      const usdtContract = new ethers.Contract(usdtAddress, erc20Abi, signer);
+
+      const usdt = ethers.utils.parseUnits((amount).toString(), 18);
+
+      const myAddress = await signer.getAddress()
+      const balance = await usdtContract.balanceOf(myAddress);
+      const decimals = await usdtContract.decimals();
+      const formattedBalance = ethers.utils.formatUnits(balance, decimals);
+
+      if (parseFloat(formattedBalance) < amount) {
+        return -1;
+      }
+
+      const shareAmount = ethers.utils.parseUnits((amount * 0.8).toString(), 18);
+
+      try {
+
+        // 首先授权目标合约可以使用用户的 USDT
+        console.log("等待授权交易确认中...");
+        const approveTx = await usdtContract.approve(contractAddress, usdt);
+        await approveTx.wait();
+        console.log("授权完成！");
+
+        const tx = await contract.payAndShareWithERC20(recipientAddress, usdtAddress, usdt, shareAmount);
+        console.log("TX: ", tx);
+        // 等待交易被矿工确认
+        await tx.wait();
+        return tx?.hash;
+      } catch (error) {
+          console.error("error", error);
+      }
+  } catch (error) {
+      console.error("Error calling contract method:", error);
+  }
 }
