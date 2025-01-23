@@ -150,13 +150,15 @@ function HomePage() {
           </div>
           <div className=" relative  bg-slate-900">
             <div className=" text-white text-left block justify-center items-center mx-auto w-full sm:w-2/3 py-10 px-4">
-              <p>Welcome to Ohayo Master! </p>
+              <p>Welcome to Ohayo Aptos! </p>
               <p>Here, you will embark on adventures and live alongside dozens of fun and adorable characters. 
               Gather valuable materials through your adventures, use them to craft various items, fulfill 
               orders, and earn funds. As your wealth grows, you can continually train and strengthen your 
               characters, allowing them to excel in more challenging quests.</p>
               <p>Are you ready to begin your journey of adventure and management?</p>
-              <p className="text-left text-xs font-bold xs:text-sm mt-8">2024 Copyright. OhayoMaster Labs Inc. All Rights Reserved.</p>
+              <p className="text-left text-xs font-bold xs:text-sm mt-8 text-cyan-500"><a href="./privacy-policy" target="_blank">Privacy Policy</a>
+              </p>
+              <p className="text-left text-xs font-bold xs:text-sm mt-2">2024 Copyright. WiiGame Labs Inc. All Rights Reserved.</p>
             </div>
           </ div>
         </div>

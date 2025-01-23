@@ -5,6 +5,11 @@ import HomePage from "./pages/HomePage.tsx";
 import CallbackPage from "./pages/CallbackPage.tsx";
 import ShopPage from "./pages/ShopPage.tsx";
 import GamePage from "./pages/GamePage.tsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
+import UnregisterCallbackPage from "./pages/UnregisterCallbackPage.tsx";
+import UnRegisterPage from "./pages/UnregisterPage.tsx";
+import TeamAndConditions from "./pages/TeamAndConditions.tsx";
+
 
 import "./index.css";
 
@@ -27,6 +32,22 @@ const router = createBrowserRouter([
   {
     path: "/shop",
     element: <ShopPage />,
+  },
+  {
+    path: "/privacy-policy",
+    element: <PrivacyPolicy />,
+  },
+  {
+    path: "/google_unregister",
+    element: <UnRegisterPage />,
+  },
+  {
+    path: "/unregister_callback",
+    element: <UnregisterCallbackPage />,
+  },
+  {
+    path: "/terms-and-conditions",
+    element: <TeamAndConditions />,
   },
 ], {basename: baseUrl});
 
